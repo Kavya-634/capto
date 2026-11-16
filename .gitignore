@@ -13,3 +13,5 @@ docs/acceptance/*.mp4
 # Raw WAV intermediates are rebuilt by scripts/create-*-fixtures.py; the MP4s next to them are what tests load.
 e2e/fixtures/speech/*.wav
 e2e/fixtures/hinglish/*.wav
+.vercel
+.env*
