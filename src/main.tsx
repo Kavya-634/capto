@@ -25,6 +25,7 @@ import './speech.css';
 import './effects.css';
 import './language.css';
 import './export.css';
+import './panels.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

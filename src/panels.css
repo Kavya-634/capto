@@ -1,0 +1,139 @@
+/* ---------- Collapsible panels above the caption list ---------- */
+/* The caption list is flex: 1, so every pixel these panels give up goes to editing room. */
+.panel-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  text-align: left;
+  color: var(--text);
+  cursor: pointer;
+  min-height: 28px;
+}
+.panel-toggle:disabled {
+  cursor: default;
+  opacity: 1;
+}
+.panel-toggle-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 10px;
+  font-weight: 650;
+  letter-spacing: 0.3px;
+}
+.panel-toggle-title > svg {
+  color: var(--primary);
+}
+.panel-toggle-summary {
+  margin-left: auto;
+  font-size: 8px;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.panel-toggle-chevron {
+  flex-shrink: 0;
+  color: var(--muted);
+  transition: transform 0.18s ease;
+}
+[aria-expanded='true'] > .panel-toggle-chevron {
+  transform: rotate(180deg);
+}
+.panel-body[hidden] {
+  display: none;
+}
+
+/* Generation panel: collapsed shows one summary row + the (re)generate button. */
+.speech-panel {
+  padding-top: 11px;
+}
+.speech-panel.is-collapsed {
+  padding-bottom: 11px;
+}
+.speech-panel .panel-body {
+  margin-top: 4px;
+}
+.speech-panel .speech-heading {
+  margin-bottom: 4px;
+}
+.speech-panel .generate-button {
+  margin-top: 9px;
+}
+.speech-panel.is-collapsed .generate-button {
+  min-height: 32px;
+  font-size: 10px;
+  padding: 7px;
+  margin-top: 8px;
+}
+
+/* Language panel: compact script row always visible; tools drawer below. */
+.language-panel {
+  padding: 8px 12px;
+}
+.language-panel.is-collapsed {
+  max-height: none;
+  overflow: visible;
+}
+.script-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.script-row > svg {
+  color: var(--primary);
+  flex-shrink: 0;
+}
+.script-row .script-tabs {
+  flex: 1;
+  padding: 2px;
+}
+.script-row .script-tabs button {
+  padding: 5px 4px;
+  font-size: 9px;
+}
+.panel-toggle-compact {
+  width: auto;
+  min-height: 26px;
+  padding: 0 6px;
+  font-size: 9px;
+  color: var(--muted);
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+.panel-toggle-compact:hover:not(:disabled) {
+  background: var(--surface-muted);
+  color: var(--text);
+}
+.language-panel .panel-body {
+  margin-top: 8px;
+}
+.language-panel .panel-body .script-help:first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 1050px) {
+  .panel-toggle-title {
+    font-size: 13px;
+  }
+  .panel-toggle-summary {
+    font-size: 11px;
+  }
+  .panel-toggle-compact {
+    font-size: 12px;
+    min-height: 34px;
+    padding: 0 10px;
+  }
+  .script-row .script-tabs button {
+    font-size: 12px;
+    padding: 8px 6px;
+  }
+  .speech-panel.is-collapsed .generate-button {
+    min-height: 40px;
+    font-size: 12px;
+  }
+}

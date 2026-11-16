@@ -110,6 +110,18 @@ async function generate(page: Page) {
   await page.getByRole('button', { name: 'Generate Captions', exact: true }).click();
   await expect(page.locator('.result-complete')).toContainText('Review');
 }
+/** The generation settings collapse once captions exist; expand them when a test needs the controls. */
+async function openGenerateSettings(page: Page) {
+  await panel(page, 'Captions');
+  const toggle = page.locator('.speech-panel .panel-toggle');
+  if ((await toggle.getAttribute('aria-expanded')) === 'false') await toggle.click();
+}
+/** Translation / AI tools live in a collapsed drawer under the script tabs. */
+async function openLanguageTools(page: Page) {
+  await panel(page, 'Captions');
+  const toggle = page.locator('.language-panel .panel-toggle');
+  if ((await toggle.getAttribute('aria-expanded')) === 'false') await toggle.click();
+}
 async function mode(page: Page, value: string) {
   await page.evaluate((value) => {
     (window as unknown as { __speechMode: string }).__speechMode = value;
@@ -160,6 +172,7 @@ test('English translation is text only, cached, and keeps Hindi/Hinglish word ti
   await panel(page, 'Captions');
   await page.getByLabel('Spoken language').selectOption('hinglish');
   await generate(page);
+  await openLanguageTools(page);
   await page.getByRole('button', { name: 'Create English translation locally', exact: true }).click();
   await expect(page.getByLabel('Caption 1 text', { exact: true })).toHaveValue(
     'Hello friends. Today we will learn.',
@@ -187,6 +200,7 @@ test('optional AI is disabled without key; correction preview is text-only and u
   await mockSpeech(page);
   await demo(page);
   await generate(page);
+  await openLanguageTools(page);
   await expect(page.getByRole('button', { name: 'Improve with AI', exact: true })).toBeDisabled();
   await page.route('**/api/ai/status', (route) =>
     route.fulfill({ json: { available: true, csrf: 'test', model: 'mock', provider: 'OpenAI' } }),
@@ -194,6 +208,7 @@ test('optional AI is disabled without key; correction preview is text-only and u
   await page.goto('/');
   await page.getByRole('button', { name: 'Open studio' }).click();
   await generate(page);
+  await openLanguageTools(page);
   let sent: { words: { id: string; text: string }[]; consent: boolean } | null = null;
   await page.route('**/api/ai/improve', async (route) => {
     sent = route.request().postDataJSON();
@@ -243,6 +258,44 @@ test('recognition quality tier is selectable, persisted, confirmed, and forwarde
   await panel(page, 'Captions');
   await expect(page.getByLabel('Recognition quality')).toHaveValue('accurate');
   await page.getByLabel('Recognition quality').selectOption('fast');
+});
+
+test('generation and tools panels collapse after captions exist so the list gets the space', async ({
+  page,
+}) => {
+  await mockSpeech(page);
+  await demo(page);
+  await panel(page, 'Captions');
+  const genToggle = page.locator('.speech-panel .panel-toggle');
+  // Empty project: settings expanded, controls visible.
+  await expect(genToggle).toHaveAttribute('aria-expanded', 'true');
+  await expect(page.getByLabel('Spoken language')).toBeVisible();
+  const listBefore = await page.locator('.caption-list').boundingBox();
+  await generate(page);
+  // After captions arrive the settings collapse automatically; the action button stays.
+  await expect(genToggle).toHaveAttribute('aria-expanded', 'false');
+  await expect(page.getByLabel('Spoken language')).toBeHidden();
+  await expect(page.getByRole('button', { name: 'Regenerate Captions', exact: true })).toBeVisible();
+  await expect(genToggle).toContainText(/English · Fast/);
+  // Tools drawer is collapsed too, but script tabs remain usable.
+  await expect(page.locator('.language-panel .panel-toggle')).toHaveAttribute('aria-expanded', 'false');
+  await expect(page.getByRole('button', { name: 'Show hinglish captions', exact: true })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Improve with AI', exact: true })).toBeHidden();
+  // With both panels collapsed the list should own most of the sidebar on desktop, where the
+  // column has a fixed height. (Before generation there is no language panel at all, so a
+  // before/after ratio is not a fair comparison; the share of the panel is.)
+  const listAfter = await page.locator('.caption-list').boundingBox();
+  const column = await page.locator('.captions-panel').boundingBox();
+  const isMobile = await page.locator('.mobile-editor-tabs').isVisible();
+  if (!isMobile && listAfter && column) expect(listAfter.height / column.height).toBeGreaterThan(0.55);
+  expect(listBefore).not.toBeNull();
+  // Reopen and close by hand.
+  await genToggle.click();
+  await expect(page.getByLabel('Recognition quality')).toBeVisible();
+  await genToggle.click();
+  await expect(page.getByLabel('Recognition quality')).toBeHidden();
+  await page.locator('.language-panel .panel-toggle').click();
+  await expect(page.getByRole('button', { name: 'Improve with AI', exact: true })).toBeVisible();
 });
 
 test('sync slider shifts preview, timeline and subtitle exports together', async ({ page }) => {
@@ -507,7 +560,7 @@ test('Hindi selection is passed to worker and applies Devanagari font', async ({
   expect(requests[0].samples).toBeGreaterThan(16000);
   await panel(page, 'Preview');
   await expect(page.locator('.caption-text')).toHaveCSS('font-family', /Noto Sans Devanagari/);
-  await panel(page, 'Captions');
+  await openGenerateSettings(page);
   await page.getByLabel('Spoken language').selectOption('english');
   await expect(page.getByLabel('Caption 1 text', { exact: true })).toHaveValue('नमस्ते दोस्तों। आज हम सीखेंगे।');
 });
