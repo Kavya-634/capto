@@ -1,0 +1,7 @@
+{
+  "stage": "Listening / active model inference",
+  "cancellationMilliseconds": 428,
+  "workersBefore": 1,
+  "workersAfter": 0,
+  "existingCaptionPreserved": true
+}

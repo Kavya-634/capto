@@ -1,0 +1,267 @@
+/* ---------- Sync control in the timeline footer ---------- */
+.sync-control {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 7px;
+  color: var(--muted);
+}
+.sync-control > span:first-child {
+  font-weight: 650;
+  letter-spacing: 0.6px;
+}
+.sync-control input[type='range'] {
+  width: 90px;
+  height: 3px;
+  accent-color: var(--primary);
+  cursor: pointer;
+}
+.sync-control output {
+  min-width: 42px;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+.sync-control .text-button {
+  font-size: 7px;
+}
+
+/* ---------- Saved presets in the style panel ---------- */
+.saved-presets {
+  list-style: none;
+  margin: 0 0 8px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.saved-presets li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.saved-preset {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 5px 7px;
+  font-size: 9px;
+  min-width: 0;
+}
+.saved-preset:hover {
+  border-color: var(--primary);
+}
+.saved-preset > span:last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.saved-preset-swatch {
+  flex-shrink: 0;
+  width: 26px;
+  height: 20px;
+  border-radius: 4px;
+  display: grid;
+  place-items: center;
+  font-size: 10px;
+  font-weight: 700;
+  paint-order: stroke fill;
+}
+.saved-presets .icon-button {
+  width: 22px;
+  height: 22px;
+  color: var(--muted);
+}
+.saved-presets .icon-button:hover {
+  color: var(--error);
+}
+.save-preset {
+  width: 100%;
+  font-size: 9px;
+  min-height: 30px;
+  padding: 6px;
+  border-radius: 6px;
+}
+.save-preset-form {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 5px;
+}
+.save-preset-form input {
+  min-width: 0;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 6px;
+  padding: 6px 8px;
+  font-size: 10px;
+}
+.save-preset-form .button {
+  font-size: 9px;
+  min-height: 28px;
+  padding: 6px 8px;
+}
+.save-preset-form .caption-error {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+/* ---------- Video export dialog ---------- */
+/* Dialogs must stay centred and scroll internally on phones; the base rule only sets width. */
+.export-dialog {
+  margin: auto;
+  max-height: calc(100dvh - 32px);
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+.video-export-dialog {
+  width: min(520px, calc(100% - 32px));
+}
+.export-option-primary {
+  border-color: var(--primary);
+  background: var(--primary-soft);
+}
+.export-plan {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6px;
+  margin: 14px 0 10px;
+  font-size: 11px;
+}
+.export-plan > div {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 7px 10px;
+  background: var(--surface-muted);
+  border-radius: 6px;
+}
+.export-plan dt {
+  color: var(--muted);
+  flex-shrink: 0;
+}
+.export-plan dd {
+  margin: 0;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+.export-notes {
+  margin: 0 0 10px;
+  padding-left: 16px;
+  font-size: 10px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+.export-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+.export-actions .button {
+  font-size: 11px;
+  min-height: 36px;
+}
+.export-status,
+.export-done,
+.export-error {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 11px;
+  margin: 12px 0;
+}
+.export-done {
+  color: var(--primary-ink);
+}
+.export-error {
+  color: var(--error);
+  align-items: flex-start;
+}
+.export-error p {
+  margin: 0;
+  line-height: 1.6;
+}
+.export-progress {
+  margin-top: 12px;
+}
+.export-progress progress {
+  width: 100%;
+  height: 6px;
+  display: block;
+  margin: 10px 0 8px;
+  accent-color: var(--primary);
+}
+.export-progress small {
+  font-size: 10px;
+  color: var(--muted);
+  display: block;
+  line-height: 1.6;
+}
+.export-progress .cancel-generation {
+  margin-top: 12px;
+}
+.export-preview {
+  width: 100%;
+  max-height: 320px;
+  background: #000;
+  border-radius: 8px;
+  margin: 10px 0 4px;
+}
+
+@media (max-width: 1050px) {
+  .sync-control {
+    font-size: 10px;
+  }
+  .sync-control input[type='range'] {
+    width: 130px;
+  }
+  .sync-control output {
+    min-width: 56px;
+  }
+  .sync-control .text-button {
+    font-size: 10px;
+  }
+  .saved-preset {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+  .saved-preset-swatch {
+    width: 32px;
+    height: 26px;
+    font-size: 13px;
+  }
+  .save-preset {
+    font-size: 12px;
+    min-height: 38px;
+  }
+  .save-preset-form input {
+    font-size: 13px;
+  }
+  .save-preset-form .button {
+    font-size: 11px;
+    min-height: 34px;
+  }
+}
+@media (max-width: 760px) {
+  .export-dialog {
+    width: calc(100% - 20px);
+    max-height: calc(100dvh - 20px);
+    border-radius: 14px;
+  }
+  .export-preview {
+    max-height: 50dvh;
+  }
+  .timeline-footer {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .sync-control {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+  }
+}

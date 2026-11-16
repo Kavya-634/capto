@@ -1,0 +1,219 @@
+{
+  "name": "creator",
+  "language": "hinglish",
+  "speechReference": "आज हम video editing सीखेंगे। पहले clip upload करो और captions save करो।",
+  "hinglishReference": "aaj hum video editing seekhenge. pehle clip upload karo aur captions save karo.",
+  "duration": 6.702125,
+  "video": "e2e/fixtures/hinglish/creator.mp4",
+  "source": "Synthetic code-switching speech: macOS Lekha (hi) + Rishi (en-IN); 50 ms between segments. Not natural-speaker benchmark.",
+  "tier": "accurate",
+  "elapsedSeconds": 125.465,
+  "error": null,
+  "recognizedHindi": "आज हम विडियो एडेटिंग सीखेंघे. पहले क्लिप अप्लोड करो और क्यापशन्स सेव करू.",
+  "hinglish": "aaj hum video edeting seekhenghe. pehle clip aplod karo aur kyaapshans save karoo.",
+  "comparison": {
+    "edits": [
+      {
+        "expected": "editing",
+        "actual": "edeting"
+      },
+      {
+        "expected": "seekhenge",
+        "actual": "seekhenghe"
+      },
+      {
+        "expected": "upload",
+        "actual": "aplod"
+      },
+      {
+        "expected": "captions",
+        "actual": "kyaapshans"
+      },
+      {
+        "expected": "karo",
+        "actual": "karoo"
+      }
+    ],
+    "wordErrorRate": 0.38461538461538464,
+    "referenceWords": 13,
+    "recognizedWords": 13
+  },
+  "exactWordTimestampsPreserved": true,
+  "captionCount": 3,
+  "captions": [
+    {
+      "text": "aaj hum video edeting seekhenghe.",
+      "start": 0,
+      "end": 2.52,
+      "words": [
+        {
+          "text": "aaj",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "hum",
+          "start": 0.22,
+          "end": 0.52
+        },
+        {
+          "text": "video",
+          "start": 0.52,
+          "end": 1.12
+        },
+        {
+          "text": "edeting",
+          "start": 1.12,
+          "end": 1.68
+        },
+        {
+          "text": "seekhenghe.",
+          "start": 1.68,
+          "end": 2.52
+        }
+      ]
+    },
+    {
+      "text": "pehle clip aplod karo aur",
+      "start": 2.66,
+      "end": 4.94,
+      "words": [
+        {
+          "text": "pehle",
+          "start": 2.66,
+          "end": 3.18
+        },
+        {
+          "text": "clip",
+          "start": 3.18,
+          "end": 3.54
+        },
+        {
+          "text": "aplod",
+          "start": 3.54,
+          "end": 4.12
+        },
+        {
+          "text": "karo",
+          "start": 4.12,
+          "end": 4.54
+        },
+        {
+          "text": "aur",
+          "start": 4.54,
+          "end": 4.94
+        }
+      ]
+    },
+    {
+      "text": "kyaapshans save karoo.",
+      "start": 4.94,
+      "end": 6.58,
+      "words": [
+        {
+          "text": "kyaapshans",
+          "start": 4.94,
+          "end": 5.7
+        },
+        {
+          "text": "save",
+          "start": 5.7,
+          "end": 6.18
+        },
+        {
+          "text": "karoo.",
+          "start": 6.18,
+          "end": 6.58
+        }
+      ]
+    }
+  ],
+  "originalCaptions": [
+    {
+      "text": "आज हम विडियो एडेटिंग सीखेंघे.",
+      "start": 0,
+      "end": 2.52,
+      "words": [
+        {
+          "text": "आज",
+          "start": 0,
+          "end": 0.22
+        },
+        {
+          "text": "हम",
+          "start": 0.22,
+          "end": 0.52
+        },
+        {
+          "text": "विडियो",
+          "start": 0.52,
+          "end": 1.12
+        },
+        {
+          "text": "एडेटिंग",
+          "start": 1.12,
+          "end": 1.68
+        },
+        {
+          "text": "सीखेंघे.",
+          "start": 1.68,
+          "end": 2.52
+        }
+      ]
+    },
+    {
+      "text": "पहले क्लिप अप्लोड करो और",
+      "start": 2.66,
+      "end": 4.94,
+      "words": [
+        {
+          "text": "पहले",
+          "start": 2.66,
+          "end": 3.18
+        },
+        {
+          "text": "क्लिप",
+          "start": 3.18,
+          "end": 3.54
+        },
+        {
+          "text": "अप्लोड",
+          "start": 3.54,
+          "end": 4.12
+        },
+        {
+          "text": "करो",
+          "start": 4.12,
+          "end": 4.54
+        },
+        {
+          "text": "और",
+          "start": 4.54,
+          "end": 4.94
+        }
+      ]
+    },
+    {
+      "text": "क्यापशन्स सेव करू.",
+      "start": 4.94,
+      "end": 6.58,
+      "words": [
+        {
+          "text": "क्यापशन्स",
+          "start": 4.94,
+          "end": 5.7
+        },
+        {
+          "text": "सेव",
+          "start": 5.7,
+          "end": 6.18
+        },
+        {
+          "text": "करू.",
+          "start": 6.18,
+          "end": 6.58
+        }
+      ]
+    }
+  ]
+}

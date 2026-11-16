@@ -1,0 +1,175 @@
+{
+  "language": "hindi",
+  "reference": "नमस्ते दोस्तों। आज हम छोटे वीडियो बनाना सीखेंगे। साफ आवाज़ में बोलिए और अपनी कहानी दुनिया तक पहुँचाइए।",
+  "voice": "Lekha",
+  "rate": 130,
+  "duration": 8.3261875,
+  "video": "public/demos/hindi.mp4",
+  "source": "Synthetic macOS speech; not a native-speaker accuracy benchmark",
+  "error": null,
+  "elapsedSeconds": 53.862,
+  "realTimeFactor": 6.47,
+  "crossOriginIsolated": true,
+  "longClipNoticeShown": null,
+  "progressSamples": [
+    {
+      "at": 15.297,
+      "heard": "0:00",
+      "of": "0:08",
+      "percent": 0
+    },
+    {
+      "at": 30.491,
+      "heard": "0:00",
+      "of": "0:08",
+      "percent": 0
+    },
+    {
+      "at": 45.339,
+      "heard": "0:00",
+      "of": "0:08",
+      "percent": 0
+    }
+  ],
+  "lastWordEnd": 8.24,
+  "coveredToEnd": true,
+  "warnings": [
+    "Captions are ready. Review the words and timing before exporting.",
+    "Hindi is a draft: our test clips needed substantial corrections. Review every word, matra, name, and word highlight before sharing."
+  ],
+  "actualWordPlaybackVerified": true,
+  "text": "नमस्ते डुद्यों, आज हम चोरते video बनाना सीकेंगे. साफ अवाज में भोलिए और अپनी कहानी दून्या तक पहुं चाये",
+  "wordError": {
+    "edits": 10,
+    "referenceWords": 18,
+    "recognizedWords": 19,
+    "rate": 0.5555555555555556
+  },
+  "captions": [
+    {
+      "text": "नमस्ते डुद्यों, आज हम चोरते video",
+      "start": 0,
+      "end": 2.62,
+      "words": [
+        {
+          "text": "नमस्ते",
+          "start": 0,
+          "end": 0.58
+        },
+        {
+          "text": "डुद्यों,",
+          "start": 0.58,
+          "end": 1.24
+        },
+        {
+          "text": "आज",
+          "start": 1.34,
+          "end": 1.56
+        },
+        {
+          "text": "हम",
+          "start": 1.56,
+          "end": 1.84
+        },
+        {
+          "text": "चोरते",
+          "start": 1.84,
+          "end": 2.34
+        },
+        {
+          "text": "video",
+          "start": 2.34,
+          "end": 2.62
+        }
+      ]
+    },
+    {
+      "text": "बनाना सीकेंगे. साफ अवाज में भोलिए",
+      "start": 2.62,
+      "end": 5.62,
+      "words": [
+        {
+          "text": "बनाना",
+          "start": 2.62,
+          "end": 3.22
+        },
+        {
+          "text": "सीकेंगे.",
+          "start": 3.22,
+          "end": 3.84
+        },
+        {
+          "text": "साफ",
+          "start": 4.22,
+          "end": 4.5
+        },
+        {
+          "text": "अवाज",
+          "start": 4.5,
+          "end": 4.98
+        },
+        {
+          "text": "में",
+          "start": 4.98,
+          "end": 5.22
+        },
+        {
+          "text": "भोलिए",
+          "start": 5.22,
+          "end": 5.62
+        }
+      ]
+    },
+    {
+      "text": "और अپनी कहानी दून्या",
+      "start": 5.62,
+      "end": 7.26,
+      "words": [
+        {
+          "text": "और",
+          "start": 5.62,
+          "end": 5.96
+        },
+        {
+          "text": "अپनी",
+          "start": 5.96,
+          "end": 6.34
+        },
+        {
+          "text": "कहानी",
+          "start": 6.34,
+          "end": 6.86
+        },
+        {
+          "text": "दून्या",
+          "start": 6.86,
+          "end": 7.26
+        }
+      ]
+    },
+    {
+      "text": "तक पहुं चाये",
+      "start": 7.26,
+      "end": 8.24,
+      "words": [
+        {
+          "text": "तक",
+          "start": 7.26,
+          "end": 7.52
+        },
+        {
+          "text": "पहुं",
+          "start": 7.52,
+          "end": 7.84
+        },
+        {
+          "text": "चाये",
+          "start": 7.84,
+          "end": 8.24
+        }
+      ]
+    }
+  ],
+  "orderedBoundedWords": true,
+  "wordsPerLine": [6, 6, 4, 3]
+}

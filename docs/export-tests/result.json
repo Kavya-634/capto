@@ -1,0 +1,31 @@
+{
+  "source": {
+    "duration": 8.33,
+    "bitrate": 126000,
+    "vcodec": "h264",
+    "width": 320,
+    "height": 568,
+    "fps": null,
+    "acodec": "aac"
+  },
+  "srt": "1\n00:00:00,800 --> 00:00:04,100\nनमस्ते दोस्तों आज हम सीखेंगे\n\n2\n00:00:04,500 --> 00:00:08,300\naaj hum video banana seekhenge\n",
+  "vtt": "WEBVTT\n\n1\n00:00:00.800 --> 00:00:04.100\nनमस्ते दोस्तों आज हम सीखेंगे\n\n2\n00:00:04.500 --> 00:00:08.300\naaj hum video banana seekhenge\n",
+  "exportSeconds": 1.31,
+  "doneText": "Done in 1s · 100 frames · 0.4 MB",
+  "output": {
+    "duration": 8.33,
+    "bitrate": 412000,
+    "vcodec": "h264",
+    "width": 320,
+    "height": 568,
+    "fps": null,
+    "acodec": "aac",
+    "sizeBytes": 429310
+  },
+  "audioPcmHash": {
+    "source": "a572e4680e2bdfd2",
+    "output": "a572e4680e2bdfd2"
+  },
+  "audioBitIdentical": true,
+  "errors": []
+}

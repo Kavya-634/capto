@@ -1,0 +1,123 @@
+{
+  "language": "english",
+  "reference": "Hello everyone. Today we are making short videos with clear captions. Every word tells a story.",
+  "voice": "Samantha",
+  "rate": 145,
+  "duration": 6.3444375,
+  "video": "public/demos/english.mp4",
+  "source": "Synthetic macOS speech; not a native-speaker accuracy benchmark",
+  "error": null,
+  "elapsedSeconds": 242.188,
+  "text": "Hello everyone. Today we are making short videos with clear captions. Every word tells a story.",
+  "wordError": {
+    "edits": 0,
+    "referenceWords": 16,
+    "recognizedWords": 16,
+    "rate": 0
+  },
+  "captions": [
+    {
+      "text": "Hello everyone. Today we are making",
+      "start": 0,
+      "end": 2.34,
+      "words": [
+        {
+          "text": "Hello",
+          "start": 0,
+          "end": 0.26
+        },
+        {
+          "text": "everyone.",
+          "start": 0.26,
+          "end": 0.86
+        },
+        {
+          "text": "Today",
+          "start": 1.36,
+          "end": 1.58
+        },
+        {
+          "text": "we",
+          "start": 1.58,
+          "end": 1.84
+        },
+        {
+          "text": "are",
+          "start": 1.84,
+          "end": 2
+        },
+        {
+          "text": "making",
+          "start": 2,
+          "end": 2.34
+        }
+      ]
+    },
+    {
+      "text": "short videos with clear captions.",
+      "start": 2.34,
+      "end": 4.32,
+      "words": [
+        {
+          "text": "short",
+          "start": 2.34,
+          "end": 2.74
+        },
+        {
+          "text": "videos",
+          "start": 2.74,
+          "end": 3.14
+        },
+        {
+          "text": "with",
+          "start": 3.14,
+          "end": 3.48
+        },
+        {
+          "text": "clear",
+          "start": 3.48,
+          "end": 3.82
+        },
+        {
+          "text": "captions.",
+          "start": 3.82,
+          "end": 4.32
+        }
+      ]
+    },
+    {
+      "text": "Every word tells a story.",
+      "start": 4.82,
+      "end": 6.2,
+      "words": [
+        {
+          "text": "Every",
+          "start": 4.82,
+          "end": 5.04
+        },
+        {
+          "text": "word",
+          "start": 5.04,
+          "end": 5.32
+        },
+        {
+          "text": "tells",
+          "start": 5.32,
+          "end": 5.64
+        },
+        {
+          "text": "a",
+          "start": 5.64,
+          "end": 5.84
+        },
+        {
+          "text": "story.",
+          "start": 5.84,
+          "end": 6.2
+        }
+      ]
+    }
+  ],
+  "orderedBoundedWords": true,
+  "wordsPerLine": [6, 5, 5]
+}

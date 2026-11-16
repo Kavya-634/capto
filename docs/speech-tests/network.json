@@ -1,0 +1,247 @@
+[
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/index-CIT39vXp.js",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/index-ClFdglC4.css",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/favicon.svg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/images/adventure.jpg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/images/ocean.jpg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/images/mountains.jpg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/dm-sans-latin-wght-normal-Xz1IZZA0.woff2",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/manrope-latin-wght-normal-DHIcAJRg.woff2",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/noto-sans-devanagari-devanagari-wght-normal-DWI_L5Cu.woff2",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/noto-sans-devanagari-latin-wght-normal-Bxfr4UJH.woff2",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/favicon.svg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "blob:http://127.0.0.1:4201/564870d1-bdfa-493d-9716-5705d64fa0bf",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "blob:http://127.0.0.1:4201/564870d1-bdfa-493d-9716-5705d64fa0bf",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/transcribe.worker-CkeffWep.js",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://huggingface.co/Xenova/whisper-small/resolve/2d67713f236afa48a18992566e7647f6ca848e13/tokenizer.json",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://huggingface.co/Xenova/whisper-small/resolve/2d67713f236afa48a18992566e7647f6ca848e13/tokenizer_config.json",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://huggingface.co/Xenova/whisper-small/resolve/2d67713f236afa48a18992566e7647f6ca848e13/config.json",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://huggingface.co/Xenova/whisper-small/resolve/2d67713f236afa48a18992566e7647f6ca848e13/preprocessor_config.json",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-small/2d67713f236afa48a18992566e7647f6ca848e13/preprocessor_config.json?%2FXenova%2Fwhisper-small%2Fresolve%2F2d67713f236afa48a18992566e7647f6ca848e13%2Fpreprocessor_config.json=&etag=%2291876762a536a746d268353c5cba57286e76b058%22",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-small/2d67713f236afa48a18992566e7647f6ca848e13/tokenizer_config.json?%2FXenova%2Fwhisper-small%2Fresolve%2F2d67713f236afa48a18992566e7647f6ca848e13%2Ftokenizer_config.json=&etag=%22d13b786c04765fb1a06492b53587752cd67665ea%22",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-small/2d67713f236afa48a18992566e7647f6ca848e13/tokenizer.json?%2FXenova%2Fwhisper-small%2Fresolve%2F2d67713f236afa48a18992566e7647f6ca848e13%2Ftokenizer.json=&etag=%221e95340ff836fad1b5932e800fb7b8c5e6d78a74%22",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-small/2d67713f236afa48a18992566e7647f6ca848e13/config.json?%2FXenova%2Fwhisper-small%2Fresolve%2F2d67713f236afa48a18992566e7647f6ca848e13%2Fconfig.json=&etag=%22a239fdd538b77d3c496d13d085848eca67fe993a%22",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://huggingface.co/Xenova/whisper-small/resolve/2d67713f236afa48a18992566e7647f6ca848e13/tokenizer.json",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://huggingface.co/Xenova/whisper-small/resolve/2d67713f236afa48a18992566e7647f6ca848e13/onnx/encoder_model_quantized.onnx",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://huggingface.co/Xenova/whisper-small/resolve/2d67713f236afa48a18992566e7647f6ca848e13/onnx/decoder_model_merged_quantized.onnx",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://huggingface.co/Xenova/whisper-small/resolve/2d67713f236afa48a18992566e7647f6ca848e13/generation_config.json",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c2113a794b2d9b15b8ae/414ba17dccaae99fa86802d93b740843da55ca419ca751126fe6165caf68fbd8?xip=L7yJBOQtUoY&X-Xet-Cas-Uid=public&user_id=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27decoder_model_merged_quantized.onnx%3B+filename%3D%22decoder_model_merged_quantized.onnx%22%3B&Expires=1794564819&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjQ1MmMyMTEzYTc5NGIyZDliMTViOGFlLzQxNGJhMTdkY2NhYWU5OWZhODY4MDJkOTNiNzQwODQzZGE1NWNhNDE5Y2E3NTExMjZmZTYxNjVjYWY2OGZiZDhcXD94aXA9TDd5SkJPUXRVb1kmWC1YZXQtQ2FzLVVpZD1wdWJsaWMmdXNlcl9pZD1wdWJsaWMmcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1pbmxpbmUlM0IrZmlsZW5hbWUlMkElM0RVVEYtOCUyNyUyN2RlY29kZXJfbW9kZWxfbWVyZ2VkX3F1YW50aXplZC5vbm54JTNCK2ZpbGVuYW1lJTNEJTIyZGVjb2Rlcl9tb2RlbF9tZXJnZWRfcXVhbnRpemVkLm9ubnglMjIlM0IiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVwb2NoVGltZSI6MTc5NDU2NDgxOX19fV19&Signature=MEUCIFpdYx1Nlf5-OHH-jtGxxenno2lEz3T%7EmPri7MjeHr%7EMAiEA6iLSfPcN2cGxunwbkBZ6JR2XCtQPx2lh2%7E027buSO3o_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c2113a794b2d9b15b8ae/ca019c006b3a393c1cf31063a4a186fc9060d1e24e93a71a03cddfb3363faccb?response-content-disposition=inline%3B+filename*%3DUTF-8%27%27encoder_model_quantized.onnx%3B+filename%3D%22encoder_model_quantized.onnx%22%3B&X-Xet-Cas-Uid=public&user_id=public&xip=L7yJBOQtUoY&Expires=1794564819&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjQ1MmMyMTEzYTc5NGIyZDliMTViOGFlL2NhMDE5YzAwNmIzYTM5M2MxY2YzMTA2M2E0YTE4NmZjOTA2MGQxZTI0ZTkzYTcxYTAzY2RkZmIzMzYzZmFjY2JcXD9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZSUzQitmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3ZW5jb2Rlcl9tb2RlbF9xdWFudGl6ZWQub25ueCUzQitmaWxlbmFtZSUzRCUyMmVuY29kZXJfbW9kZWxfcXVhbnRpemVkLm9ubnglMjIlM0ImWC1YZXQtQ2FzLVVpZD1wdWJsaWMmdXNlcl9pZD1wdWJsaWMmeGlwPUw3eUpCT1F0VW9ZIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJFcG9jaFRpbWUiOjE3OTQ1NjQ4MTl9fX1dfQ__&Signature=MEUCIA1faqqhg5cPNB%7EeX-iHK4owSsboi3uX%7E1I7fPzbphdLAiEA4lE4RhYyYKltNbfnJdbZa5RYpzPFvU20BH9HVkmScU8_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-small/2d67713f236afa48a18992566e7647f6ca848e13/tokenizer.json?%2FXenova%2Fwhisper-small%2Fresolve%2F2d67713f236afa48a18992566e7647f6ca848e13%2Ftokenizer.json=&etag=%221e95340ff836fad1b5932e800fb7b8c5e6d78a74%22",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://huggingface.co/api/resolve-cache/models/Xenova/whisper-small/2d67713f236afa48a18992566e7647f6ca848e13/generation_config.json?%2FXenova%2Fwhisper-small%2Fresolve%2F2d67713f236afa48a18992566e7647f6ca848e13%2Fgeneration_config.json=&etag=%2266f96818620f7b67c276aed4a35bedc4f6986dc3%22",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/ort-wasm-simd-threaded.jsep-B0TxsgQ-.mjs",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/ort-wasm-simd-threaded.jsep-B0T3yYHD.wasm",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/index-CIT39vXp.js",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/index-ClFdglC4.css",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/favicon.svg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/images/adventure.jpg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/images/ocean.jpg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/images/mountains.jpg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/dm-sans-latin-wght-normal-Xz1IZZA0.woff2",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/manrope-latin-wght-normal-DHIcAJRg.woff2",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/noto-sans-devanagari-devanagari-wght-normal-DWI_L5Cu.woff2",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/noto-sans-devanagari-latin-wght-normal-Bxfr4UJH.woff2",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "blob:http://127.0.0.1:4201/2bfac5a6-9b5d-4909-91ba-ae6ae19b43c0",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "blob:http://127.0.0.1:4201/2bfac5a6-9b5d-4909-91ba-ae6ae19b43c0",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/transcribe.worker-CkeffWep.js",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/ort-wasm-simd-threaded.jsep-B0TxsgQ-.mjs",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/ort-wasm-simd-threaded.jsep-B0T3yYHD.wasm",
+    "bodyBytes": 0
+  }
+]

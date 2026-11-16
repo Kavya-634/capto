@@ -1,0 +1,173 @@
+{
+  "name": "weekend",
+  "language": "hinglish",
+  "speechReference": "दोस्तों weekend पर coffee और lunch के बाद Instagram reel बनाएंगे।",
+  "hinglishReference": "doston weekend par coffee aur lunch ke baad Instagram reel banayenge.",
+  "duration": 6.1649375,
+  "video": "e2e/fixtures/hinglish/weekend.mp4",
+  "source": "Synthetic code-switching speech: macOS Lekha (hi) + Rishi (en-IN); 50 ms between segments. Not natural-speaker benchmark.",
+  "tier": "accurate",
+  "elapsedSeconds": 94.563,
+  "error": null,
+  "recognizedHindi": "दोस्तों, वीकेंड पर कॉफी और लांच के बाद इन्स्टाग्राम रील बनाएंगे.",
+  "hinglish": "doston, weekend par coffee aur laanch ke baad instaagraam reel banayenge.",
+  "comparison": {
+    "edits": [
+      {
+        "expected": "lunch",
+        "actual": "laanch"
+      },
+      {
+        "expected": "instagram",
+        "actual": "instaagraam"
+      }
+    ],
+    "wordErrorRate": 0.18181818181818182,
+    "referenceWords": 11,
+    "recognizedWords": 11
+  },
+  "exactWordTimestampsPreserved": true,
+  "captionCount": 2,
+  "captions": [
+    {
+      "text": "doston, weekend par coffee aur laanch",
+      "start": 0,
+      "end": 3.22,
+      "words": [
+        {
+          "text": "doston,",
+          "start": 0,
+          "end": 0.56
+        },
+        {
+          "text": "weekend",
+          "start": 0.66,
+          "end": 1.26
+        },
+        {
+          "text": "par",
+          "start": 1.26,
+          "end": 1.56
+        },
+        {
+          "text": "coffee",
+          "start": 1.56,
+          "end": 2.16
+        },
+        {
+          "text": "aur",
+          "start": 2.16,
+          "end": 2.52
+        },
+        {
+          "text": "laanch",
+          "start": 2.52,
+          "end": 3.22
+        }
+      ]
+    },
+    {
+      "text": "ke baad instaagraam reel banayenge.",
+      "start": 3.22,
+      "end": 6.06,
+      "words": [
+        {
+          "text": "ke",
+          "start": 3.22,
+          "end": 3.56
+        },
+        {
+          "text": "baad",
+          "start": 3.56,
+          "end": 3.82
+        },
+        {
+          "text": "instaagraam",
+          "start": 3.82,
+          "end": 4.82
+        },
+        {
+          "text": "reel",
+          "start": 4.82,
+          "end": 5.26
+        },
+        {
+          "text": "banayenge.",
+          "start": 5.26,
+          "end": 6.06
+        }
+      ]
+    }
+  ],
+  "originalCaptions": [
+    {
+      "text": "दोस्तों, वीकेंड पर कॉफी और लांच",
+      "start": 0,
+      "end": 3.22,
+      "words": [
+        {
+          "text": "दोस्तों,",
+          "start": 0,
+          "end": 0.56
+        },
+        {
+          "text": "वीकेंड",
+          "start": 0.66,
+          "end": 1.26
+        },
+        {
+          "text": "पर",
+          "start": 1.26,
+          "end": 1.56
+        },
+        {
+          "text": "कॉफी",
+          "start": 1.56,
+          "end": 2.16
+        },
+        {
+          "text": "और",
+          "start": 2.16,
+          "end": 2.52
+        },
+        {
+          "text": "लांच",
+          "start": 2.52,
+          "end": 3.22
+        }
+      ]
+    },
+    {
+      "text": "के बाद इन्स्टाग्राम रील बनाएंगे.",
+      "start": 3.22,
+      "end": 6.06,
+      "words": [
+        {
+          "text": "के",
+          "start": 3.22,
+          "end": 3.56
+        },
+        {
+          "text": "बाद",
+          "start": 3.56,
+          "end": 3.82
+        },
+        {
+          "text": "इन्स्टाग्राम",
+          "start": 3.82,
+          "end": 4.82
+        },
+        {
+          "text": "रील",
+          "start": 4.82,
+          "end": 5.26
+        },
+        {
+          "text": "बनाएंगे.",
+          "start": 5.26,
+          "end": 6.06
+        }
+      ]
+    }
+  ]
+}

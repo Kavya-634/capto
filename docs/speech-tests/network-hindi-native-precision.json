@@ -1,0 +1,92 @@
+[
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/index-B36anv34.js",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/index-ClFdglC4.css",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/favicon.svg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/images/adventure.jpg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/images/ocean.jpg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/images/mountains.jpg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/dm-sans-latin-wght-normal-Xz1IZZA0.woff2",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/manrope-latin-wght-normal-DHIcAJRg.woff2",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/noto-sans-devanagari-devanagari-wght-normal-DWI_L5Cu.woff2",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/noto-sans-devanagari-latin-wght-normal-Bxfr4UJH.woff2",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "blob:http://127.0.0.1:4201/73efe81c-faa8-4b8e-b6c1-9c7626838cab",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "blob:http://127.0.0.1:4201/73efe81c-faa8-4b8e-b6c1-9c7626838cab",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/transcribe.worker-Bzrgn3Q2.js",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://huggingface.co/Xenova/whisper-small/resolve/2d67713f236afa48a18992566e7647f6ca848e13/onnx/encoder_model.onnx",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "https://us.aws.cdn.hf.co/xet-bridge-us/6452c2113a794b2d9b15b8ae/ab85e00a5cfe13fda726b4e0ab80ff5bf15c079292bc5e0dadd1861558034020",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/ort-wasm-simd-threaded.jsep-B0TxsgQ-.mjs",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/ort-wasm-simd-threaded.jsep-B0T3yYHD.wasm",
+    "bodyBytes": 0
+  }
+]

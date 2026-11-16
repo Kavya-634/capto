@@ -1,0 +1,29 @@
+[
+  {
+    "name": "creator",
+    "language": "hinglish",
+    "speechReference": "आज हम video editing सीखेंगे। पहले clip upload करो और captions save करो।",
+    "hinglishReference": "aaj hum video editing seekhenge. pehle clip upload karo aur captions save karo.",
+    "duration": 6.702125,
+    "video": "e2e/fixtures/hinglish/creator.mp4",
+    "source": "Synthetic code-switching speech: macOS Lekha (hi) + Rishi (en-IN); 50 ms between segments. Not natural-speaker benchmark."
+  },
+  {
+    "name": "office",
+    "language": "hinglish",
+    "speechReference": "कल हमारी team meeting है। project update भेजो और deadline ध्यान में रखो।",
+    "hinglishReference": "kal hamari team meeting hai. project update bhejo aur deadline dhyan mein rakho.",
+    "duration": 6.1621875,
+    "video": "e2e/fixtures/hinglish/office.mp4",
+    "source": "Synthetic code-switching speech: macOS Lekha (hi) + Rishi (en-IN); 50 ms between segments. Not natural-speaker benchmark."
+  },
+  {
+    "name": "weekend",
+    "language": "hinglish",
+    "speechReference": "दोस्तों weekend पर coffee और lunch के बाद Instagram reel बनाएंगे।",
+    "hinglishReference": "doston weekend par coffee aur lunch ke baad Instagram reel banayenge.",
+    "duration": 6.1649375,
+    "video": "e2e/fixtures/hinglish/weekend.mp4",
+    "source": "Synthetic code-switching speech: macOS Lekha (hi) + Rishi (en-IN); 50 ms between segments. Not natural-speaker benchmark."
+  }
+]

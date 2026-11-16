@@ -1,0 +1,163 @@
+{
+  "language": "hindi",
+  "reference": "नमस्ते दोस्तों। आज हम छोटे वीडियो बनाना सीखेंगे। साफ आवाज़ में बोलिए और अपनी कहानी दुनिया तक पहुँचाइए।",
+  "voice": "Lekha",
+  "rate": 130,
+  "duration": 8.3261875,
+  "video": "public/demos/hindi.mp4",
+  "source": "Synthetic macOS speech; not a native-speaker accuracy benchmark",
+  "error": null,
+  "elapsedSeconds": 49.67,
+  "realTimeFactor": 5.97,
+  "crossOriginIsolated": true,
+  "longClipNoticeShown": null,
+  "progressSamples": [
+    {
+      "at": 15.962,
+      "heard": "0:00",
+      "of": "0:08",
+      "percent": 0
+    },
+    {
+      "at": 30.913,
+      "heard": "0:00",
+      "of": "0:08",
+      "percent": 0
+    },
+    {
+      "at": 45.89,
+      "heard": "0:00",
+      "of": "0:08",
+      "percent": 0
+    }
+  ],
+  "lastWordEnd": 8.18,
+  "coveredToEnd": true,
+  "warnings": [
+    "Captions are ready. Review the words and timing before exporting.",
+    "Hindi is a draft: our test clips needed substantial corrections. Review every word, matra, name, and word highlight before sharing."
+  ],
+  "actualWordPlaybackVerified": true,
+  "text": "नमस्ते डुस्टों, आज फम चोर्ति वीडियो बनाना सेकेंगे. साफ आमाज में बोलिए और अपनी कहानी दून्या तक पहुझाए.",
+  "wordError": {
+    "edits": 7,
+    "referenceWords": 18,
+    "recognizedWords": 18,
+    "rate": 0.3888888888888889
+  },
+  "captions": [
+    {
+      "text": "नमस्ते डुस्टों, आज फम चोर्ति वीडियो",
+      "start": 0,
+      "end": 2.74,
+      "words": [
+        {
+          "text": "नमस्ते",
+          "start": 0,
+          "end": 0.58
+        },
+        {
+          "text": "डुस्टों,",
+          "start": 0.58,
+          "end": 1.28
+        },
+        {
+          "text": "आज",
+          "start": 1.36,
+          "end": 1.56
+        },
+        {
+          "text": "फम",
+          "start": 1.56,
+          "end": 1.84
+        },
+        {
+          "text": "चोर्ति",
+          "start": 1.84,
+          "end": 2.34
+        },
+        {
+          "text": "वीडियो",
+          "start": 2.34,
+          "end": 2.74
+        }
+      ]
+    },
+    {
+      "text": "बनाना सेकेंगे. साफ आमाज में बोलिए",
+      "start": 2.74,
+      "end": 5.62,
+      "words": [
+        {
+          "text": "बनाना",
+          "start": 2.74,
+          "end": 3.24
+        },
+        {
+          "text": "सेकेंगे.",
+          "start": 3.24,
+          "end": 3.84
+        },
+        {
+          "text": "साफ",
+          "start": 4.2,
+          "end": 4.5
+        },
+        {
+          "text": "आमाज",
+          "start": 4.5,
+          "end": 4.98
+        },
+        {
+          "text": "में",
+          "start": 4.98,
+          "end": 5.22
+        },
+        {
+          "text": "बोलिए",
+          "start": 5.22,
+          "end": 5.62
+        }
+      ]
+    },
+    {
+      "text": "और अपनी कहानी दून्या तक पहुझाए.",
+      "start": 5.62,
+      "end": 8.18,
+      "words": [
+        {
+          "text": "और",
+          "start": 5.62,
+          "end": 5.96
+        },
+        {
+          "text": "अपनी",
+          "start": 5.96,
+          "end": 6.36
+        },
+        {
+          "text": "कहानी",
+          "start": 6.36,
+          "end": 6.86
+        },
+        {
+          "text": "दून्या",
+          "start": 6.86,
+          "end": 7.28
+        },
+        {
+          "text": "तक",
+          "start": 7.28,
+          "end": 7.52
+        },
+        {
+          "text": "पहुझाए.",
+          "start": 7.52,
+          "end": 8.18
+        }
+      ]
+    }
+  ],
+  "orderedBoundedWords": true,
+  "wordsPerLine": [6, 6, 6]
+}

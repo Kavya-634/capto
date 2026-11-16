@@ -1,0 +1,17 @@
+[
+  {
+    "language": "hindi",
+    "reportName": "hindi-native",
+    "reference": "कुछ अणुओं में अस्थिर केंद्रक होता है, जिसका मतलब यह है कि उनमें थोड़े या बिना किसी झटके से टूटने की प्रवृत्ति होती है,",
+    "normalizedReference": "कुछ अणुओं में अस्थिर केंद्रक होता है जिसका मतलब यह है कि उनमें थोड़े या बिना किसी झटके से टूटने की प्रवृत्ति होती है",
+    "duration": 9.12,
+    "video": "e2e/fixtures/speech/hindi-native.mp4",
+    "source": "Google FLEURS Hindi test split; first matching audio archive member",
+    "originalFile": "10011266027513218401.wav",
+    "datasetId": "1766",
+    "license": "CC BY 4.0",
+    "attribution": "FLEURS — Google; Conneau et al. 2022",
+    "url": "https://huggingface.co/datasets/google/fleurs",
+    "modification": "Original audio muxed to AAC with a still-image video for browser upload testing."
+  }
+]

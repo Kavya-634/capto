@@ -1,0 +1,112 @@
+[
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/index-C5BlBRpL.js",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/index-B3W6OLyx.css",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/favicon.svg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/images/adventure.jpg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/images/ocean.jpg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/images/mountains.jpg",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/dm-sans-latin-wght-normal-Xz1IZZA0.woff2",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/manrope-latin-wght-normal-DHIcAJRg.woff2",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/noto-sans-devanagari-devanagari-wght-normal-DWI_L5Cu.woff2",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/noto-sans-devanagari-latin-wght-normal-Bxfr4UJH.woff2",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/api/ai/status",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "blob:http://127.0.0.1:4201/46fd0264-ed72-4772-bbf5-bd745778a8b3",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "blob:http://127.0.0.1:4201/46fd0264-ed72-4772-bbf5-bd745778a8b3",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/transcribe.worker-DKqKmca3.js",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/ort-wasm-simd-threaded.jsep-B0TxsgQ-.mjs",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/ort-wasm-simd-threaded.jsep-B0TxsgQ-.mjs",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/ort-wasm-simd-threaded.jsep-B0T3yYHD.wasm",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/ort-wasm-simd-threaded.jsep-B0TxsgQ-.mjs",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "http://127.0.0.1:4201/assets/ort-wasm-simd-threaded.jsep-B0TxsgQ-.mjs",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "blob:http://127.0.0.1:4201/46fd0264-ed72-4772-bbf5-bd745778a8b3",
+    "bodyBytes": 0
+  },
+  {
+    "method": "GET",
+    "url": "blob:http://127.0.0.1:4201/46fd0264-ed72-4772-bbf5-bd745778a8b3",
+    "bodyBytes": 0
+  }
+]

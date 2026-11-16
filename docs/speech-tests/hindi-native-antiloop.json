@@ -1,0 +1,163 @@
+{
+  "language": "hindi",
+  "reportName": "hindi-native",
+  "reference": "कुछ अणुओं में अस्थिर केंद्रक होता है, जिसका मतलब यह है कि उनमें थोड़े या बिना किसी झटके से टूटने की प्रवृत्ति होती है,",
+  "normalizedReference": "कुछ अणुओं में अस्थिर केंद्रक होता है जिसका मतलब यह है कि उनमें थोड़े या बिना किसी झटके से टूटने की प्रवृत्ति होती है",
+  "duration": 9.12,
+  "video": "e2e/fixtures/speech/hindi-native.mp4",
+  "source": "Google FLEURS Hindi test split; first matching audio archive member",
+  "originalFile": "10011266027513218401.wav",
+  "datasetId": "1766",
+  "license": "CC BY 4.0",
+  "attribution": "FLEURS — Google; Conneau et al. 2022",
+  "url": "https://huggingface.co/datasets/google/fleurs",
+  "modification": "Original audio muxed to AAC with a still-image video for browser upload testing.",
+  "error": null,
+  "elapsedSeconds": 44.219,
+  "realTimeFactor": 4.85,
+  "crossOriginIsolated": true,
+  "longClipNoticeShown": null,
+  "progressSamples": [
+    {
+      "at": 15.987,
+      "heard": "0:00",
+      "of": "0:09",
+      "percent": 0
+    },
+    {
+      "at": 31.748,
+      "heard": "0:00",
+      "of": "0:09",
+      "percent": 0
+    }
+  ],
+  "lastWordEnd": 7.46,
+  "coveredToEnd": true,
+  "warnings": [
+    "Captions are ready. Review the words and timing before exporting.",
+    "Hindi is a draft: our test clips needed substantial corrections. Review every word, matra, name, and word highlight before sharing."
+  ],
+  "actualWordPlaybackVerified": true,
+  "text": "कुछ आर्वो में आस्त्यकेन्डाए, जिसका मतला यहा की उन्मे थोडे या बिना किसी जटके से तूटने की है.",
+  "wordError": {
+    "edits": 15,
+    "referenceWords": 24,
+    "recognizedWords": 18,
+    "rate": 0.625
+  },
+  "captions": [
+    {
+      "text": "कुछ आर्वो में आस्त्यकेन्डाए, जिसका मतला",
+      "start": 0,
+      "end": 3.96,
+      "words": [
+        {
+          "text": "कुछ",
+          "start": 0,
+          "end": 0.92
+        },
+        {
+          "text": "आर्वो",
+          "start": 0.92,
+          "end": 1.4
+        },
+        {
+          "text": "में",
+          "start": 1.4,
+          "end": 1.68
+        },
+        {
+          "text": "आस्त्यकेन्डाए,",
+          "start": 1.68,
+          "end": 2.84
+        },
+        {
+          "text": "जिसका",
+          "start": 3.28,
+          "end": 3.6
+        },
+        {
+          "text": "मतला",
+          "start": 3.6,
+          "end": 3.96
+        }
+      ]
+    },
+    {
+      "text": "यहा की उन्मे थोडे या बिना",
+      "start": 3.96,
+      "end": 5.82,
+      "words": [
+        {
+          "text": "यहा",
+          "start": 3.96,
+          "end": 4.26
+        },
+        {
+          "text": "की",
+          "start": 4.26,
+          "end": 4.52
+        },
+        {
+          "text": "उन्मे",
+          "start": 4.52,
+          "end": 4.86
+        },
+        {
+          "text": "थोडे",
+          "start": 4.86,
+          "end": 5.3
+        },
+        {
+          "text": "या",
+          "start": 5.3,
+          "end": 5.56
+        },
+        {
+          "text": "बिना",
+          "start": 5.56,
+          "end": 5.82
+        }
+      ]
+    },
+    {
+      "text": "किसी जटके से तूटने की है.",
+      "start": 5.82,
+      "end": 7.46,
+      "words": [
+        {
+          "text": "किसी",
+          "start": 5.82,
+          "end": 6.1
+        },
+        {
+          "text": "जटके",
+          "start": 6.1,
+          "end": 6.52
+        },
+        {
+          "text": "से",
+          "start": 6.52,
+          "end": 6.68
+        },
+        {
+          "text": "तूटने",
+          "start": 6.68,
+          "end": 7.08
+        },
+        {
+          "text": "की",
+          "start": 7.08,
+          "end": 7.22
+        },
+        {
+          "text": "है.",
+          "start": 7.22,
+          "end": 7.46
+        }
+      ]
+    }
+  ],
+  "orderedBoundedWords": true,
+  "wordsPerLine": [6, 6, 6]
+}

@@ -1,0 +1,198 @@
+{
+  "name": "office",
+  "language": "hinglish",
+  "speechReference": "कल हमारी team meeting है। project update भेजो और deadline ध्यान में रखो।",
+  "hinglishReference": "kal hamari team meeting hai. project update bhejo aur deadline dhyan mein rakho.",
+  "duration": 6.1621875,
+  "video": "e2e/fixtures/hinglish/office.mp4",
+  "source": "Synthetic code-switching speech: macOS Lekha (hi) + Rishi (en-IN); 50 ms between segments. Not natural-speaker benchmark.",
+  "tier": "accurate",
+  "elapsedSeconds": 172.134,
+  "error": null,
+  "recognizedHindi": "कल हमारी team meeting है project update भेजो और deadline ध्यान में रखो",
+  "hinglish": "kal hamari team meeting hai project update bhejo aur deadline dhyan mein rakho",
+  "comparison": {
+    "edits": [],
+    "wordErrorRate": 0,
+    "referenceWords": 13,
+    "recognizedWords": 13
+  },
+  "exactWordTimestampsPreserved": true,
+  "captionCount": 3,
+  "captions": [
+    {
+      "text": "kal hamari team meeting hai project",
+      "start": 0,
+      "end": 2.36,
+      "words": [
+        {
+          "text": "kal",
+          "start": 0,
+          "end": 0.14
+        },
+        {
+          "text": "hamari",
+          "start": 0.14,
+          "end": 0.68
+        },
+        {
+          "text": "team",
+          "start": 0.68,
+          "end": 1
+        },
+        {
+          "text": "meeting",
+          "start": 1,
+          "end": 1.38
+        },
+        {
+          "text": "hai",
+          "start": 1.38,
+          "end": 1.86
+        },
+        {
+          "text": "project",
+          "start": 1.86,
+          "end": 2.36
+        }
+      ]
+    },
+    {
+      "text": "update bhejo aur deadline",
+      "start": 2.36,
+      "end": 4.6,
+      "words": [
+        {
+          "text": "update",
+          "start": 2.36,
+          "end": 2.84
+        },
+        {
+          "text": "bhejo",
+          "start": 2.84,
+          "end": 3.7
+        },
+        {
+          "text": "aur",
+          "start": 3.7,
+          "end": 4.12
+        },
+        {
+          "text": "deadline",
+          "start": 4.12,
+          "end": 4.6
+        }
+      ]
+    },
+    {
+      "text": "dhyan mein rakho",
+      "start": 4.6,
+      "end": 6.02,
+      "words": [
+        {
+          "text": "dhyan",
+          "start": 4.6,
+          "end": 5.5
+        },
+        {
+          "text": "mein",
+          "start": 5.5,
+          "end": 5.66
+        },
+        {
+          "text": "rakho",
+          "start": 5.66,
+          "end": 6.02
+        }
+      ]
+    }
+  ],
+  "originalCaptions": [
+    {
+      "text": "कल हमारी team meeting है project",
+      "start": 0,
+      "end": 2.36,
+      "words": [
+        {
+          "text": "कल",
+          "start": 0,
+          "end": 0.14
+        },
+        {
+          "text": "हमारी",
+          "start": 0.14,
+          "end": 0.68
+        },
+        {
+          "text": "team",
+          "start": 0.68,
+          "end": 1
+        },
+        {
+          "text": "meeting",
+          "start": 1,
+          "end": 1.38
+        },
+        {
+          "text": "है",
+          "start": 1.38,
+          "end": 1.86
+        },
+        {
+          "text": "project",
+          "start": 1.86,
+          "end": 2.36
+        }
+      ]
+    },
+    {
+      "text": "update भेजो और deadline",
+      "start": 2.36,
+      "end": 4.6,
+      "words": [
+        {
+          "text": "update",
+          "start": 2.36,
+          "end": 2.84
+        },
+        {
+          "text": "भेजो",
+          "start": 2.84,
+          "end": 3.7
+        },
+        {
+          "text": "और",
+          "start": 3.7,
+          "end": 4.12
+        },
+        {
+          "text": "deadline",
+          "start": 4.12,
+          "end": 4.6
+        }
+      ]
+    },
+    {
+      "text": "ध्यान में रखो",
+      "start": 4.6,
+      "end": 6.02,
+      "words": [
+        {
+          "text": "ध्यान",
+          "start": 4.6,
+          "end": 5.5
+        },
+        {
+          "text": "में",
+          "start": 5.5,
+          "end": 5.66
+        },
+        {
+          "text": "रखो",
+          "start": 5.66,
+          "end": 6.02
+        }
+      ]
+    }
+  ]
+}

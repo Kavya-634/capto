@@ -1,0 +1,194 @@
+{
+  "name": "weekend",
+  "language": "hinglish",
+  "speechReference": "दोस्तों weekend पर coffee और lunch के बाद Instagram reel बनाएंगे।",
+  "hinglishReference": "doston weekend par coffee aur lunch ke baad Instagram reel banayenge.",
+  "duration": 6.1649375,
+  "video": "e2e/fixtures/hinglish/weekend.mp4",
+  "source": "Synthetic code-switching speech: macOS Lekha (hi) + Rishi (en-IN); 50 ms between segments. Not natural-speaker benchmark.",
+  "elapsedSeconds": 144.332,
+  "error": null,
+  "recognizedHindi": "दोस्तों वीक अद पर कोफी और लान्ज के बाद, अन्स्टाग्राम रील बनाएंगे.",
+  "hinglish": "doston veek ad par kophee aur laanj ke baad, anstaagraam reel banayenge.",
+  "comparison": {
+    "edits": [
+      {
+        "expected": "(extra)",
+        "actual": "veek"
+      },
+      {
+        "expected": "weekend",
+        "actual": "ad"
+      },
+      {
+        "expected": "coffee",
+        "actual": "kophee"
+      },
+      {
+        "expected": "lunch",
+        "actual": "laanj"
+      },
+      {
+        "expected": "instagram",
+        "actual": "anstaagraam"
+      }
+    ],
+    "wordErrorRate": 0.45454545454545453,
+    "referenceWords": 11,
+    "recognizedWords": 12
+  },
+  "exactWordTimestampsPreserved": true,
+  "captionCount": 2,
+  "captions": [
+    {
+      "text": "doston veek ad par kophee aur",
+      "start": 0,
+      "end": 2.52,
+      "words": [
+        {
+          "text": "doston",
+          "start": 0,
+          "end": 0.62
+        },
+        {
+          "text": "veek",
+          "start": 0.62,
+          "end": 0.94
+        },
+        {
+          "text": "ad",
+          "start": 0.94,
+          "end": 1.22
+        },
+        {
+          "text": "par",
+          "start": 1.22,
+          "end": 1.58
+        },
+        {
+          "text": "kophee",
+          "start": 1.58,
+          "end": 2.18
+        },
+        {
+          "text": "aur",
+          "start": 2.18,
+          "end": 2.52
+        }
+      ]
+    },
+    {
+      "text": "laanj ke baad, anstaagraam reel banayenge.",
+      "start": 2.52,
+      "end": 6.08,
+      "words": [
+        {
+          "text": "laanj",
+          "start": 2.52,
+          "end": 3.22
+        },
+        {
+          "text": "ke",
+          "start": 3.22,
+          "end": 3.52
+        },
+        {
+          "text": "baad,",
+          "start": 3.52,
+          "end": 3.92
+        },
+        {
+          "text": "anstaagraam",
+          "start": 4.06,
+          "end": 4.82
+        },
+        {
+          "text": "reel",
+          "start": 4.82,
+          "end": 5.28
+        },
+        {
+          "text": "banayenge.",
+          "start": 5.28,
+          "end": 6.08
+        }
+      ]
+    }
+  ],
+  "originalCaptions": [
+    {
+      "text": "दोस्तों वीक अद पर कोफी और",
+      "start": 0,
+      "end": 2.52,
+      "words": [
+        {
+          "text": "दोस्तों",
+          "start": 0,
+          "end": 0.62
+        },
+        {
+          "text": "वीक",
+          "start": 0.62,
+          "end": 0.94
+        },
+        {
+          "text": "अद",
+          "start": 0.94,
+          "end": 1.22
+        },
+        {
+          "text": "पर",
+          "start": 1.22,
+          "end": 1.58
+        },
+        {
+          "text": "कोफी",
+          "start": 1.58,
+          "end": 2.18
+        },
+        {
+          "text": "और",
+          "start": 2.18,
+          "end": 2.52
+        }
+      ]
+    },
+    {
+      "text": "लान्ज के बाद, अन्स्टाग्राम रील बनाएंगे.",
+      "start": 2.52,
+      "end": 6.08,
+      "words": [
+        {
+          "text": "लान्ज",
+          "start": 2.52,
+          "end": 3.22
+        },
+        {
+          "text": "के",
+          "start": 3.22,
+          "end": 3.52
+        },
+        {
+          "text": "बाद,",
+          "start": 3.52,
+          "end": 3.92
+        },
+        {
+          "text": "अन्स्टाग्राम",
+          "start": 4.06,
+          "end": 4.82
+        },
+        {
+          "text": "रील",
+          "start": 4.82,
+          "end": 5.28
+        },
+        {
+          "text": "बनाएंगे.",
+          "start": 5.28,
+          "end": 6.08
+        }
+      ]
+    }
+  ]
+}

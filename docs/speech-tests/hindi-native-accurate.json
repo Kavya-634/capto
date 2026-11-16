@@ -1,0 +1,214 @@
+{
+  "language": "hindi",
+  "reportName": "hindi-native",
+  "reference": "कुछ अणुओं में अस्थिर केंद्रक होता है, जिसका मतलब यह है कि उनमें थोड़े या बिना किसी झटके से टूटने की प्रवृत्ति होती है,",
+  "normalizedReference": "कुछ अणुओं में अस्थिर केंद्रक होता है जिसका मतलब यह है कि उनमें थोड़े या बिना किसी झटके से टूटने की प्रवृत्ति होती है",
+  "duration": 9.12,
+  "video": "e2e/fixtures/speech/hindi-native.mp4",
+  "source": "Google FLEURS Hindi test split; first matching audio archive member",
+  "originalFile": "10011266027513218401.wav",
+  "datasetId": "1766",
+  "license": "CC BY 4.0",
+  "attribution": "FLEURS — Google; Conneau et al. 2022",
+  "url": "https://huggingface.co/datasets/google/fleurs",
+  "modification": "Original audio muxed to AAC with a still-image video for browser upload testing.",
+  "tier": "accurate",
+  "error": null,
+  "elapsedSeconds": 72.587,
+  "realTimeFactor": 7.96,
+  "crossOriginIsolated": true,
+  "longClipNoticeShown": null,
+  "progressSamples": [
+    {
+      "at": 15.538,
+      "heard": "0:00",
+      "of": "0:09",
+      "percent": 0
+    },
+    {
+      "at": 31.463,
+      "heard": "0:00",
+      "of": "0:09",
+      "percent": 0
+    },
+    {
+      "at": 45.569,
+      "heard": "0:00",
+      "of": "0:09",
+      "percent": 0
+    },
+    {
+      "at": 60.607,
+      "heard": "0:00",
+      "of": "0:09",
+      "percent": 0
+    }
+  ],
+  "lastWordEnd": 8.24,
+  "coveredToEnd": true,
+  "warnings": [
+    "Captions are ready. Review the words and timing before exporting.",
+    "Hindi is a draft: our test clips needed substantial corrections. Review every word, matra, name, and word highlight before sharing."
+  ],
+  "actualWordPlaybackVerified": true,
+  "playbackProbeError": null,
+  "text": "कुछ अनूओं में आस्तर केंद्रक होता है, जिसका मतलब यहां कि उनमें thोड़े या बिना किसी जटके से तूतने की प्रवत्ती हो ती है।",
+  "wordError": {
+    "edits": 10,
+    "referenceWords": 24,
+    "recognizedWords": 24,
+    "rate": 0.4166666666666667
+  },
+  "captions": [
+    {
+      "text": "कुछ अनूओं में आस्तर केंद्रक होता",
+      "start": 0.14,
+      "end": 3.06,
+      "words": [
+        {
+          "text": "कुछ",
+          "start": 0.14,
+          "end": 0.94
+        },
+        {
+          "text": "अनूओं",
+          "start": 0.94,
+          "end": 1.48
+        },
+        {
+          "text": "में",
+          "start": 1.48,
+          "end": 1.64
+        },
+        {
+          "text": "आस्तर",
+          "start": 1.64,
+          "end": 2.24
+        },
+        {
+          "text": "केंद्रक",
+          "start": 2.24,
+          "end": 2.78
+        },
+        {
+          "text": "होता",
+          "start": 2.78,
+          "end": 3.06
+        }
+      ]
+    },
+    {
+      "text": "है, जिसका मतलब यहां कि उनमें",
+      "start": 3.06,
+      "end": 4.92,
+      "words": [
+        {
+          "text": "है,",
+          "start": 3.06,
+          "end": 3.18
+        },
+        {
+          "text": "जिसका",
+          "start": 3.26,
+          "end": 3.58
+        },
+        {
+          "text": "मतलब",
+          "start": 3.58,
+          "end": 4
+        },
+        {
+          "text": "यहां",
+          "start": 4,
+          "end": 4.36
+        },
+        {
+          "text": "कि",
+          "start": 4.36,
+          "end": 4.5
+        },
+        {
+          "text": "उनमें",
+          "start": 4.5,
+          "end": 4.92
+        }
+      ]
+    },
+    {
+      "text": "thोड़े या बिना किसी जटके से",
+      "start": 4.92,
+      "end": 6.68,
+      "words": [
+        {
+          "text": "thोड़े",
+          "start": 4.92,
+          "end": 5.3
+        },
+        {
+          "text": "या",
+          "start": 5.3,
+          "end": 5.56
+        },
+        {
+          "text": "बिना",
+          "start": 5.56,
+          "end": 5.82
+        },
+        {
+          "text": "किसी",
+          "start": 5.82,
+          "end": 6.1
+        },
+        {
+          "text": "जटके",
+          "start": 6.1,
+          "end": 6.5
+        },
+        {
+          "text": "से",
+          "start": 6.5,
+          "end": 6.68
+        }
+      ]
+    },
+    {
+      "text": "तूतने की प्रवत्ती हो ती है।",
+      "start": 6.68,
+      "end": 8.24,
+      "words": [
+        {
+          "text": "तूतने",
+          "start": 6.68,
+          "end": 7.06
+        },
+        {
+          "text": "की",
+          "start": 7.06,
+          "end": 7.24
+        },
+        {
+          "text": "प्रवत्ती",
+          "start": 7.24,
+          "end": 7.72
+        },
+        {
+          "text": "हो",
+          "start": 7.72,
+          "end": 7.92
+        },
+        {
+          "text": "ती",
+          "start": 7.92,
+          "end": 8.06
+        },
+        {
+          "text": "है।",
+          "start": 8.06,
+          "end": 8.24
+        }
+      ]
+    }
+  ],
+  "orderedBoundedWords": true,
+  "wordsPerLine": [6, 6, 6, 6]
+}

@@ -1,0 +1,175 @@
+{
+  "language": "hindi",
+  "reference": "नमस्ते दोस्तों। आज हम छोटे वीडियो बनाना सीखेंगे। साफ आवाज़ में बोलिए और अपनी कहानी दुनिया तक पहुँचाइए।",
+  "voice": "Lekha",
+  "rate": 130,
+  "duration": 8.3261875,
+  "video": "public/demos/hindi.mp4",
+  "source": "Synthetic macOS speech; not a native-speaker accuracy benchmark",
+  "error": null,
+  "elapsedSeconds": 54.195,
+  "realTimeFactor": 6.51,
+  "crossOriginIsolated": true,
+  "longClipNoticeShown": null,
+  "progressSamples": [
+    {
+      "at": 15.209,
+      "heard": "0:00",
+      "of": "0:08",
+      "percent": 0
+    },
+    {
+      "at": 30.335,
+      "heard": "0:00",
+      "of": "0:08",
+      "percent": 0
+    },
+    {
+      "at": 45.4,
+      "heard": "0:00",
+      "of": "0:08",
+      "percent": 0
+    }
+  ],
+  "lastWordEnd": 8.26,
+  "coveredToEnd": true,
+  "warnings": [
+    "Captions are ready. Review the words and timing before exporting.",
+    "Hindi is a draft: our test clips needed substantial corrections. Review every word, matra, name, and word highlight before sharing."
+  ],
+  "actualWordPlaybackVerified": true,
+  "text": "नमस्ते डुस्तों, आज फम चोर्ते वीडियो बनाना सेखेंगे. साफ आबास में बोलिए और अपनी कहानी दुन्या तक पहुट चाये.",
+  "wordError": {
+    "edits": 8,
+    "referenceWords": 18,
+    "recognizedWords": 19,
+    "rate": 0.4444444444444444
+  },
+  "captions": [
+    {
+      "text": "नमस्ते डुस्तों, आज फम चोर्ते वीडियो",
+      "start": 0,
+      "end": 2.74,
+      "words": [
+        {
+          "text": "नमस्ते",
+          "start": 0,
+          "end": 0.58
+        },
+        {
+          "text": "डुस्तों,",
+          "start": 0.58,
+          "end": 1.28
+        },
+        {
+          "text": "आज",
+          "start": 1.38,
+          "end": 1.56
+        },
+        {
+          "text": "फम",
+          "start": 1.56,
+          "end": 1.84
+        },
+        {
+          "text": "चोर्ते",
+          "start": 1.84,
+          "end": 2.34
+        },
+        {
+          "text": "वीडियो",
+          "start": 2.34,
+          "end": 2.74
+        }
+      ]
+    },
+    {
+      "text": "बनाना सेखेंगे. साफ आबास में बोलिए",
+      "start": 2.74,
+      "end": 5.62,
+      "words": [
+        {
+          "text": "बनाना",
+          "start": 2.74,
+          "end": 3.24
+        },
+        {
+          "text": "सेखेंगे.",
+          "start": 3.24,
+          "end": 3.84
+        },
+        {
+          "text": "साफ",
+          "start": 4.2,
+          "end": 4.5
+        },
+        {
+          "text": "आबास",
+          "start": 4.5,
+          "end": 5
+        },
+        {
+          "text": "में",
+          "start": 5,
+          "end": 5.22
+        },
+        {
+          "text": "बोलिए",
+          "start": 5.22,
+          "end": 5.62
+        }
+      ]
+    },
+    {
+      "text": "और अपनी कहानी दुन्या",
+      "start": 5.62,
+      "end": 7.26,
+      "words": [
+        {
+          "text": "और",
+          "start": 5.62,
+          "end": 5.96
+        },
+        {
+          "text": "अपनी",
+          "start": 5.96,
+          "end": 6.36
+        },
+        {
+          "text": "कहानी",
+          "start": 6.36,
+          "end": 6.86
+        },
+        {
+          "text": "दुन्या",
+          "start": 6.86,
+          "end": 7.26
+        }
+      ]
+    },
+    {
+      "text": "तक पहुट चाये.",
+      "start": 7.26,
+      "end": 8.26,
+      "words": [
+        {
+          "text": "तक",
+          "start": 7.26,
+          "end": 7.52
+        },
+        {
+          "text": "पहुट",
+          "start": 7.52,
+          "end": 7.9
+        },
+        {
+          "text": "चाये.",
+          "start": 7.9,
+          "end": 8.26
+        }
+      ]
+    }
+  ],
+  "orderedBoundedWords": true,
+  "wordsPerLine": [6, 6, 4, 3]
+}

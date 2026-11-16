@@ -1,0 +1,176 @@
+{
+  "language": "hindi",
+  "reference": "नमस्ते दोस्तों। आज हम छोटे वीडियो बनाना सीखेंगे। साफ आवाज़ में बोलिए और अपनी कहानी दुनिया तक पहुँचाइए।",
+  "voice": "Lekha",
+  "rate": 130,
+  "duration": 8.3261875,
+  "video": "public/demos/hindi.mp4",
+  "source": "Synthetic macOS speech; not a native-speaker accuracy benchmark",
+  "tier": "accurate",
+  "error": null,
+  "elapsedSeconds": 73.23,
+  "realTimeFactor": 8.8,
+  "crossOriginIsolated": true,
+  "longClipNoticeShown": null,
+  "progressSamples": [
+    {
+      "at": 45.505,
+      "heard": "0:00",
+      "of": "0:08",
+      "percent": 0
+    },
+    {
+      "at": 60.473,
+      "heard": "0:00",
+      "of": "0:08",
+      "percent": 0
+    }
+  ],
+  "lastWordEnd": 8.24,
+  "coveredToEnd": true,
+  "warnings": [
+    "Captions are ready. Review the words and timing before exporting.",
+    "Hindi is a draft: our test clips needed substantial corrections. Review every word, matra, name, and word highlight before sharing."
+  ],
+  "actualWordPlaybackVerified": true,
+  "playbackProbeError": null,
+  "text": "नमस्ते दोस्टों, आज हम छोटे वीदियो बनाना सीखेंगे. साफ आ वाज में बोलिए और अपनी कहानी दुनिया तक पहूं चाहिजे.",
+  "wordError": {
+    "edits": 6,
+    "referenceWords": 18,
+    "recognizedWords": 20,
+    "rate": 0.3333333333333333
+  },
+  "captions": [
+    {
+      "text": "नमस्ते दोस्टों, आज हम छोटे वीदियो",
+      "start": 0,
+      "end": 2.72,
+      "words": [
+        {
+          "text": "नमस्ते",
+          "start": 0,
+          "end": 0.58
+        },
+        {
+          "text": "दोस्टों,",
+          "start": 0.58,
+          "end": 1.12
+        },
+        {
+          "text": "आज",
+          "start": 1.32,
+          "end": 1.58
+        },
+        {
+          "text": "हम",
+          "start": 1.58,
+          "end": 1.84
+        },
+        {
+          "text": "छोटे",
+          "start": 1.84,
+          "end": 2.34
+        },
+        {
+          "text": "वीदियो",
+          "start": 2.34,
+          "end": 2.72
+        }
+      ]
+    },
+    {
+      "text": "बनाना सीखेंगे. साफ आ वाज में",
+      "start": 2.72,
+      "end": 5.2,
+      "words": [
+        {
+          "text": "बनाना",
+          "start": 2.72,
+          "end": 3.2
+        },
+        {
+          "text": "सीखेंगे.",
+          "start": 3.2,
+          "end": 3.84
+        },
+        {
+          "text": "साफ",
+          "start": 4.02,
+          "end": 4.48
+        },
+        {
+          "text": "आ",
+          "start": 4.48,
+          "end": 4.68
+        },
+        {
+          "text": "वाज",
+          "start": 4.68,
+          "end": 4.98
+        },
+        {
+          "text": "में",
+          "start": 4.98,
+          "end": 5.2
+        }
+      ]
+    },
+    {
+      "text": "बोलिए और अपनी कहानी दुनिया",
+      "start": 5.2,
+      "end": 7.28,
+      "words": [
+        {
+          "text": "बोलिए",
+          "start": 5.2,
+          "end": 5.6
+        },
+        {
+          "text": "और",
+          "start": 5.6,
+          "end": 5.94
+        },
+        {
+          "text": "अपनी",
+          "start": 5.94,
+          "end": 6.32
+        },
+        {
+          "text": "कहानी",
+          "start": 6.32,
+          "end": 6.86
+        },
+        {
+          "text": "दुनिया",
+          "start": 6.86,
+          "end": 7.28
+        }
+      ]
+    },
+    {
+      "text": "तक पहूं चाहिजे.",
+      "start": 7.28,
+      "end": 8.24,
+      "words": [
+        {
+          "text": "तक",
+          "start": 7.28,
+          "end": 7.48
+        },
+        {
+          "text": "पहूं",
+          "start": 7.48,
+          "end": 7.82
+        },
+        {
+          "text": "चाहिजे.",
+          "start": 7.82,
+          "end": 8.24
+        }
+      ]
+    }
+  ],
+  "orderedBoundedWords": true,
+  "wordsPerLine": [6, 6, 5, 3]
+}

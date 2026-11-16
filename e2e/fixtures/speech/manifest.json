@@ -1,0 +1,20 @@
+[
+  {
+    "language": "english",
+    "reference": "Hello everyone. Today we are making short videos with clear captions. Every word tells a story.",
+    "voice": "Samantha",
+    "rate": 145,
+    "duration": 6.3444375,
+    "video": "public/demos/english.mp4",
+    "source": "Synthetic macOS speech; not a native-speaker accuracy benchmark"
+  },
+  {
+    "language": "hindi",
+    "reference": "नमस्ते दोस्तों। आज हम छोटे वीडियो बनाना सीखेंगे। साफ आवाज़ में बोलिए और अपनी कहानी दुनिया तक पहुँचाइए।",
+    "voice": "Lekha",
+    "rate": 130,
+    "duration": 8.3261875,
+    "video": "public/demos/hindi.mp4",
+    "source": "Synthetic macOS speech; not a native-speaker accuracy benchmark"
+  }
+]

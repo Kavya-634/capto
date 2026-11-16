@@ -1,0 +1,564 @@
+{
+  "results": [
+    {
+      "name": "creator",
+      "language": "hinglish",
+      "speechReference": "आज हम video editing सीखेंगे। पहले clip upload करो और captions save करो।",
+      "hinglishReference": "aaj hum video editing seekhenge. pehle clip upload karo aur captions save karo.",
+      "duration": 6.702125,
+      "video": "e2e/fixtures/hinglish/creator.mp4",
+      "source": "Synthetic code-switching speech: macOS Lekha (hi) + Rishi (en-IN); 50 ms between segments. Not natural-speaker benchmark.",
+      "elapsedSeconds": 60.969,
+      "error": null,
+      "recognizedHindi": "आज हम विडीो एदिटिं सीखेंगे पहले क्लिप अपलोड करो और क्याप्षन्सेव करू",
+      "hinglish": "aaj hum videe editin seekhenge pehle clip upload karo aur kyaapshansev karoo",
+      "comparison": {
+        "edits": [
+          {
+            "expected": "video",
+            "actual": "videe"
+          },
+          {
+            "expected": "editing",
+            "actual": "editin"
+          },
+          {
+            "expected": "captions",
+            "actual": "(missing)"
+          },
+          {
+            "expected": "save",
+            "actual": "kyaapshansev"
+          },
+          {
+            "expected": "karo",
+            "actual": "karoo"
+          }
+        ],
+        "wordErrorRate": 0.38461538461538464,
+        "referenceWords": 13,
+        "recognizedWords": 12
+      },
+      "exactWordTimestampsPreserved": true,
+      "captionCount": 2,
+      "captions": [
+        {
+          "text": "aaj hum videe editin seekhenge pehle",
+          "start": 0,
+          "end": 3.22,
+          "words": [
+            {
+              "text": "aaj",
+              "start": 0,
+              "end": 0.24
+            },
+            {
+              "text": "hum",
+              "start": 0.24,
+              "end": 0.58
+            },
+            {
+              "text": "videe",
+              "start": 0.58,
+              "end": 1.12
+            },
+            {
+              "text": "editin",
+              "start": 1.12,
+              "end": 1.62
+            },
+            {
+              "text": "seekhenge",
+              "start": 1.62,
+              "end": 2.5
+            },
+            {
+              "text": "pehle",
+              "start": 2.5,
+              "end": 3.22
+            }
+          ]
+        },
+        {
+          "text": "clip upload karo aur kyaapshansev karoo",
+          "start": 3.22,
+          "end": 6.6,
+          "words": [
+            {
+              "text": "clip",
+              "start": 3.22,
+              "end": 3.56
+            },
+            {
+              "text": "upload",
+              "start": 3.56,
+              "end": 4.14
+            },
+            {
+              "text": "karo",
+              "start": 4.14,
+              "end": 4.54
+            },
+            {
+              "text": "aur",
+              "start": 4.54,
+              "end": 4.98
+            },
+            {
+              "text": "kyaapshansev",
+              "start": 4.98,
+              "end": 6.2
+            },
+            {
+              "text": "karoo",
+              "start": 6.2,
+              "end": 6.6
+            }
+          ]
+        }
+      ],
+      "originalCaptions": [
+        {
+          "text": "आज हम विडीो एदिटिं सीखेंगे पहले",
+          "start": 0,
+          "end": 3.22,
+          "words": [
+            {
+              "text": "आज",
+              "start": 0,
+              "end": 0.24
+            },
+            {
+              "text": "हम",
+              "start": 0.24,
+              "end": 0.58
+            },
+            {
+              "text": "विडीो",
+              "start": 0.58,
+              "end": 1.12
+            },
+            {
+              "text": "एदिटिं",
+              "start": 1.12,
+              "end": 1.62
+            },
+            {
+              "text": "सीखेंगे",
+              "start": 1.62,
+              "end": 2.5
+            },
+            {
+              "text": "पहले",
+              "start": 2.5,
+              "end": 3.22
+            }
+          ]
+        },
+        {
+          "text": "क्लिप अपलोड करो और क्याप्षन्सेव करू",
+          "start": 3.22,
+          "end": 6.6,
+          "words": [
+            {
+              "text": "क्लिप",
+              "start": 3.22,
+              "end": 3.56
+            },
+            {
+              "text": "अपलोड",
+              "start": 3.56,
+              "end": 4.14
+            },
+            {
+              "text": "करो",
+              "start": 4.14,
+              "end": 4.54
+            },
+            {
+              "text": "और",
+              "start": 4.54,
+              "end": 4.98
+            },
+            {
+              "text": "क्याप्षन्सेव",
+              "start": 4.98,
+              "end": 6.2
+            },
+            {
+              "text": "करू",
+              "start": 6.2,
+              "end": 6.6
+            }
+          ]
+        }
+      ],
+      "englishTranslation": "Today we learn to be dido Adro Avit Upload clip and what do you want to do?",
+      "translationCached": true
+    },
+    {
+      "name": "office",
+      "language": "hinglish",
+      "speechReference": "कल हमारी team meeting है। project update भेजो और deadline ध्यान में रखो।",
+      "hinglishReference": "kal hamari team meeting hai. project update bhejo aur deadline dhyan mein rakho.",
+      "duration": 6.1621875,
+      "video": "e2e/fixtures/hinglish/office.mp4",
+      "source": "Synthetic code-switching speech: macOS Lekha (hi) + Rishi (en-IN); 50 ms between segments. Not natural-speaker benchmark.",
+      "elapsedSeconds": 110.472,
+      "error": null,
+      "recognizedHindi": "अपने आप देजो और दिडलान में रको",
+      "hinglish": "apne aap dejo aur didlaan mein rako",
+      "comparison": {
+        "edits": [
+          {
+            "expected": "kal",
+            "actual": "(missing)"
+          },
+          {
+            "expected": "hamari",
+            "actual": "(missing)"
+          },
+          {
+            "expected": "team",
+            "actual": "(missing)"
+          },
+          {
+            "expected": "meeting",
+            "actual": "(missing)"
+          },
+          {
+            "expected": "hai",
+            "actual": "(missing)"
+          },
+          {
+            "expected": "project",
+            "actual": "apne"
+          },
+          {
+            "expected": "update",
+            "actual": "aap"
+          },
+          {
+            "expected": "bhejo",
+            "actual": "dejo"
+          },
+          {
+            "expected": "deadline",
+            "actual": "(missing)"
+          },
+          {
+            "expected": "dhyan",
+            "actual": "didlaan"
+          },
+          {
+            "expected": "rakho",
+            "actual": "rako"
+          }
+        ],
+        "wordErrorRate": 0.8461538461538461,
+        "referenceWords": 13,
+        "recognizedWords": 7
+      },
+      "exactWordTimestampsPreserved": true,
+      "captionCount": 2,
+      "captions": [
+        {
+          "text": "apne aap dejo aur",
+          "start": 0,
+          "end": 4.16,
+          "words": [
+            {
+              "text": "apne",
+              "start": 0,
+              "end": 2.42
+            },
+            {
+              "text": "aap",
+              "start": 2.42,
+              "end": 2.4699999999999998
+            },
+            {
+              "text": "dejo",
+              "start": 2.4699999999999998,
+              "end": 3.72
+            },
+            {
+              "text": "aur",
+              "start": 3.72,
+              "end": 4.16
+            }
+          ]
+        },
+        {
+          "text": "didlaan mein rako",
+          "start": 4.16,
+          "end": 6.04,
+          "words": [
+            {
+              "text": "didlaan",
+              "start": 4.16,
+              "end": 4.92
+            },
+            {
+              "text": "mein",
+              "start": 4.92,
+              "end": 5.68
+            },
+            {
+              "text": "rako",
+              "start": 5.68,
+              "end": 6.04
+            }
+          ]
+        }
+      ],
+      "originalCaptions": [
+        {
+          "text": "अपने आप देजो और",
+          "start": 0,
+          "end": 4.16,
+          "words": [
+            {
+              "text": "अपने",
+              "start": 0,
+              "end": 2.42
+            },
+            {
+              "text": "आप",
+              "start": 2.42,
+              "end": 2.4699999999999998
+            },
+            {
+              "text": "देजो",
+              "start": 2.4699999999999998,
+              "end": 3.72
+            },
+            {
+              "text": "और",
+              "start": 3.72,
+              "end": 4.16
+            }
+          ]
+        },
+        {
+          "text": "दिडलान में रको",
+          "start": 4.16,
+          "end": 6.04,
+          "words": [
+            {
+              "text": "दिडलान",
+              "start": 4.16,
+              "end": 4.92
+            },
+            {
+              "text": "में",
+              "start": 4.92,
+              "end": 5.68
+            },
+            {
+              "text": "रको",
+              "start": 5.68,
+              "end": 6.04
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "weekend",
+      "language": "hinglish",
+      "speechReference": "दोस्तों weekend पर coffee और lunch के बाद Instagram reel बनाएंगे।",
+      "hinglishReference": "doston weekend par coffee aur lunch ke baad Instagram reel banayenge.",
+      "duration": 6.1649375,
+      "video": "e2e/fixtures/hinglish/weekend.mp4",
+      "source": "Synthetic code-switching speech: macOS Lekha (hi) + Rishi (en-IN); 50 ms between segments. Not natural-speaker benchmark.",
+      "elapsedSeconds": 144.332,
+      "error": null,
+      "recognizedHindi": "दोस्तों वीक अद पर कोफी और लान्ज के बाद, अन्स्टाग्राम रील बनाएंगे.",
+      "hinglish": "doston veek ad par kophee aur laanj ke baad, anstaagraam reel banayenge.",
+      "comparison": {
+        "edits": [
+          {
+            "expected": "(extra)",
+            "actual": "veek"
+          },
+          {
+            "expected": "weekend",
+            "actual": "ad"
+          },
+          {
+            "expected": "coffee",
+            "actual": "kophee"
+          },
+          {
+            "expected": "lunch",
+            "actual": "laanj"
+          },
+          {
+            "expected": "instagram",
+            "actual": "anstaagraam"
+          }
+        ],
+        "wordErrorRate": 0.45454545454545453,
+        "referenceWords": 11,
+        "recognizedWords": 12
+      },
+      "exactWordTimestampsPreserved": true,
+      "captionCount": 2,
+      "captions": [
+        {
+          "text": "doston veek ad par kophee aur",
+          "start": 0,
+          "end": 2.52,
+          "words": [
+            {
+              "text": "doston",
+              "start": 0,
+              "end": 0.62
+            },
+            {
+              "text": "veek",
+              "start": 0.62,
+              "end": 0.94
+            },
+            {
+              "text": "ad",
+              "start": 0.94,
+              "end": 1.22
+            },
+            {
+              "text": "par",
+              "start": 1.22,
+              "end": 1.58
+            },
+            {
+              "text": "kophee",
+              "start": 1.58,
+              "end": 2.18
+            },
+            {
+              "text": "aur",
+              "start": 2.18,
+              "end": 2.52
+            }
+          ]
+        },
+        {
+          "text": "laanj ke baad, anstaagraam reel banayenge.",
+          "start": 2.52,
+          "end": 6.08,
+          "words": [
+            {
+              "text": "laanj",
+              "start": 2.52,
+              "end": 3.22
+            },
+            {
+              "text": "ke",
+              "start": 3.22,
+              "end": 3.52
+            },
+            {
+              "text": "baad,",
+              "start": 3.52,
+              "end": 3.92
+            },
+            {
+              "text": "anstaagraam",
+              "start": 4.06,
+              "end": 4.82
+            },
+            {
+              "text": "reel",
+              "start": 4.82,
+              "end": 5.28
+            },
+            {
+              "text": "banayenge.",
+              "start": 5.28,
+              "end": 6.08
+            }
+          ]
+        }
+      ],
+      "originalCaptions": [
+        {
+          "text": "दोस्तों वीक अद पर कोफी और",
+          "start": 0,
+          "end": 2.52,
+          "words": [
+            {
+              "text": "दोस्तों",
+              "start": 0,
+              "end": 0.62
+            },
+            {
+              "text": "वीक",
+              "start": 0.62,
+              "end": 0.94
+            },
+            {
+              "text": "अद",
+              "start": 0.94,
+              "end": 1.22
+            },
+            {
+              "text": "पर",
+              "start": 1.22,
+              "end": 1.58
+            },
+            {
+              "text": "कोफी",
+              "start": 1.58,
+              "end": 2.18
+            },
+            {
+              "text": "और",
+              "start": 2.18,
+              "end": 2.52
+            }
+          ]
+        },
+        {
+          "text": "लान्ज के बाद, अन्स्टाग्राम रील बनाएंगे.",
+          "start": 2.52,
+          "end": 6.08,
+          "words": [
+            {
+              "text": "लान्ज",
+              "start": 2.52,
+              "end": 3.22
+            },
+            {
+              "text": "के",
+              "start": 3.22,
+              "end": 3.52
+            },
+            {
+              "text": "बाद,",
+              "start": 3.52,
+              "end": 3.92
+            },
+            {
+              "text": "अन्स्टाग्राम",
+              "start": 4.06,
+              "end": 4.82
+            },
+            {
+              "text": "रील",
+              "start": 4.82,
+              "end": 5.28
+            },
+            {
+              "text": "बनाएंगे.",
+              "start": 5.28,
+              "end": 6.08
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "outgoingBodies": []
+}

@@ -1,0 +1,5056 @@
+{
+  "language": "english",
+  "reportName": "english-long",
+  "reference": "Welcome back to the studio, and thanks for joining this longer recording. Today we are testing how captions hold up across a full five minute video. Each sentence is a little different, so merged windows can be checked for dropped or repeated words. Creators often record tutorials, vlogs, and product reviews that run well past one minute. Good captions make those videos easier to follow with the sound off. They also help viewers who speak a second language or watch in a noisy place. Let us talk about lighting, framing, pacing, and the small details that keep people watching. A clean background and a steady camera go a long way toward a professional look. Short pauses between ideas give the audience a moment to breathe. Now we will count a few numbers for timing checks: one, two, three, four, five, six, seven. Remember to review every caption before you publish, because automatic text can still make mistakes. That is the end of this section, so let us move on to the next idea. Welcome back to the studio, and thanks for joining this longer recording. Today we are testing how captions hold up across a full five minute video. Each sentence is a little different, so merged windows can be checked for dropped or repeated words. Creators often record tutorials, vlogs, and product reviews that run well past one minute. Good captions make those videos easier to follow with the sound off. They also help viewers who speak a second language or watch in a noisy place. Let us talk about lighting, framing, pacing, and the small details that keep people watching. A clean background and a steady camera go a long way toward a professional look. Short pauses between ideas give the audience a moment to breathe. Now we will count a few numbers for timing checks: one, two, three, four, five, six, seven. Remember to review every caption before you publish, because automatic text can still make mistakes. That is the end of this section, so let us move on to the next idea. Welcome back to the studio, and thanks for joining this longer recording. Today we are testing how captions hold up across a full five minute video. Each sentence is a little different, so merged windows can be checked for dropped or repeated words. Creators often record tutorials, vlogs, and product reviews that run well past one minute. Good captions make those videos easier to follow with the sound off. They also help viewers who speak a second language or watch in a noisy place. Let us talk about lighting, framing, pacing, and the small details that keep people watching. A clean background and a steady camera go a long way toward a professional look. Short pauses between ideas give the audience a moment to breathe. Now we will count a few numbers for timing checks: one, two, three, four, five, six, seven. Remember to review every caption before you publish, because automatic text can still make mistakes. That is the end of this section, so let us move on to the next idea. Welcome back to the studio, and thanks for joining this longer recording. Today we are testing how captions hold up across a full five minute video. Each sentence is a little different, so merged windows can be checked for dropped or repeated words. Creators often record tutorials, vlogs, and product reviews that run well past one minute. Good captions make those videos easier to follow with the sound off. They also help viewers who speak a second language or watch in a noisy place. Let us talk about lighting, framing, pacing, and the small details that keep people watching. A clean background and a steady camera go a long way toward a professional look. Short pauses between ideas give the audience a moment to breathe. Now we will count a few numbers for timing checks: one, two, three, four, five, six, seven. Remember to review every caption before you publish, because automatic text can still make mistakes. That is the end of this section, so let us move on to the next idea. Welcome back to the studio, and thanks for joining this longer recording. Today we are testing how captions hold up across a full five minute video. Each sentence is a little different, so merged windows can be checked for dropped or repeated words. Creators often record tutorials, vlogs, and product reviews that run well past one minute. Good captions make those videos easier to follow with the sound off. They also help viewers who speak a second language or watch in a noisy place.",
+  "sentences": 54,
+  "voice": "Samantha",
+  "rate": 150,
+  "duration": 291.0619375,
+  "fullSpeechDuration": 291.0619375,
+  "video": "e2e/fixtures/speech/english-long.mp4",
+  "source": "Synthetic macOS speech; long-form timing and chunk-merge test, not a native-speaker benchmark",
+  "error": null,
+  "elapsedSeconds": 241.974,
+  "realTimeFactor": 0.83,
+  "crossOriginIsolated": true,
+  "longClipNoticeShown": "This clip is about 5 minutes long. On-device captioning can take longer than the video itself. Keep this tab open, or trim the clip for a faster result.",
+  "progressSamples": [
+    {
+      "at": 15.159,
+      "heard": "0:13",
+      "of": "4:51",
+      "percent": 5
+    },
+    {
+      "at": 30.287,
+      "heard": "0:41",
+      "of": "4:51",
+      "percent": 14
+    },
+    {
+      "at": 45.842,
+      "heard": "0:55",
+      "of": "4:51",
+      "percent": 19
+    },
+    {
+      "at": 60.319,
+      "heard": "1:09",
+      "of": "4:51",
+      "percent": 24
+    },
+    {
+      "at": 75.492,
+      "heard": "1:09",
+      "of": "4:51",
+      "percent": 24
+    },
+    {
+      "at": 90.941,
+      "heard": "1:23",
+      "of": "4:51",
+      "percent": 29
+    },
+    {
+      "at": 105.314,
+      "heard": "1:37",
+      "of": "4:51",
+      "percent": 33
+    },
+    {
+      "at": 120.528,
+      "heard": "1:37",
+      "of": "4:51",
+      "percent": 33
+    },
+    {
+      "at": 135.462,
+      "heard": "1:50",
+      "of": "4:51",
+      "percent": 38
+    },
+    {
+      "at": 150.408,
+      "heard": "2:18",
+      "of": "4:51",
+      "percent": 48
+    },
+    {
+      "at": 165.383,
+      "heard": "2:32",
+      "of": "4:51",
+      "percent": 52
+    },
+    {
+      "at": 180.463,
+      "heard": "3:00",
+      "of": "4:51",
+      "percent": 62
+    },
+    {
+      "at": 195.373,
+      "heard": "3:27",
+      "of": "4:51",
+      "percent": 71
+    },
+    {
+      "at": 210.381,
+      "heard": "3:55",
+      "of": "4:51",
+      "percent": 81
+    },
+    {
+      "at": 225.366,
+      "heard": "4:23",
+      "of": "4:51",
+      "percent": 90
+    },
+    {
+      "at": 240.392,
+      "heard": "4:37",
+      "of": "4:51",
+      "percent": 95
+    }
+  ],
+  "lastWordEnd": 290.82,
+  "coveredToEnd": true,
+  "warnings": [
+    "Captions are ready. Review the words and timing before exporting.",
+    "1 word boundaries were clipped to the video or the previous word. Please review them.",
+    "Long clip: check the joins between 20-second windows for a dropped or repeated word, and spot-check timing near the end of the video."
+  ],
+  "actualWordPlaybackVerified": true,
+  "text": "Welcome back to the studio, and thanks for joining this longer recording. Today we are testing how captions hold up across a full 5 minute video. Each sentence is a little different, so merged windows can be checked for dropped or repeated words. Creators often record tutorials, vlogs, and product reviews that run well past one minute. Good captions make those videos easier to follow with the sound off. They also help viewers who speak a second language or watch in a noisy place. Let us talk about lighting, framing, pacing, and the small details that keep people watching. A clean background and a steady camera go a long way toward a professional look. Short pauses between ideas give the audience a moment to breathe. Now we will count a few numbers for timing checks. 1, 2, 3, 4, 5, 6, 7. Remember to review every caption before you publish, because automatic text can still make mistakes. That is the end of this section. So let us move on to the next idea. Welcome back to the studio, and thanks for joining this longer recording. Today we are testing how captions hold up across a full 5 minute video. Each sentence is a little different, so merged windows can be checked for dropped or repeated words. Creators often record tutorials, vlogs, and product reviews that run well past 1 minute. Good captions make those videos easier to follow with the sound off. They also help viewers who speak a second language or watch in a noisy place. Let us talk about lighting, framing, pacing, and the small details that keep people watching. A clean background and a steady camera go a long way toward a professional look. Short pauses between ideas give the audience a moment to breathe. Now we will count a few numbers for timing checks. 1, 2, 3, 4, 5, 6, 7. Remember to review every caption before you publish, because automatic text can still make mistakes. That is the end of this section. So let us move on to the next idea. Welcome back to the studio. And thanks for joining this longer recording. Today we are testing how captions hold up across a full 5 minute video. Each sentence is a little different. So merged windows can be checked for dropped or repeated words. Creators often record tutorials, blogs, and product reviews that run well past one minute. Good captions make those videos easier to follow with the sound off. They also help viewers who speak a second language or watch in a noisy place. Let us talk about lighting, framing, pacing, and the small details that keep people watching. A clean background and a steady camera go a long way toward a professional look. Short pauses between ideas give the audience a moment to breathe. Now we will count a few numbers for timing checks. 1, 2, 3, 4, 5, 6, 7. Remember to review every caption before you publish, because automatic text can still make mistakes. That is the end of this section. So let us move on to the next idea. Welcome back to the studio, and thanks for joining this longer recording. Today we are testing how captions hold up across a full 5 minute video. Each sentence is a little different, so merged windows can be checked for dropped or repeated words. Creators often record tutorials, vlogs, and product reviews that run well past one minute. Good captions make those videos easier to follow with the sound off. They also help viewers who speak a second language or watch in a noisy place. Let us talk about lighting, framing, pacing, and the small details that keep people watching. A clean background and a steady camera go a long way toward a professional look. Short pauses between ideas give the audience a moment to breathe. Now we will count a few numbers for timing checks. 1, 2, 3, 4, 5, 6, 7. Remember to review every caption before you publish, because automatic text can still make mistakes. That is the end of this section. So let us move on to the next idea. Welcome back to the studio, and thanks for joining this longer recording. Today we are testing how captions hold up across a full 5 minute video. Each sentence is a little different, so merged windows can be checked for dropped or repeated words. Creators often record tutorials, vlogs, and product reviews that run well past one minute. Good captions make those videos easier to follow with the sound off. They also help viewers who speak a second language or watch in a noisy place.",
+  "wordError": {
+    "edits": 35,
+    "referenceWords": 776,
+    "recognizedWords": 776,
+    "rate": 0.045103092783505154
+  },
+  "captions": [
+    {
+      "text": "Welcome back to the studio,",
+      "start": 0,
+      "end": 1.44,
+      "words": [
+        {
+          "text": "Welcome",
+          "start": 0,
+          "end": 0.28
+        },
+        {
+          "text": "back",
+          "start": 0.28,
+          "end": 0.64
+        },
+        {
+          "text": "to",
+          "start": 0.64,
+          "end": 0.82
+        },
+        {
+          "text": "the",
+          "start": 0.82,
+          "end": 0.96
+        },
+        {
+          "text": "studio,",
+          "start": 0.96,
+          "end": 1.44
+        }
+      ]
+    },
+    {
+      "text": "and thanks for joining this longer",
+      "start": 1.86,
+      "end": 3.52,
+      "words": [
+        {
+          "text": "and",
+          "start": 1.86,
+          "end": 2.02
+        },
+        {
+          "text": "thanks",
+          "start": 2.02,
+          "end": 2.3
+        },
+        {
+          "text": "for",
+          "start": 2.3,
+          "end": 2.54
+        },
+        {
+          "text": "joining",
+          "start": 2.54,
+          "end": 2.92
+        },
+        {
+          "text": "this",
+          "start": 2.92,
+          "end": 3.18
+        },
+        {
+          "text": "longer",
+          "start": 3.18,
+          "end": 3.52
+        }
+      ]
+    },
+    {
+      "text": "recording. Today we are testing how",
+      "start": 3.52,
+      "end": 5.96,
+      "words": [
+        {
+          "text": "recording.",
+          "start": 3.52,
+          "end": 4.12
+        },
+        {
+          "text": "Today",
+          "start": 4.6,
+          "end": 4.8
+        },
+        {
+          "text": "we",
+          "start": 4.8,
+          "end": 5.06
+        },
+        {
+          "text": "are",
+          "start": 5.06,
+          "end": 5.24
+        },
+        {
+          "text": "testing",
+          "start": 5.24,
+          "end": 5.66
+        },
+        {
+          "text": "how",
+          "start": 5.66,
+          "end": 5.96
+        }
+      ]
+    },
+    {
+      "text": "captions hold up across a full",
+      "start": 5.96,
+      "end": 7.86,
+      "words": [
+        {
+          "text": "captions",
+          "start": 5.96,
+          "end": 6.4
+        },
+        {
+          "text": "hold",
+          "start": 6.4,
+          "end": 6.8
+        },
+        {
+          "text": "up",
+          "start": 6.8,
+          "end": 7.06
+        },
+        {
+          "text": "across",
+          "start": 7.06,
+          "end": 7.36
+        },
+        {
+          "text": "a",
+          "start": 7.36,
+          "end": 7.64
+        },
+        {
+          "text": "full",
+          "start": 7.64,
+          "end": 7.86
+        }
+      ]
+    },
+    {
+      "text": "5 minute video.",
+      "start": 7.86,
+      "end": 9,
+      "words": [
+        {
+          "text": "5",
+          "start": 7.86,
+          "end": 8.18
+        },
+        {
+          "text": "minute",
+          "start": 8.18,
+          "end": 8.48
+        },
+        {
+          "text": "video.",
+          "start": 8.48,
+          "end": 9
+        }
+      ]
+    },
+    {
+      "text": "Each sentence is a little different,",
+      "start": 9.36,
+      "end": 11.08,
+      "words": [
+        {
+          "text": "Each",
+          "start": 9.36,
+          "end": 9.58
+        },
+        {
+          "text": "sentence",
+          "start": 9.58,
+          "end": 9.94
+        },
+        {
+          "text": "is",
+          "start": 9.94,
+          "end": 10.26
+        },
+        {
+          "text": "a",
+          "start": 10.26,
+          "end": 10.42
+        },
+        {
+          "text": "little",
+          "start": 10.42,
+          "end": 10.6
+        },
+        {
+          "text": "different,",
+          "start": 10.6,
+          "end": 11.08
+        }
+      ]
+    },
+    {
+      "text": "so merged windows can be checked",
+      "start": 11.46,
+      "end": 13.26,
+      "words": [
+        {
+          "text": "so",
+          "start": 11.46,
+          "end": 11.7
+        },
+        {
+          "text": "merged",
+          "start": 11.7,
+          "end": 12.02
+        },
+        {
+          "text": "windows",
+          "start": 12.02,
+          "end": 12.46
+        },
+        {
+          "text": "can",
+          "start": 12.46,
+          "end": 12.76
+        },
+        {
+          "text": "be",
+          "start": 12.76,
+          "end": 12.94
+        },
+        {
+          "text": "checked",
+          "start": 12.94,
+          "end": 13.26
+        }
+      ]
+    },
+    {
+      "text": "for dropped or repeated words.",
+      "start": 13.26,
+      "end": 14.98,
+      "words": [
+        {
+          "text": "for",
+          "start": 13.26,
+          "end": 13.46
+        },
+        {
+          "text": "dropped",
+          "start": 13.46,
+          "end": 13.82
+        },
+        {
+          "text": "or",
+          "start": 13.82,
+          "end": 14
+        },
+        {
+          "text": "repeated",
+          "start": 14,
+          "end": 14.4
+        },
+        {
+          "text": "words.",
+          "start": 14.4,
+          "end": 14.98
+        }
+      ]
+    },
+    {
+      "text": "Creators often record tutorials,",
+      "start": 15.34,
+      "end": 17.16,
+      "words": [
+        {
+          "text": "Creators",
+          "start": 15.34,
+          "end": 15.88
+        },
+        {
+          "text": "often",
+          "start": 15.88,
+          "end": 16.24
+        },
+        {
+          "text": "record",
+          "start": 16.24,
+          "end": 16.54
+        },
+        {
+          "text": "tutorials,",
+          "start": 16.6,
+          "end": 17.16
+        }
+      ]
+    },
+    {
+      "text": "vlogs, and product reviews that run",
+      "start": 17.84,
+      "end": 20.2,
+      "words": [
+        {
+          "text": "vlogs,",
+          "start": 17.84,
+          "end": 18.18
+        },
+        {
+          "text": "and",
+          "start": 18.66,
+          "end": 18.84
+        },
+        {
+          "text": "product",
+          "start": 18.84,
+          "end": 19.18
+        },
+        {
+          "text": "reviews",
+          "start": 19.18,
+          "end": 19.6
+        },
+        {
+          "text": "that",
+          "start": 19.6,
+          "end": 19.96
+        },
+        {
+          "text": "run",
+          "start": 19.96,
+          "end": 20.2
+        }
+      ]
+    },
+    {
+      "text": "well past one minute.",
+      "start": 20.2,
+      "end": 21.42,
+      "words": [
+        {
+          "text": "well",
+          "start": 20.2,
+          "end": 20.44
+        },
+        {
+          "text": "past",
+          "start": 20.44,
+          "end": 20.78
+        },
+        {
+          "text": "one",
+          "start": 20.78,
+          "end": 21.06
+        },
+        {
+          "text": "minute.",
+          "start": 21.06,
+          "end": 21.42
+        }
+      ]
+    },
+    {
+      "text": "Good captions make those videos easier",
+      "start": 21.78,
+      "end": 23.98,
+      "words": [
+        {
+          "text": "Good",
+          "start": 21.78,
+          "end": 21.94
+        },
+        {
+          "text": "captions",
+          "start": 21.94,
+          "end": 22.36
+        },
+        {
+          "text": "make",
+          "start": 22.36,
+          "end": 22.78
+        },
+        {
+          "text": "those",
+          "start": 22.78,
+          "end": 23.02
+        },
+        {
+          "text": "videos",
+          "start": 23.02,
+          "end": 23.46
+        },
+        {
+          "text": "easier",
+          "start": 23.46,
+          "end": 23.98
+        }
+      ]
+    },
+    {
+      "text": "to follow with the sound off.",
+      "start": 23.98,
+      "end": 25.68,
+      "words": [
+        {
+          "text": "to",
+          "start": 23.98,
+          "end": 24.24
+        },
+        {
+          "text": "follow",
+          "start": 24.24,
+          "end": 24.62
+        },
+        {
+          "text": "with",
+          "start": 24.62,
+          "end": 24.88
+        },
+        {
+          "text": "the",
+          "start": 24.88,
+          "end": 25.04
+        },
+        {
+          "text": "sound",
+          "start": 25.04,
+          "end": 25.34
+        },
+        {
+          "text": "off.",
+          "start": 25.34,
+          "end": 25.68
+        }
+      ]
+    },
+    {
+      "text": "They also help viewers who speak",
+      "start": 26.06,
+      "end": 27.84,
+      "words": [
+        {
+          "text": "They",
+          "start": 26.06,
+          "end": 26.18
+        },
+        {
+          "text": "also",
+          "start": 26.18,
+          "end": 26.5
+        },
+        {
+          "text": "help",
+          "start": 26.5,
+          "end": 26.86
+        },
+        {
+          "text": "viewers",
+          "start": 26.86,
+          "end": 27.26
+        },
+        {
+          "text": "who",
+          "start": 27.26,
+          "end": 27.52
+        },
+        {
+          "text": "speak",
+          "start": 27.52,
+          "end": 27.84
+        }
+      ]
+    },
+    {
+      "text": "a second language or watch in",
+      "start": 27.84,
+      "end": 29.58,
+      "words": [
+        {
+          "text": "a",
+          "start": 27.84,
+          "end": 28.02
+        },
+        {
+          "text": "second",
+          "start": 28.02,
+          "end": 28.34
+        },
+        {
+          "text": "language",
+          "start": 28.34,
+          "end": 28.84
+        },
+        {
+          "text": "or",
+          "start": 28.84,
+          "end": 29.12
+        },
+        {
+          "text": "watch",
+          "start": 29.12,
+          "end": 29.44
+        },
+        {
+          "text": "in",
+          "start": 29.44,
+          "end": 29.58
+        }
+      ]
+    },
+    {
+      "text": "a noisy place.",
+      "start": 29.58,
+      "end": 30.5,
+      "words": [
+        {
+          "text": "a",
+          "start": 29.58,
+          "end": 29.72
+        },
+        {
+          "text": "noisy",
+          "start": 29.72,
+          "end": 29.96
+        },
+        {
+          "text": "place.",
+          "start": 29.96,
+          "end": 30.5
+        }
+      ]
+    },
+    {
+      "text": "Let us talk about lighting,",
+      "start": 30.96,
+      "end": 32.26,
+      "words": [
+        {
+          "text": "Let",
+          "start": 30.96,
+          "end": 31.08
+        },
+        {
+          "text": "us",
+          "start": 31.08,
+          "end": 31.26
+        },
+        {
+          "text": "talk",
+          "start": 31.26,
+          "end": 31.54
+        },
+        {
+          "text": "about",
+          "start": 31.54,
+          "end": 31.84
+        },
+        {
+          "text": "lighting,",
+          "start": 31.84,
+          "end": 32.26
+        }
+      ]
+    },
+    {
+      "text": "framing, pacing, and the small details",
+      "start": 32.74,
+      "end": 35.36,
+      "words": [
+        {
+          "text": "framing,",
+          "start": 32.74,
+          "end": 33.06
+        },
+        {
+          "text": "pacing,",
+          "start": 33.52,
+          "end": 33.86
+        },
+        {
+          "text": "and",
+          "start": 34.32,
+          "end": 34.42
+        },
+        {
+          "text": "the",
+          "start": 34.42,
+          "end": 34.56
+        },
+        {
+          "text": "small",
+          "start": 34.56,
+          "end": 34.86
+        },
+        {
+          "text": "details",
+          "start": 34.86,
+          "end": 35.36
+        }
+      ]
+    },
+    {
+      "text": "that keep people watching.",
+      "start": 35.36,
+      "end": 36.88,
+      "words": [
+        {
+          "text": "that",
+          "start": 35.36,
+          "end": 35.72
+        },
+        {
+          "text": "keep",
+          "start": 35.72,
+          "end": 35.96
+        },
+        {
+          "text": "people",
+          "start": 35.96,
+          "end": 36.42
+        },
+        {
+          "text": "watching.",
+          "start": 36.42,
+          "end": 36.88
+        }
+      ]
+    },
+    {
+      "text": "A clean background and a steady",
+      "start": 37.3,
+      "end": 38.9,
+      "words": [
+        {
+          "text": "A",
+          "start": 37.3,
+          "end": 37.42
+        },
+        {
+          "text": "clean",
+          "start": 37.42,
+          "end": 37.7
+        },
+        {
+          "text": "background",
+          "start": 37.7,
+          "end": 38.24
+        },
+        {
+          "text": "and",
+          "start": 38.24,
+          "end": 38.48
+        },
+        {
+          "text": "a",
+          "start": 38.48,
+          "end": 38.66
+        },
+        {
+          "text": "steady",
+          "start": 38.66,
+          "end": 38.9
+        }
+      ]
+    },
+    {
+      "text": "camera go a long way toward",
+      "start": 38.9,
+      "end": 40.46,
+      "words": [
+        {
+          "text": "camera",
+          "start": 38.9,
+          "end": 39.34
+        },
+        {
+          "text": "go",
+          "start": 39.34,
+          "end": 39.64
+        },
+        {
+          "text": "a",
+          "start": 39.64,
+          "end": 39.82
+        },
+        {
+          "text": "long",
+          "start": 39.82,
+          "end": 39.98
+        },
+        {
+          "text": "way",
+          "start": 39.98,
+          "end": 40.22
+        },
+        {
+          "text": "toward",
+          "start": 40.22,
+          "end": 40.46
+        }
+      ]
+    },
+    {
+      "text": "a professional look.",
+      "start": 40.46,
+      "end": 41.68,
+      "words": [
+        {
+          "text": "a",
+          "start": 40.46,
+          "end": 40.7
+        },
+        {
+          "text": "professional",
+          "start": 40.7,
+          "end": 41.2
+        },
+        {
+          "text": "look.",
+          "start": 41.2,
+          "end": 41.68
+        }
+      ]
+    },
+    {
+      "text": "Short pauses between ideas give the",
+      "start": 42.16,
+      "end": 44.26,
+      "words": [
+        {
+          "text": "Short",
+          "start": 42.16,
+          "end": 42.36
+        },
+        {
+          "text": "pauses",
+          "start": 42.36,
+          "end": 42.8
+        },
+        {
+          "text": "between",
+          "start": 42.8,
+          "end": 43.22
+        },
+        {
+          "text": "ideas",
+          "start": 43.22,
+          "end": 43.8
+        },
+        {
+          "text": "give",
+          "start": 43.8,
+          "end": 44.04
+        },
+        {
+          "text": "the",
+          "start": 44.04,
+          "end": 44.26
+        }
+      ]
+    },
+    {
+      "text": "audience a moment to breathe.",
+      "start": 44.26,
+      "end": 45.74,
+      "words": [
+        {
+          "text": "audience",
+          "start": 44.26,
+          "end": 44.68
+        },
+        {
+          "text": "a",
+          "start": 44.68,
+          "end": 44.88
+        },
+        {
+          "text": "moment",
+          "start": 44.88,
+          "end": 45.16
+        },
+        {
+          "text": "to",
+          "start": 45.16,
+          "end": 45.42
+        },
+        {
+          "text": "breathe.",
+          "start": 45.42,
+          "end": 45.74
+        }
+      ]
+    },
+    {
+      "text": "Now we will count a few",
+      "start": 46.14,
+      "end": 47.3,
+      "words": [
+        {
+          "text": "Now",
+          "start": 46.14,
+          "end": 46.32
+        },
+        {
+          "text": "we",
+          "start": 46.32,
+          "end": 46.52
+        },
+        {
+          "text": "will",
+          "start": 46.52,
+          "end": 46.66
+        },
+        {
+          "text": "count",
+          "start": 46.66,
+          "end": 46.98
+        },
+        {
+          "text": "a",
+          "start": 46.98,
+          "end": 47.14
+        },
+        {
+          "text": "few",
+          "start": 47.14,
+          "end": 47.3
+        }
+      ]
+    },
+    {
+      "text": "numbers for timing checks.",
+      "start": 47.3,
+      "end": 48.74,
+      "words": [
+        {
+          "text": "numbers",
+          "start": 47.3,
+          "end": 47.66
+        },
+        {
+          "text": "for",
+          "start": 47.66,
+          "end": 47.92
+        },
+        {
+          "text": "timing",
+          "start": 47.92,
+          "end": 48.3
+        },
+        {
+          "text": "checks.",
+          "start": 48.3,
+          "end": 48.74
+        }
+      ]
+    },
+    {
+      "text": "1, 2, 3, 4, 5,",
+      "start": 49.24,
+      "end": 52.26,
+      "words": [
+        {
+          "text": "1,",
+          "start": 49.24,
+          "end": 49.52
+        },
+        {
+          "text": "2,",
+          "start": 49.9,
+          "end": 50.22
+        },
+        {
+          "text": "3,",
+          "start": 50.52,
+          "end": 50.88
+        },
+        {
+          "text": "4,",
+          "start": 51.22,
+          "end": 51.56
+        },
+        {
+          "text": "5,",
+          "start": 51.88,
+          "end": 52.26
+        }
+      ]
+    },
+    {
+      "text": "6, 7. Remember to review every",
+      "start": 52.58,
+      "end": 55.42,
+      "words": [
+        {
+          "text": "6,",
+          "start": 52.58,
+          "end": 52.98
+        },
+        {
+          "text": "7.",
+          "start": 53.36,
+          "end": 53.76
+        },
+        {
+          "text": "Remember",
+          "start": 54.14,
+          "end": 54.42
+        },
+        {
+          "text": "to",
+          "start": 54.42,
+          "end": 54.76
+        },
+        {
+          "text": "review",
+          "start": 54.76,
+          "end": 55.12
+        },
+        {
+          "text": "every",
+          "start": 55.12,
+          "end": 55.42
+        }
+      ]
+    },
+    {
+      "text": "caption before you publish, because automatic",
+      "start": 55.42,
+      "end": 58.14,
+      "words": [
+        {
+          "text": "caption",
+          "start": 55.42,
+          "end": 55.86
+        },
+        {
+          "text": "before",
+          "start": 55.86,
+          "end": 56.26
+        },
+        {
+          "text": "you",
+          "start": 56.26,
+          "end": 56.58
+        },
+        {
+          "text": "publish,",
+          "start": 56.58,
+          "end": 57
+        },
+        {
+          "text": "because",
+          "start": 57.44,
+          "end": 57.74
+        },
+        {
+          "text": "automatic",
+          "start": 57.74,
+          "end": 58.14
+        }
+      ]
+    },
+    {
+      "text": "text can still make mistakes.",
+      "start": 58.14,
+      "end": 60.18,
+      "words": [
+        {
+          "text": "text",
+          "start": 58.14,
+          "end": 58.78
+        },
+        {
+          "text": "can",
+          "start": 58.78,
+          "end": 59.06
+        },
+        {
+          "text": "still",
+          "start": 59.06,
+          "end": 59.36
+        },
+        {
+          "text": "make",
+          "start": 59.36,
+          "end": 59.64
+        },
+        {
+          "text": "mistakes.",
+          "start": 59.66,
+          "end": 60.18
+        }
+      ]
+    },
+    {
+      "text": "That is the end of this",
+      "start": 60.74,
+      "end": 61.76,
+      "words": [
+        {
+          "text": "That",
+          "start": 60.74,
+          "end": 60.92
+        },
+        {
+          "text": "is",
+          "start": 60.92,
+          "end": 61.08
+        },
+        {
+          "text": "the",
+          "start": 61.08,
+          "end": 61.24
+        },
+        {
+          "text": "end",
+          "start": 61.24,
+          "end": 61.46
+        },
+        {
+          "text": "of",
+          "start": 61.46,
+          "end": 61.6
+        },
+        {
+          "text": "this",
+          "start": 61.6,
+          "end": 61.76
+        }
+      ]
+    },
+    {
+      "text": "section. So let us move on",
+      "start": 61.76,
+      "end": 63.64,
+      "words": [
+        {
+          "text": "section.",
+          "start": 61.76,
+          "end": 62.22
+        },
+        {
+          "text": "So",
+          "start": 62.58,
+          "end": 62.82
+        },
+        {
+          "text": "let",
+          "start": 62.82,
+          "end": 63
+        },
+        {
+          "text": "us",
+          "start": 63,
+          "end": 63.2
+        },
+        {
+          "text": "move",
+          "start": 63.2,
+          "end": 63.42
+        },
+        {
+          "text": "on",
+          "start": 63.42,
+          "end": 63.64
+        }
+      ]
+    },
+    {
+      "text": "to the next idea.",
+      "start": 63.64,
+      "end": 64.66,
+      "words": [
+        {
+          "text": "to",
+          "start": 63.64,
+          "end": 63.8
+        },
+        {
+          "text": "the",
+          "start": 63.8,
+          "end": 63.92
+        },
+        {
+          "text": "next",
+          "start": 63.92,
+          "end": 64.18
+        },
+        {
+          "text": "idea.",
+          "start": 64.18,
+          "end": 64.66
+        }
+      ]
+    },
+    {
+      "text": "Welcome back to the studio,",
+      "start": 65.1,
+      "end": 66.54,
+      "words": [
+        {
+          "text": "Welcome",
+          "start": 65.1,
+          "end": 65.38
+        },
+        {
+          "text": "back",
+          "start": 65.38,
+          "end": 65.74
+        },
+        {
+          "text": "to",
+          "start": 65.74,
+          "end": 65.92
+        },
+        {
+          "text": "the",
+          "start": 65.92,
+          "end": 66.06
+        },
+        {
+          "text": "studio,",
+          "start": 66.06,
+          "end": 66.54
+        }
+      ]
+    },
+    {
+      "text": "and thanks for joining this longer",
+      "start": 66.94,
+      "end": 68.62,
+      "words": [
+        {
+          "text": "and",
+          "start": 66.94,
+          "end": 67.1
+        },
+        {
+          "text": "thanks",
+          "start": 67.1,
+          "end": 67.4
+        },
+        {
+          "text": "for",
+          "start": 67.4,
+          "end": 67.62
+        },
+        {
+          "text": "joining",
+          "start": 67.62,
+          "end": 68
+        },
+        {
+          "text": "this",
+          "start": 68,
+          "end": 68.28
+        },
+        {
+          "text": "longer",
+          "start": 68.28,
+          "end": 68.62
+        }
+      ]
+    },
+    {
+      "text": "recording. Today we are testing how",
+      "start": 68.62,
+      "end": 71.06,
+      "words": [
+        {
+          "text": "recording.",
+          "start": 68.62,
+          "end": 69.22
+        },
+        {
+          "text": "Today",
+          "start": 69.7,
+          "end": 69.9
+        },
+        {
+          "text": "we",
+          "start": 69.9,
+          "end": 70.14
+        },
+        {
+          "text": "are",
+          "start": 70.14,
+          "end": 70.32
+        },
+        {
+          "text": "testing",
+          "start": 70.32,
+          "end": 70.74
+        },
+        {
+          "text": "how",
+          "start": 70.74,
+          "end": 71.06
+        }
+      ]
+    },
+    {
+      "text": "captions hold up across a full",
+      "start": 71.06,
+      "end": 72.96,
+      "words": [
+        {
+          "text": "captions",
+          "start": 71.06,
+          "end": 71.5
+        },
+        {
+          "text": "hold",
+          "start": 71.5,
+          "end": 71.9
+        },
+        {
+          "text": "up",
+          "start": 71.9,
+          "end": 72.14
+        },
+        {
+          "text": "across",
+          "start": 72.14,
+          "end": 72.46
+        },
+        {
+          "text": "a",
+          "start": 72.46,
+          "end": 72.74
+        },
+        {
+          "text": "full",
+          "start": 72.74,
+          "end": 72.96
+        }
+      ]
+    },
+    {
+      "text": "5 minute video.",
+      "start": 72.96,
+      "end": 74.08,
+      "words": [
+        {
+          "text": "5",
+          "start": 72.96,
+          "end": 73.3
+        },
+        {
+          "text": "minute",
+          "start": 73.3,
+          "end": 73.58
+        },
+        {
+          "text": "video.",
+          "start": 73.58,
+          "end": 74.08
+        }
+      ]
+    },
+    {
+      "text": "Each sentence is a little different,",
+      "start": 74.46,
+      "end": 76.18,
+      "words": [
+        {
+          "text": "Each",
+          "start": 74.46,
+          "end": 74.66
+        },
+        {
+          "text": "sentence",
+          "start": 74.66,
+          "end": 75.02
+        },
+        {
+          "text": "is",
+          "start": 75.02,
+          "end": 75.36
+        },
+        {
+          "text": "a",
+          "start": 75.36,
+          "end": 75.52
+        },
+        {
+          "text": "little",
+          "start": 75.52,
+          "end": 75.7
+        },
+        {
+          "text": "different,",
+          "start": 75.7,
+          "end": 76.18
+        }
+      ]
+    },
+    {
+      "text": "so merged windows can be checked",
+      "start": 76.56,
+      "end": 78.34,
+      "words": [
+        {
+          "text": "so",
+          "start": 76.56,
+          "end": 76.8
+        },
+        {
+          "text": "merged",
+          "start": 76.8,
+          "end": 77.1
+        },
+        {
+          "text": "windows",
+          "start": 77.1,
+          "end": 77.54
+        },
+        {
+          "text": "can",
+          "start": 77.54,
+          "end": 77.86
+        },
+        {
+          "text": "be",
+          "start": 77.86,
+          "end": 78.02
+        },
+        {
+          "text": "checked",
+          "start": 78.02,
+          "end": 78.34
+        }
+      ]
+    },
+    {
+      "text": "for dropped or repeated words.",
+      "start": 78.34,
+      "end": 80.08,
+      "words": [
+        {
+          "text": "for",
+          "start": 78.34,
+          "end": 78.56
+        },
+        {
+          "text": "dropped",
+          "start": 78.56,
+          "end": 78.9
+        },
+        {
+          "text": "or",
+          "start": 78.9,
+          "end": 79.08
+        },
+        {
+          "text": "repeated",
+          "start": 79.08,
+          "end": 79.52
+        },
+        {
+          "text": "words.",
+          "start": 79.52,
+          "end": 80.08
+        }
+      ]
+    },
+    {
+      "text": "Creators often record tutorials,",
+      "start": 80.44,
+      "end": 82.24,
+      "words": [
+        {
+          "text": "Creators",
+          "start": 80.44,
+          "end": 80.96
+        },
+        {
+          "text": "often",
+          "start": 80.96,
+          "end": 81.34
+        },
+        {
+          "text": "record",
+          "start": 81.34,
+          "end": 81.68
+        },
+        {
+          "text": "tutorials,",
+          "start": 81.68,
+          "end": 82.24
+        }
+      ]
+    },
+    {
+      "text": "vlogs, and product reviews that run",
+      "start": 82.94,
+      "end": 85.28,
+      "words": [
+        {
+          "text": "vlogs,",
+          "start": 82.94,
+          "end": 83.32
+        },
+        {
+          "text": "and",
+          "start": 83.76,
+          "end": 83.92
+        },
+        {
+          "text": "product",
+          "start": 83.92,
+          "end": 84.28
+        },
+        {
+          "text": "reviews",
+          "start": 84.28,
+          "end": 84.68
+        },
+        {
+          "text": "that",
+          "start": 84.68,
+          "end": 85.04
+        },
+        {
+          "text": "run",
+          "start": 85.04,
+          "end": 85.28
+        }
+      ]
+    },
+    {
+      "text": "well past 1 minute.",
+      "start": 85.28,
+      "end": 86.5,
+      "words": [
+        {
+          "text": "well",
+          "start": 85.28,
+          "end": 85.52
+        },
+        {
+          "text": "past",
+          "start": 85.52,
+          "end": 85.86
+        },
+        {
+          "text": "1",
+          "start": 85.86,
+          "end": 86.16
+        },
+        {
+          "text": "minute.",
+          "start": 86.16,
+          "end": 86.5
+        }
+      ]
+    },
+    {
+      "text": "Good captions make those videos easier",
+      "start": 86.88,
+      "end": 89.1,
+      "words": [
+        {
+          "text": "Good",
+          "start": 86.88,
+          "end": 87.04
+        },
+        {
+          "text": "captions",
+          "start": 87.04,
+          "end": 87.46
+        },
+        {
+          "text": "make",
+          "start": 87.46,
+          "end": 87.86
+        },
+        {
+          "text": "those",
+          "start": 87.86,
+          "end": 88.1
+        },
+        {
+          "text": "videos",
+          "start": 88.1,
+          "end": 88.52
+        },
+        {
+          "text": "easier",
+          "start": 88.52,
+          "end": 89.1
+        }
+      ]
+    },
+    {
+      "text": "to follow with the sound off.",
+      "start": 89.1,
+      "end": 90.78,
+      "words": [
+        {
+          "text": "to",
+          "start": 89.1,
+          "end": 89.34
+        },
+        {
+          "text": "follow",
+          "start": 89.34,
+          "end": 89.7
+        },
+        {
+          "text": "with",
+          "start": 89.7,
+          "end": 89.96
+        },
+        {
+          "text": "the",
+          "start": 89.96,
+          "end": 90.14
+        },
+        {
+          "text": "sound",
+          "start": 90.14,
+          "end": 90.44
+        },
+        {
+          "text": "off.",
+          "start": 90.44,
+          "end": 90.78
+        }
+      ]
+    },
+    {
+      "text": "They also help viewers who speak",
+      "start": 91.14,
+      "end": 92.9,
+      "words": [
+        {
+          "text": "They",
+          "start": 91.14,
+          "end": 91.26
+        },
+        {
+          "text": "also",
+          "start": 91.26,
+          "end": 91.6
+        },
+        {
+          "text": "help",
+          "start": 91.6,
+          "end": 91.96
+        },
+        {
+          "text": "viewers",
+          "start": 91.96,
+          "end": 92.32
+        },
+        {
+          "text": "who",
+          "start": 92.32,
+          "end": 92.62
+        },
+        {
+          "text": "speak",
+          "start": 92.62,
+          "end": 92.9
+        }
+      ]
+    },
+    {
+      "text": "a second language or watch in",
+      "start": 92.9,
+      "end": 94.68,
+      "words": [
+        {
+          "text": "a",
+          "start": 92.9,
+          "end": 93.14
+        },
+        {
+          "text": "second",
+          "start": 93.14,
+          "end": 93.44
+        },
+        {
+          "text": "language",
+          "start": 93.44,
+          "end": 93.96
+        },
+        {
+          "text": "or",
+          "start": 93.96,
+          "end": 94.2
+        },
+        {
+          "text": "watch",
+          "start": 94.2,
+          "end": 94.52
+        },
+        {
+          "text": "in",
+          "start": 94.52,
+          "end": 94.68
+        }
+      ]
+    },
+    {
+      "text": "a noisy place.",
+      "start": 94.68,
+      "end": 95.58,
+      "words": [
+        {
+          "text": "a",
+          "start": 94.68,
+          "end": 94.82
+        },
+        {
+          "text": "noisy",
+          "start": 94.82,
+          "end": 95.08
+        },
+        {
+          "text": "place.",
+          "start": 95.08,
+          "end": 95.58
+        }
+      ]
+    },
+    {
+      "text": "Let us talk about lighting,",
+      "start": 96.02,
+      "end": 97.38,
+      "words": [
+        {
+          "text": "Let",
+          "start": 96.02,
+          "end": 96.16
+        },
+        {
+          "text": "us",
+          "start": 96.16,
+          "end": 96.36
+        },
+        {
+          "text": "talk",
+          "start": 96.36,
+          "end": 96.64
+        },
+        {
+          "text": "about",
+          "start": 96.64,
+          "end": 96.92
+        },
+        {
+          "text": "lighting,",
+          "start": 96.92,
+          "end": 97.38
+        }
+      ]
+    },
+    {
+      "text": "framing, pacing, and the small details",
+      "start": 97.8,
+      "end": 100.46,
+      "words": [
+        {
+          "text": "framing,",
+          "start": 97.8,
+          "end": 98.18
+        },
+        {
+          "text": "pacing,",
+          "start": 98.6,
+          "end": 98.96
+        },
+        {
+          "text": "and",
+          "start": 99.38,
+          "end": 99.5
+        },
+        {
+          "text": "the",
+          "start": 99.5,
+          "end": 99.66
+        },
+        {
+          "text": "small",
+          "start": 99.66,
+          "end": 99.96
+        },
+        {
+          "text": "details",
+          "start": 99.96,
+          "end": 100.46
+        }
+      ]
+    },
+    {
+      "text": "that keep people watching.",
+      "start": 100.46,
+      "end": 101.96,
+      "words": [
+        {
+          "text": "that",
+          "start": 100.46,
+          "end": 100.82
+        },
+        {
+          "text": "keep",
+          "start": 100.82,
+          "end": 101.06
+        },
+        {
+          "text": "people",
+          "start": 101.06,
+          "end": 101.52
+        },
+        {
+          "text": "watching.",
+          "start": 101.52,
+          "end": 101.96
+        }
+      ]
+    },
+    {
+      "text": "A clean background and a steady",
+      "start": 102.38,
+      "end": 103.98,
+      "words": [
+        {
+          "text": "A",
+          "start": 102.38,
+          "end": 102.5
+        },
+        {
+          "text": "clean",
+          "start": 102.5,
+          "end": 102.82
+        },
+        {
+          "text": "background",
+          "start": 102.82,
+          "end": 103.34
+        },
+        {
+          "text": "and",
+          "start": 103.34,
+          "end": 103.6
+        },
+        {
+          "text": "a",
+          "start": 103.6,
+          "end": 103.76
+        },
+        {
+          "text": "steady",
+          "start": 103.76,
+          "end": 103.98
+        }
+      ]
+    },
+    {
+      "text": "camera go a long way toward",
+      "start": 103.98,
+      "end": 105.56,
+      "words": [
+        {
+          "text": "camera",
+          "start": 103.98,
+          "end": 104.44
+        },
+        {
+          "text": "go",
+          "start": 104.44,
+          "end": 104.72
+        },
+        {
+          "text": "a",
+          "start": 104.72,
+          "end": 104.9
+        },
+        {
+          "text": "long",
+          "start": 104.9,
+          "end": 105.06
+        },
+        {
+          "text": "way",
+          "start": 105.06,
+          "end": 105.3
+        },
+        {
+          "text": "toward",
+          "start": 105.3,
+          "end": 105.56
+        }
+      ]
+    },
+    {
+      "text": "a professional look.",
+      "start": 105.56,
+      "end": 106.76,
+      "words": [
+        {
+          "text": "a",
+          "start": 105.56,
+          "end": 105.76
+        },
+        {
+          "text": "professional",
+          "start": 105.76,
+          "end": 106.28
+        },
+        {
+          "text": "look.",
+          "start": 106.28,
+          "end": 106.76
+        }
+      ]
+    },
+    {
+      "text": "Short pauses between ideas give the",
+      "start": 107.2,
+      "end": 109.34,
+      "words": [
+        {
+          "text": "Short",
+          "start": 107.2,
+          "end": 107.46
+        },
+        {
+          "text": "pauses",
+          "start": 107.46,
+          "end": 107.88
+        },
+        {
+          "text": "between",
+          "start": 107.88,
+          "end": 108.3
+        },
+        {
+          "text": "ideas",
+          "start": 108.3,
+          "end": 108.88
+        },
+        {
+          "text": "give",
+          "start": 108.88,
+          "end": 109.14
+        },
+        {
+          "text": "the",
+          "start": 109.14,
+          "end": 109.34
+        }
+      ]
+    },
+    {
+      "text": "audience a moment to breathe.",
+      "start": 109.34,
+      "end": 110.82,
+      "words": [
+        {
+          "text": "audience",
+          "start": 109.34,
+          "end": 109.76
+        },
+        {
+          "text": "a",
+          "start": 109.76,
+          "end": 109.98
+        },
+        {
+          "text": "moment",
+          "start": 109.98,
+          "end": 110.26
+        },
+        {
+          "text": "to",
+          "start": 110.26,
+          "end": 110.5
+        },
+        {
+          "text": "breathe.",
+          "start": 110.5,
+          "end": 110.82
+        }
+      ]
+    },
+    {
+      "text": "Now we will count a few",
+      "start": 111.22,
+      "end": 112.4,
+      "words": [
+        {
+          "text": "Now",
+          "start": 111.22,
+          "end": 111.42
+        },
+        {
+          "text": "we",
+          "start": 111.42,
+          "end": 111.62
+        },
+        {
+          "text": "will",
+          "start": 111.62,
+          "end": 111.76
+        },
+        {
+          "text": "count",
+          "start": 111.76,
+          "end": 112.08
+        },
+        {
+          "text": "a",
+          "start": 112.08,
+          "end": 112.24
+        },
+        {
+          "text": "few",
+          "start": 112.24,
+          "end": 112.4
+        }
+      ]
+    },
+    {
+      "text": "numbers for timing checks.",
+      "start": 112.4,
+      "end": 113.82,
+      "words": [
+        {
+          "text": "numbers",
+          "start": 112.4,
+          "end": 112.74
+        },
+        {
+          "text": "for",
+          "start": 112.74,
+          "end": 113
+        },
+        {
+          "text": "timing",
+          "start": 113,
+          "end": 113.4
+        },
+        {
+          "text": "checks.",
+          "start": 113.4,
+          "end": 113.82
+        }
+      ]
+    },
+    {
+      "text": "1, 2, 3, 4, 5,",
+      "start": 114.3,
+      "end": 117.32,
+      "words": [
+        {
+          "text": "1,",
+          "start": 114.3,
+          "end": 114.64
+        },
+        {
+          "text": "2,",
+          "start": 114.98,
+          "end": 115.3
+        },
+        {
+          "text": "3,",
+          "start": 115.6,
+          "end": 115.98
+        },
+        {
+          "text": "4,",
+          "start": 116.28,
+          "end": 116.64
+        },
+        {
+          "text": "5,",
+          "start": 116.98,
+          "end": 117.32
+        }
+      ]
+    },
+    {
+      "text": "6, 7. Remember to review every",
+      "start": 117.68,
+      "end": 120.5,
+      "words": [
+        {
+          "text": "6,",
+          "start": 117.68,
+          "end": 118.06
+        },
+        {
+          "text": "7.",
+          "start": 118.44,
+          "end": 118.86
+        },
+        {
+          "text": "Remember",
+          "start": 119.2,
+          "end": 119.5
+        },
+        {
+          "text": "to",
+          "start": 119.5,
+          "end": 119.86
+        },
+        {
+          "text": "review",
+          "start": 119.86,
+          "end": 120.2
+        },
+        {
+          "text": "every",
+          "start": 120.2,
+          "end": 120.5
+        }
+      ]
+    },
+    {
+      "text": "caption before you publish, because automatic",
+      "start": 120.5,
+      "end": 123.22,
+      "words": [
+        {
+          "text": "caption",
+          "start": 120.5,
+          "end": 120.96
+        },
+        {
+          "text": "before",
+          "start": 120.96,
+          "end": 121.32
+        },
+        {
+          "text": "you",
+          "start": 121.32,
+          "end": 121.68
+        },
+        {
+          "text": "publish,",
+          "start": 121.68,
+          "end": 122.08
+        },
+        {
+          "text": "because",
+          "start": 122.54,
+          "end": 122.82
+        },
+        {
+          "text": "automatic",
+          "start": 122.82,
+          "end": 123.22
+        }
+      ]
+    },
+    {
+      "text": "text can still make mistakes.",
+      "start": 123.22,
+      "end": 125.3,
+      "words": [
+        {
+          "text": "text",
+          "start": 123.22,
+          "end": 123.86
+        },
+        {
+          "text": "can",
+          "start": 123.86,
+          "end": 124.14
+        },
+        {
+          "text": "still",
+          "start": 124.14,
+          "end": 124.46
+        },
+        {
+          "text": "make",
+          "start": 124.46,
+          "end": 124.74
+        },
+        {
+          "text": "mistakes.",
+          "start": 124.74,
+          "end": 125.3
+        }
+      ]
+    },
+    {
+      "text": "That is the end of this",
+      "start": 125.84,
+      "end": 126.86,
+      "words": [
+        {
+          "text": "That",
+          "start": 125.84,
+          "end": 126
+        },
+        {
+          "text": "is",
+          "start": 126,
+          "end": 126.16
+        },
+        {
+          "text": "the",
+          "start": 126.16,
+          "end": 126.32
+        },
+        {
+          "text": "end",
+          "start": 126.32,
+          "end": 126.56
+        },
+        {
+          "text": "of",
+          "start": 126.56,
+          "end": 126.68
+        },
+        {
+          "text": "this",
+          "start": 126.68,
+          "end": 126.86
+        }
+      ]
+    },
+    {
+      "text": "section. So let us move on",
+      "start": 126.86,
+      "end": 128.76,
+      "words": [
+        {
+          "text": "section.",
+          "start": 126.86,
+          "end": 127.3
+        },
+        {
+          "text": "So",
+          "start": 127.68,
+          "end": 127.92
+        },
+        {
+          "text": "let",
+          "start": 127.92,
+          "end": 128.08
+        },
+        {
+          "text": "us",
+          "start": 128.08,
+          "end": 128.28
+        },
+        {
+          "text": "move",
+          "start": 128.28,
+          "end": 128.5
+        },
+        {
+          "text": "on",
+          "start": 128.5,
+          "end": 128.76
+        }
+      ]
+    },
+    {
+      "text": "to the next idea.",
+      "start": 128.76,
+      "end": 129.74,
+      "words": [
+        {
+          "text": "to",
+          "start": 128.76,
+          "end": 128.9
+        },
+        {
+          "text": "the",
+          "start": 128.9,
+          "end": 129.02
+        },
+        {
+          "text": "next",
+          "start": 129.02,
+          "end": 129.28
+        },
+        {
+          "text": "idea.",
+          "start": 129.28,
+          "end": 129.74
+        }
+      ]
+    },
+    {
+      "text": "Welcome back to the studio.",
+      "start": 130.2,
+      "end": 131.64,
+      "words": [
+        {
+          "text": "Welcome",
+          "start": 130.2,
+          "end": 130.46
+        },
+        {
+          "text": "back",
+          "start": 130.46,
+          "end": 130.82
+        },
+        {
+          "text": "to",
+          "start": 130.82,
+          "end": 131.02
+        },
+        {
+          "text": "the",
+          "start": 131.02,
+          "end": 131.16
+        },
+        {
+          "text": "studio.",
+          "start": 131.16,
+          "end": 131.64
+        }
+      ]
+    },
+    {
+      "text": "And thanks for joining this longer",
+      "start": 132.04,
+      "end": 133.7,
+      "words": [
+        {
+          "text": "And",
+          "start": 132.04,
+          "end": 132.2
+        },
+        {
+          "text": "thanks",
+          "start": 132.2,
+          "end": 132.48
+        },
+        {
+          "text": "for",
+          "start": 132.48,
+          "end": 132.72
+        },
+        {
+          "text": "joining",
+          "start": 132.72,
+          "end": 133.1
+        },
+        {
+          "text": "this",
+          "start": 133.1,
+          "end": 133.36
+        },
+        {
+          "text": "longer",
+          "start": 133.36,
+          "end": 133.7
+        }
+      ]
+    },
+    {
+      "text": "recording. Today we are testing how",
+      "start": 133.7,
+      "end": 136.14,
+      "words": [
+        {
+          "text": "recording.",
+          "start": 133.7,
+          "end": 134.3
+        },
+        {
+          "text": "Today",
+          "start": 134.8,
+          "end": 134.98
+        },
+        {
+          "text": "we",
+          "start": 134.98,
+          "end": 135.26
+        },
+        {
+          "text": "are",
+          "start": 135.26,
+          "end": 135.42
+        },
+        {
+          "text": "testing",
+          "start": 135.42,
+          "end": 135.84
+        },
+        {
+          "text": "how",
+          "start": 135.84,
+          "end": 136.14
+        }
+      ]
+    },
+    {
+      "text": "captions hold up across a full",
+      "start": 136.14,
+      "end": 138.04,
+      "words": [
+        {
+          "text": "captions",
+          "start": 136.14,
+          "end": 136.58
+        },
+        {
+          "text": "hold",
+          "start": 136.58,
+          "end": 137
+        },
+        {
+          "text": "up",
+          "start": 137,
+          "end": 137.24
+        },
+        {
+          "text": "across",
+          "start": 137.24,
+          "end": 137.56
+        },
+        {
+          "text": "a",
+          "start": 137.56,
+          "end": 137.84
+        },
+        {
+          "text": "full",
+          "start": 137.84,
+          "end": 138.04
+        }
+      ]
+    },
+    {
+      "text": "5 minute video.",
+      "start": 138.04,
+      "end": 139.14,
+      "words": [
+        {
+          "text": "5",
+          "start": 138.04,
+          "end": 138.38
+        },
+        {
+          "text": "minute",
+          "start": 138.38,
+          "end": 138.68
+        },
+        {
+          "text": "video.",
+          "start": 138.68,
+          "end": 139.14
+        }
+      ]
+    },
+    {
+      "text": "Each sentence is a little different.",
+      "start": 139.56,
+      "end": 141.26,
+      "words": [
+        {
+          "text": "Each",
+          "start": 139.56,
+          "end": 139.76
+        },
+        {
+          "text": "sentence",
+          "start": 139.76,
+          "end": 140.12
+        },
+        {
+          "text": "is",
+          "start": 140.12,
+          "end": 140.44
+        },
+        {
+          "text": "a",
+          "start": 140.44,
+          "end": 140.6
+        },
+        {
+          "text": "little",
+          "start": 140.6,
+          "end": 140.78
+        },
+        {
+          "text": "different.",
+          "start": 140.78,
+          "end": 141.26
+        }
+      ]
+    },
+    {
+      "text": "So merged windows can be checked",
+      "start": 141.62,
+      "end": 143.42,
+      "words": [
+        {
+          "text": "So",
+          "start": 141.62,
+          "end": 141.88
+        },
+        {
+          "text": "merged",
+          "start": 141.88,
+          "end": 142.2
+        },
+        {
+          "text": "windows",
+          "start": 142.22,
+          "end": 142.64
+        },
+        {
+          "text": "can",
+          "start": 142.64,
+          "end": 142.96
+        },
+        {
+          "text": "be",
+          "start": 142.96,
+          "end": 143.12
+        },
+        {
+          "text": "checked",
+          "start": 143.12,
+          "end": 143.42
+        }
+      ]
+    },
+    {
+      "text": "for dropped or repeated words.",
+      "start": 143.42,
+      "end": 145.18,
+      "words": [
+        {
+          "text": "for",
+          "start": 143.42,
+          "end": 143.66
+        },
+        {
+          "text": "dropped",
+          "start": 143.66,
+          "end": 144
+        },
+        {
+          "text": "or",
+          "start": 144,
+          "end": 144.18
+        },
+        {
+          "text": "repeated",
+          "start": 144.18,
+          "end": 144.6
+        },
+        {
+          "text": "words.",
+          "start": 144.6,
+          "end": 145.18
+        }
+      ]
+    },
+    {
+      "text": "Creators often record tutorials,",
+      "start": 145.52,
+      "end": 147.34,
+      "words": [
+        {
+          "text": "Creators",
+          "start": 145.52,
+          "end": 146.06
+        },
+        {
+          "text": "often",
+          "start": 146.06,
+          "end": 146.44
+        },
+        {
+          "text": "record",
+          "start": 146.44,
+          "end": 146.74
+        },
+        {
+          "text": "tutorials,",
+          "start": 146.74,
+          "end": 147.34
+        }
+      ]
+    },
+    {
+      "text": "blogs, and product reviews that run",
+      "start": 148.04,
+      "end": 150.38,
+      "words": [
+        {
+          "text": "blogs,",
+          "start": 148.04,
+          "end": 148.34
+        },
+        {
+          "text": "and",
+          "start": 148.86,
+          "end": 149.02
+        },
+        {
+          "text": "product",
+          "start": 149.02,
+          "end": 149.36
+        },
+        {
+          "text": "reviews",
+          "start": 149.36,
+          "end": 149.8
+        },
+        {
+          "text": "that",
+          "start": 149.8,
+          "end": 150.14
+        },
+        {
+          "text": "run",
+          "start": 150.14,
+          "end": 150.38
+        }
+      ]
+    },
+    {
+      "text": "well past one minute.",
+      "start": 150.38,
+      "end": 151.6,
+      "words": [
+        {
+          "text": "well",
+          "start": 150.38,
+          "end": 150.64
+        },
+        {
+          "text": "past",
+          "start": 150.64,
+          "end": 150.96
+        },
+        {
+          "text": "one",
+          "start": 150.96,
+          "end": 151.24
+        },
+        {
+          "text": "minute.",
+          "start": 151.24,
+          "end": 151.6
+        }
+      ]
+    },
+    {
+      "text": "Good captions make those videos easier",
+      "start": 151.96,
+      "end": 154.16,
+      "words": [
+        {
+          "text": "Good",
+          "start": 151.96,
+          "end": 152.12
+        },
+        {
+          "text": "captions",
+          "start": 152.12,
+          "end": 152.54
+        },
+        {
+          "text": "make",
+          "start": 152.54,
+          "end": 152.98
+        },
+        {
+          "text": "those",
+          "start": 152.98,
+          "end": 153.2
+        },
+        {
+          "text": "videos",
+          "start": 153.2,
+          "end": 153.62
+        },
+        {
+          "text": "easier",
+          "start": 153.62,
+          "end": 154.16
+        }
+      ]
+    },
+    {
+      "text": "to follow with the sound off.",
+      "start": 154.16,
+      "end": 155.88,
+      "words": [
+        {
+          "text": "to",
+          "start": 154.16,
+          "end": 154.44
+        },
+        {
+          "text": "follow",
+          "start": 154.44,
+          "end": 154.8
+        },
+        {
+          "text": "with",
+          "start": 154.8,
+          "end": 155.06
+        },
+        {
+          "text": "the",
+          "start": 155.06,
+          "end": 155.24
+        },
+        {
+          "text": "sound",
+          "start": 155.24,
+          "end": 155.54
+        },
+        {
+          "text": "off.",
+          "start": 155.54,
+          "end": 155.88
+        }
+      ]
+    },
+    {
+      "text": "They also help viewers who speak",
+      "start": 156.22,
+      "end": 158,
+      "words": [
+        {
+          "text": "They",
+          "start": 156.22,
+          "end": 156.36
+        },
+        {
+          "text": "also",
+          "start": 156.36,
+          "end": 156.68
+        },
+        {
+          "text": "help",
+          "start": 156.68,
+          "end": 157.08
+        },
+        {
+          "text": "viewers",
+          "start": 157.08,
+          "end": 157.4
+        },
+        {
+          "text": "who",
+          "start": 157.4,
+          "end": 157.7
+        },
+        {
+          "text": "speak",
+          "start": 157.7,
+          "end": 158
+        }
+      ]
+    },
+    {
+      "text": "a second language or watch in",
+      "start": 158,
+      "end": 159.78,
+      "words": [
+        {
+          "text": "a",
+          "start": 158,
+          "end": 158.22
+        },
+        {
+          "text": "second",
+          "start": 158.22,
+          "end": 158.52
+        },
+        {
+          "text": "language",
+          "start": 158.52,
+          "end": 159.04
+        },
+        {
+          "text": "or",
+          "start": 159.04,
+          "end": 159.3
+        },
+        {
+          "text": "watch",
+          "start": 159.3,
+          "end": 159.62
+        },
+        {
+          "text": "in",
+          "start": 159.62,
+          "end": 159.78
+        }
+      ]
+    },
+    {
+      "text": "a noisy place.",
+      "start": 159.78,
+      "end": 160.66,
+      "words": [
+        {
+          "text": "a",
+          "start": 159.78,
+          "end": 159.9
+        },
+        {
+          "text": "noisy",
+          "start": 159.9,
+          "end": 160.18
+        },
+        {
+          "text": "place.",
+          "start": 160.18,
+          "end": 160.66
+        }
+      ]
+    },
+    {
+      "text": "Let us talk about lighting,",
+      "start": 161.08,
+      "end": 162.46,
+      "words": [
+        {
+          "text": "Let",
+          "start": 161.08,
+          "end": 161.26
+        },
+        {
+          "text": "us",
+          "start": 161.26,
+          "end": 161.46
+        },
+        {
+          "text": "talk",
+          "start": 161.46,
+          "end": 161.72
+        },
+        {
+          "text": "about",
+          "start": 161.72,
+          "end": 162
+        },
+        {
+          "text": "lighting,",
+          "start": 162,
+          "end": 162.46
+        }
+      ]
+    },
+    {
+      "text": "framing, pacing, and the small details",
+      "start": 162.9,
+      "end": 165.54,
+      "words": [
+        {
+          "text": "framing,",
+          "start": 162.9,
+          "end": 163.28
+        },
+        {
+          "text": "pacing,",
+          "start": 163.7,
+          "end": 164.08
+        },
+        {
+          "text": "and",
+          "start": 164.52,
+          "end": 164.6
+        },
+        {
+          "text": "the",
+          "start": 164.6,
+          "end": 164.74
+        },
+        {
+          "text": "small",
+          "start": 164.74,
+          "end": 165.06
+        },
+        {
+          "text": "details",
+          "start": 165.06,
+          "end": 165.54
+        }
+      ]
+    },
+    {
+      "text": "that keep people watching.",
+      "start": 165.54,
+      "end": 167.08,
+      "words": [
+        {
+          "text": "that",
+          "start": 165.54,
+          "end": 165.92
+        },
+        {
+          "text": "keep",
+          "start": 165.92,
+          "end": 166.14
+        },
+        {
+          "text": "people",
+          "start": 166.14,
+          "end": 166.62
+        },
+        {
+          "text": "watching.",
+          "start": 166.62,
+          "end": 167.08
+        }
+      ]
+    },
+    {
+      "text": "A clean background and a steady",
+      "start": 167.48,
+      "end": 169.08,
+      "words": [
+        {
+          "text": "A",
+          "start": 167.48,
+          "end": 167.62
+        },
+        {
+          "text": "clean",
+          "start": 167.62,
+          "end": 167.9
+        },
+        {
+          "text": "background",
+          "start": 167.9,
+          "end": 168.42
+        },
+        {
+          "text": "and",
+          "start": 168.42,
+          "end": 168.68
+        },
+        {
+          "text": "a",
+          "start": 168.68,
+          "end": 168.86
+        },
+        {
+          "text": "steady",
+          "start": 168.86,
+          "end": 169.08
+        }
+      ]
+    },
+    {
+      "text": "camera go a long way toward",
+      "start": 169.08,
+      "end": 170.66,
+      "words": [
+        {
+          "text": "camera",
+          "start": 169.08,
+          "end": 169.52
+        },
+        {
+          "text": "go",
+          "start": 169.52,
+          "end": 169.82
+        },
+        {
+          "text": "a",
+          "start": 169.82,
+          "end": 170
+        },
+        {
+          "text": "long",
+          "start": 170,
+          "end": 170.16
+        },
+        {
+          "text": "way",
+          "start": 170.16,
+          "end": 170.4
+        },
+        {
+          "text": "toward",
+          "start": 170.4,
+          "end": 170.66
+        }
+      ]
+    },
+    {
+      "text": "a professional look.",
+      "start": 170.66,
+      "end": 171.96,
+      "words": [
+        {
+          "text": "a",
+          "start": 170.66,
+          "end": 170.88
+        },
+        {
+          "text": "professional",
+          "start": 170.88,
+          "end": 171.36
+        },
+        {
+          "text": "look.",
+          "start": 171.36,
+          "end": 171.96
+        }
+      ]
+    },
+    {
+      "text": "Short pauses between ideas give the",
+      "start": 172.32,
+      "end": 174.42,
+      "words": [
+        {
+          "text": "Short",
+          "start": 172.32,
+          "end": 172.56
+        },
+        {
+          "text": "pauses",
+          "start": 172.56,
+          "end": 172.98
+        },
+        {
+          "text": "between",
+          "start": 172.98,
+          "end": 173.4
+        },
+        {
+          "text": "ideas",
+          "start": 173.4,
+          "end": 173.98
+        },
+        {
+          "text": "give",
+          "start": 173.98,
+          "end": 174.24
+        },
+        {
+          "text": "the",
+          "start": 174.24,
+          "end": 174.42
+        }
+      ]
+    },
+    {
+      "text": "audience a moment to breathe.",
+      "start": 174.42,
+      "end": 175.9,
+      "words": [
+        {
+          "text": "audience",
+          "start": 174.42,
+          "end": 174.84
+        },
+        {
+          "text": "a",
+          "start": 174.84,
+          "end": 175.06
+        },
+        {
+          "text": "moment",
+          "start": 175.06,
+          "end": 175.34
+        },
+        {
+          "text": "to",
+          "start": 175.34,
+          "end": 175.6
+        },
+        {
+          "text": "breathe.",
+          "start": 175.6,
+          "end": 175.9
+        }
+      ]
+    },
+    {
+      "text": "Now we will count a few",
+      "start": 176.32,
+      "end": 177.48,
+      "words": [
+        {
+          "text": "Now",
+          "start": 176.32,
+          "end": 176.5
+        },
+        {
+          "text": "we",
+          "start": 176.5,
+          "end": 176.7
+        },
+        {
+          "text": "will",
+          "start": 176.7,
+          "end": 176.86
+        },
+        {
+          "text": "count",
+          "start": 176.86,
+          "end": 177.14
+        },
+        {
+          "text": "a",
+          "start": 177.14,
+          "end": 177.32
+        },
+        {
+          "text": "few",
+          "start": 177.32,
+          "end": 177.48
+        }
+      ]
+    },
+    {
+      "text": "numbers for timing checks.",
+      "start": 177.48,
+      "end": 178.9,
+      "words": [
+        {
+          "text": "numbers",
+          "start": 177.48,
+          "end": 177.84
+        },
+        {
+          "text": "for",
+          "start": 177.84,
+          "end": 178.1
+        },
+        {
+          "text": "timing",
+          "start": 178.1,
+          "end": 178.48
+        },
+        {
+          "text": "checks.",
+          "start": 178.48,
+          "end": 178.9
+        }
+      ]
+    },
+    {
+      "text": "1, 2, 3, 4, 5,",
+      "start": 179.42,
+      "end": 182.46,
+      "words": [
+        {
+          "text": "1,",
+          "start": 179.42,
+          "end": 179.7
+        },
+        {
+          "text": "2,",
+          "start": 180.06,
+          "end": 180.4
+        },
+        {
+          "text": "3,",
+          "start": 180.7,
+          "end": 181.1
+        },
+        {
+          "text": "4,",
+          "start": 181.42,
+          "end": 181.74
+        },
+        {
+          "text": "5,",
+          "start": 182.08,
+          "end": 182.46
+        }
+      ]
+    },
+    {
+      "text": "6, 7. Remember to review every",
+      "start": 182.74,
+      "end": 185.6,
+      "words": [
+        {
+          "text": "6,",
+          "start": 182.74,
+          "end": 183.18
+        },
+        {
+          "text": "7.",
+          "start": 183.56,
+          "end": 183.94
+        },
+        {
+          "text": "Remember",
+          "start": 184.32,
+          "end": 184.62
+        },
+        {
+          "text": "to",
+          "start": 184.62,
+          "end": 184.94
+        },
+        {
+          "text": "review",
+          "start": 184.94,
+          "end": 185.28
+        },
+        {
+          "text": "every",
+          "start": 185.28,
+          "end": 185.6
+        }
+      ]
+    },
+    {
+      "text": "caption before you publish, because automatic",
+      "start": 185.6,
+      "end": 188.34,
+      "words": [
+        {
+          "text": "caption",
+          "start": 185.6,
+          "end": 186.04
+        },
+        {
+          "text": "before",
+          "start": 186.04,
+          "end": 186.44
+        },
+        {
+          "text": "you",
+          "start": 186.44,
+          "end": 186.76
+        },
+        {
+          "text": "publish,",
+          "start": 186.76,
+          "end": 187.18
+        },
+        {
+          "text": "because",
+          "start": 187.64,
+          "end": 187.94
+        },
+        {
+          "text": "automatic",
+          "start": 187.94,
+          "end": 188.34
+        }
+      ]
+    },
+    {
+      "text": "text can still make mistakes.",
+      "start": 188.34,
+      "end": 190.38,
+      "words": [
+        {
+          "text": "text",
+          "start": 188.34,
+          "end": 188.96
+        },
+        {
+          "text": "can",
+          "start": 188.96,
+          "end": 189.22
+        },
+        {
+          "text": "still",
+          "start": 189.22,
+          "end": 189.56
+        },
+        {
+          "text": "make",
+          "start": 189.56,
+          "end": 189.8
+        },
+        {
+          "text": "mistakes.",
+          "start": 189.8,
+          "end": 190.38
+        }
+      ]
+    },
+    {
+      "text": "That is the end of this",
+      "start": 190.9,
+      "end": 191.96,
+      "words": [
+        {
+          "text": "That",
+          "start": 190.9,
+          "end": 191.1
+        },
+        {
+          "text": "is",
+          "start": 191.1,
+          "end": 191.26
+        },
+        {
+          "text": "the",
+          "start": 191.26,
+          "end": 191.42
+        },
+        {
+          "text": "end",
+          "start": 191.42,
+          "end": 191.64
+        },
+        {
+          "text": "of",
+          "start": 191.64,
+          "end": 191.78
+        },
+        {
+          "text": "this",
+          "start": 191.78,
+          "end": 191.96
+        }
+      ]
+    },
+    {
+      "text": "section. So let us move on",
+      "start": 191.96,
+      "end": 193.84,
+      "words": [
+        {
+          "text": "section.",
+          "start": 191.96,
+          "end": 192.4
+        },
+        {
+          "text": "So",
+          "start": 192.78,
+          "end": 193
+        },
+        {
+          "text": "let",
+          "start": 193,
+          "end": 193.18
+        },
+        {
+          "text": "us",
+          "start": 193.18,
+          "end": 193.38
+        },
+        {
+          "text": "move",
+          "start": 193.38,
+          "end": 193.6
+        },
+        {
+          "text": "on",
+          "start": 193.6,
+          "end": 193.84
+        }
+      ]
+    },
+    {
+      "text": "to the next idea.",
+      "start": 193.84,
+      "end": 194.88,
+      "words": [
+        {
+          "text": "to",
+          "start": 193.84,
+          "end": 193.98
+        },
+        {
+          "text": "the",
+          "start": 193.98,
+          "end": 194.12
+        },
+        {
+          "text": "next",
+          "start": 194.12,
+          "end": 194.36
+        },
+        {
+          "text": "idea.",
+          "start": 194.36,
+          "end": 194.88
+        }
+      ]
+    },
+    {
+      "text": "Welcome back to the studio,",
+      "start": 195.3,
+      "end": 196.72,
+      "words": [
+        {
+          "text": "Welcome",
+          "start": 195.3,
+          "end": 195.56
+        },
+        {
+          "text": "back",
+          "start": 195.56,
+          "end": 195.92
+        },
+        {
+          "text": "to",
+          "start": 195.92,
+          "end": 196.1
+        },
+        {
+          "text": "the",
+          "start": 196.1,
+          "end": 196.24
+        },
+        {
+          "text": "studio,",
+          "start": 196.24,
+          "end": 196.72
+        }
+      ]
+    },
+    {
+      "text": "and thanks for joining this longer",
+      "start": 197.12,
+      "end": 198.8,
+      "words": [
+        {
+          "text": "and",
+          "start": 197.12,
+          "end": 197.3
+        },
+        {
+          "text": "thanks",
+          "start": 197.3,
+          "end": 197.56
+        },
+        {
+          "text": "for",
+          "start": 197.56,
+          "end": 197.8
+        },
+        {
+          "text": "joining",
+          "start": 197.8,
+          "end": 198.18
+        },
+        {
+          "text": "this",
+          "start": 198.18,
+          "end": 198.46
+        },
+        {
+          "text": "longer",
+          "start": 198.46,
+          "end": 198.8
+        }
+      ]
+    },
+    {
+      "text": "recording. Today we are testing how",
+      "start": 198.8,
+      "end": 201.24,
+      "words": [
+        {
+          "text": "recording.",
+          "start": 198.8,
+          "end": 199.4
+        },
+        {
+          "text": "Today",
+          "start": 199.88,
+          "end": 200.08
+        },
+        {
+          "text": "we",
+          "start": 200.08,
+          "end": 200.34
+        },
+        {
+          "text": "are",
+          "start": 200.34,
+          "end": 200.52
+        },
+        {
+          "text": "testing",
+          "start": 200.52,
+          "end": 200.92
+        },
+        {
+          "text": "how",
+          "start": 200.92,
+          "end": 201.24
+        }
+      ]
+    },
+    {
+      "text": "captions hold up across a full",
+      "start": 201.24,
+      "end": 203.14,
+      "words": [
+        {
+          "text": "captions",
+          "start": 201.24,
+          "end": 201.66
+        },
+        {
+          "text": "hold",
+          "start": 201.66,
+          "end": 202.08
+        },
+        {
+          "text": "up",
+          "start": 202.08,
+          "end": 202.34
+        },
+        {
+          "text": "across",
+          "start": 202.34,
+          "end": 202.62
+        },
+        {
+          "text": "a",
+          "start": 202.62,
+          "end": 202.92
+        },
+        {
+          "text": "full",
+          "start": 202.92,
+          "end": 203.14
+        }
+      ]
+    },
+    {
+      "text": "5 minute video.",
+      "start": 203.14,
+      "end": 204.28,
+      "words": [
+        {
+          "text": "5",
+          "start": 203.14,
+          "end": 203.44
+        },
+        {
+          "text": "minute",
+          "start": 203.44,
+          "end": 203.76
+        },
+        {
+          "text": "video.",
+          "start": 203.76,
+          "end": 204.28
+        }
+      ]
+    },
+    {
+      "text": "Each sentence is a little different,",
+      "start": 204.66,
+      "end": 206.34,
+      "words": [
+        {
+          "text": "Each",
+          "start": 204.66,
+          "end": 204.84
+        },
+        {
+          "text": "sentence",
+          "start": 204.84,
+          "end": 205.22
+        },
+        {
+          "text": "is",
+          "start": 205.22,
+          "end": 205.54
+        },
+        {
+          "text": "a",
+          "start": 205.54,
+          "end": 205.7
+        },
+        {
+          "text": "little",
+          "start": 205.7,
+          "end": 205.88
+        },
+        {
+          "text": "different,",
+          "start": 205.88,
+          "end": 206.34
+        }
+      ]
+    },
+    {
+      "text": "so merged windows can be checked",
+      "start": 206.72,
+      "end": 208.52,
+      "words": [
+        {
+          "text": "so",
+          "start": 206.72,
+          "end": 206.98
+        },
+        {
+          "text": "merged",
+          "start": 206.98,
+          "end": 207.28
+        },
+        {
+          "text": "windows",
+          "start": 207.28,
+          "end": 207.74
+        },
+        {
+          "text": "can",
+          "start": 207.74,
+          "end": 208.04
+        },
+        {
+          "text": "be",
+          "start": 208.04,
+          "end": 208.2
+        },
+        {
+          "text": "checked",
+          "start": 208.2,
+          "end": 208.52
+        }
+      ]
+    },
+    {
+      "text": "for dropped or repeated words.",
+      "start": 208.52,
+      "end": 210.24,
+      "words": [
+        {
+          "text": "for",
+          "start": 208.52,
+          "end": 208.74
+        },
+        {
+          "text": "dropped",
+          "start": 208.74,
+          "end": 209.1
+        },
+        {
+          "text": "or",
+          "start": 209.1,
+          "end": 209.28
+        },
+        {
+          "text": "repeated",
+          "start": 209.28,
+          "end": 209.7
+        },
+        {
+          "text": "words.",
+          "start": 209.7,
+          "end": 210.24
+        }
+      ]
+    },
+    {
+      "text": "Creators often record tutorials, vlogs,",
+      "start": 210.62,
+      "end": 213.52,
+      "words": [
+        {
+          "text": "Creators",
+          "start": 210.62,
+          "end": 211.16
+        },
+        {
+          "text": "often",
+          "start": 211.16,
+          "end": 211.54
+        },
+        {
+          "text": "record",
+          "start": 211.54,
+          "end": 211.9
+        },
+        {
+          "text": "tutorials,",
+          "start": 211.9,
+          "end": 212.52
+        },
+        {
+          "text": "vlogs,",
+          "start": 213.1,
+          "end": 213.52
+        }
+      ]
+    },
+    {
+      "text": "and product reviews that run well",
+      "start": 213.92,
+      "end": 215.72,
+      "words": [
+        {
+          "text": "and",
+          "start": 213.92,
+          "end": 214.1
+        },
+        {
+          "text": "product",
+          "start": 214.1,
+          "end": 214.48
+        },
+        {
+          "text": "reviews",
+          "start": 214.48,
+          "end": 214.86
+        },
+        {
+          "text": "that",
+          "start": 214.86,
+          "end": 215.22
+        },
+        {
+          "text": "run",
+          "start": 215.22,
+          "end": 215.48
+        },
+        {
+          "text": "well",
+          "start": 215.48,
+          "end": 215.72
+        }
+      ]
+    },
+    {
+      "text": "past one minute.",
+      "start": 215.72,
+      "end": 216.68,
+      "words": [
+        {
+          "text": "past",
+          "start": 215.72,
+          "end": 216.06
+        },
+        {
+          "text": "one",
+          "start": 216.06,
+          "end": 216.34
+        },
+        {
+          "text": "minute.",
+          "start": 216.34,
+          "end": 216.68
+        }
+      ]
+    },
+    {
+      "text": "Good captions make those videos easier",
+      "start": 217.06,
+      "end": 219.26,
+      "words": [
+        {
+          "text": "Good",
+          "start": 217.06,
+          "end": 217.22
+        },
+        {
+          "text": "captions",
+          "start": 217.22,
+          "end": 217.64
+        },
+        {
+          "text": "make",
+          "start": 217.64,
+          "end": 218.06
+        },
+        {
+          "text": "those",
+          "start": 218.06,
+          "end": 218.28
+        },
+        {
+          "text": "videos",
+          "start": 218.28,
+          "end": 218.74
+        },
+        {
+          "text": "easier",
+          "start": 218.74,
+          "end": 219.26
+        }
+      ]
+    },
+    {
+      "text": "to follow with the sound off.",
+      "start": 219.26,
+      "end": 220.96,
+      "words": [
+        {
+          "text": "to",
+          "start": 219.26,
+          "end": 219.52
+        },
+        {
+          "text": "follow",
+          "start": 219.52,
+          "end": 219.88
+        },
+        {
+          "text": "with",
+          "start": 219.88,
+          "end": 220.16
+        },
+        {
+          "text": "the",
+          "start": 220.16,
+          "end": 220.32
+        },
+        {
+          "text": "sound",
+          "start": 220.32,
+          "end": 220.62
+        },
+        {
+          "text": "off.",
+          "start": 220.62,
+          "end": 220.96
+        }
+      ]
+    },
+    {
+      "text": "They also help viewers who speak",
+      "start": 221.3,
+      "end": 223.08,
+      "words": [
+        {
+          "text": "They",
+          "start": 221.3,
+          "end": 221.44
+        },
+        {
+          "text": "also",
+          "start": 221.44,
+          "end": 221.78
+        },
+        {
+          "text": "help",
+          "start": 221.78,
+          "end": 222.14
+        },
+        {
+          "text": "viewers",
+          "start": 222.14,
+          "end": 222.52
+        },
+        {
+          "text": "who",
+          "start": 222.52,
+          "end": 222.8
+        },
+        {
+          "text": "speak",
+          "start": 222.8,
+          "end": 223.08
+        }
+      ]
+    },
+    {
+      "text": "a second language or watch in",
+      "start": 223.08,
+      "end": 224.86,
+      "words": [
+        {
+          "text": "a",
+          "start": 223.08,
+          "end": 223.3
+        },
+        {
+          "text": "second",
+          "start": 223.3,
+          "end": 223.62
+        },
+        {
+          "text": "language",
+          "start": 223.62,
+          "end": 224.14
+        },
+        {
+          "text": "or",
+          "start": 224.14,
+          "end": 224.38
+        },
+        {
+          "text": "watch",
+          "start": 224.38,
+          "end": 224.72
+        },
+        {
+          "text": "in",
+          "start": 224.72,
+          "end": 224.86
+        }
+      ]
+    },
+    {
+      "text": "a noisy place.",
+      "start": 224.86,
+      "end": 225.76,
+      "words": [
+        {
+          "text": "a",
+          "start": 224.86,
+          "end": 225
+        },
+        {
+          "text": "noisy",
+          "start": 225,
+          "end": 225.24
+        },
+        {
+          "text": "place.",
+          "start": 225.24,
+          "end": 225.76
+        }
+      ]
+    },
+    {
+      "text": "Let us talk about lighting,",
+      "start": 226.18,
+      "end": 227.56,
+      "words": [
+        {
+          "text": "Let",
+          "start": 226.18,
+          "end": 226.36
+        },
+        {
+          "text": "us",
+          "start": 226.36,
+          "end": 226.54
+        },
+        {
+          "text": "talk",
+          "start": 226.54,
+          "end": 226.82
+        },
+        {
+          "text": "about",
+          "start": 226.82,
+          "end": 227.1
+        },
+        {
+          "text": "lighting,",
+          "start": 227.1,
+          "end": 227.56
+        }
+      ]
+    },
+    {
+      "text": "framing, pacing, and the small details",
+      "start": 228.02,
+      "end": 230.64,
+      "words": [
+        {
+          "text": "framing,",
+          "start": 228.02,
+          "end": 228.34
+        },
+        {
+          "text": "pacing,",
+          "start": 228.78,
+          "end": 229.12
+        },
+        {
+          "text": "and",
+          "start": 229.6,
+          "end": 229.7
+        },
+        {
+          "text": "the",
+          "start": 229.7,
+          "end": 229.84
+        },
+        {
+          "text": "small",
+          "start": 229.84,
+          "end": 230.14
+        },
+        {
+          "text": "details",
+          "start": 230.14,
+          "end": 230.64
+        }
+      ]
+    },
+    {
+      "text": "that keep people watching.",
+      "start": 230.64,
+      "end": 232.16,
+      "words": [
+        {
+          "text": "that",
+          "start": 230.64,
+          "end": 231
+        },
+        {
+          "text": "keep",
+          "start": 231,
+          "end": 231.24
+        },
+        {
+          "text": "people",
+          "start": 231.24,
+          "end": 231.7
+        },
+        {
+          "text": "watching.",
+          "start": 231.7,
+          "end": 232.16
+        }
+      ]
+    },
+    {
+      "text": "A clean background and a steady",
+      "start": 232.56,
+      "end": 234.18,
+      "words": [
+        {
+          "text": "A",
+          "start": 232.56,
+          "end": 232.72
+        },
+        {
+          "text": "clean",
+          "start": 232.72,
+          "end": 232.98
+        },
+        {
+          "text": "background",
+          "start": 232.98,
+          "end": 233.52
+        },
+        {
+          "text": "and",
+          "start": 233.52,
+          "end": 233.78
+        },
+        {
+          "text": "a",
+          "start": 233.78,
+          "end": 233.94
+        },
+        {
+          "text": "steady",
+          "start": 233.94,
+          "end": 234.18
+        }
+      ]
+    },
+    {
+      "text": "camera go a long way toward",
+      "start": 234.18,
+      "end": 235.74,
+      "words": [
+        {
+          "text": "camera",
+          "start": 234.18,
+          "end": 234.6
+        },
+        {
+          "text": "go",
+          "start": 234.6,
+          "end": 234.92
+        },
+        {
+          "text": "a",
+          "start": 234.92,
+          "end": 235.08
+        },
+        {
+          "text": "long",
+          "start": 235.08,
+          "end": 235.24
+        },
+        {
+          "text": "way",
+          "start": 235.24,
+          "end": 235.48
+        },
+        {
+          "text": "toward",
+          "start": 235.48,
+          "end": 235.74
+        }
+      ]
+    },
+    {
+      "text": "a professional look.",
+      "start": 235.74,
+      "end": 236.98,
+      "words": [
+        {
+          "text": "a",
+          "start": 235.74,
+          "end": 235.96
+        },
+        {
+          "text": "professional",
+          "start": 235.96,
+          "end": 236.46
+        },
+        {
+          "text": "look.",
+          "start": 236.46,
+          "end": 236.98
+        }
+      ]
+    },
+    {
+      "text": "Short pauses between ideas give the",
+      "start": 237.4,
+      "end": 239.52,
+      "words": [
+        {
+          "text": "Short",
+          "start": 237.4,
+          "end": 237.64
+        },
+        {
+          "text": "pauses",
+          "start": 237.64,
+          "end": 238.06
+        },
+        {
+          "text": "between",
+          "start": 238.06,
+          "end": 238.5
+        },
+        {
+          "text": "ideas",
+          "start": 238.5,
+          "end": 239.06
+        },
+        {
+          "text": "give",
+          "start": 239.06,
+          "end": 239.32
+        },
+        {
+          "text": "the",
+          "start": 239.32,
+          "end": 239.52
+        }
+      ]
+    },
+    {
+      "text": "audience a moment to breathe.",
+      "start": 239.52,
+      "end": 241.02,
+      "words": [
+        {
+          "text": "audience",
+          "start": 239.52,
+          "end": 239.92
+        },
+        {
+          "text": "a",
+          "start": 239.92,
+          "end": 240.16
+        },
+        {
+          "text": "moment",
+          "start": 240.16,
+          "end": 240.44
+        },
+        {
+          "text": "to",
+          "start": 240.44,
+          "end": 240.7
+        },
+        {
+          "text": "breathe.",
+          "start": 240.7,
+          "end": 241.02
+        }
+      ]
+    },
+    {
+      "text": "Now we will count a few",
+      "start": 241.44,
+      "end": 242.58,
+      "words": [
+        {
+          "text": "Now",
+          "start": 241.44,
+          "end": 241.6
+        },
+        {
+          "text": "we",
+          "start": 241.6,
+          "end": 241.8
+        },
+        {
+          "text": "will",
+          "start": 241.8,
+          "end": 241.94
+        },
+        {
+          "text": "count",
+          "start": 241.94,
+          "end": 242.26
+        },
+        {
+          "text": "a",
+          "start": 242.26,
+          "end": 242.42
+        },
+        {
+          "text": "few",
+          "start": 242.42,
+          "end": 242.58
+        }
+      ]
+    },
+    {
+      "text": "numbers for timing checks.",
+      "start": 242.58,
+      "end": 244.04,
+      "words": [
+        {
+          "text": "numbers",
+          "start": 242.58,
+          "end": 242.94
+        },
+        {
+          "text": "for",
+          "start": 242.94,
+          "end": 243.2
+        },
+        {
+          "text": "timing",
+          "start": 243.2,
+          "end": 243.6
+        },
+        {
+          "text": "checks.",
+          "start": 243.6,
+          "end": 244.04
+        }
+      ]
+    },
+    {
+      "text": "1, 2, 3, 4, 5,",
+      "start": 244.52,
+      "end": 247.52,
+      "words": [
+        {
+          "text": "1,",
+          "start": 244.52,
+          "end": 244.8
+        },
+        {
+          "text": "2,",
+          "start": 245.16,
+          "end": 245.5
+        },
+        {
+          "text": "3,",
+          "start": 245.8,
+          "end": 246.16
+        },
+        {
+          "text": "4,",
+          "start": 246.5,
+          "end": 246.82
+        },
+        {
+          "text": "5,",
+          "start": 247.16,
+          "end": 247.52
+        }
+      ]
+    },
+    {
+      "text": "6, 7. Remember to review every",
+      "start": 247.88,
+      "end": 250.7,
+      "words": [
+        {
+          "text": "6,",
+          "start": 247.88,
+          "end": 248.26
+        },
+        {
+          "text": "7.",
+          "start": 248.64,
+          "end": 249.02
+        },
+        {
+          "text": "Remember",
+          "start": 249.4,
+          "end": 249.7
+        },
+        {
+          "text": "to",
+          "start": 249.7,
+          "end": 250.04
+        },
+        {
+          "text": "review",
+          "start": 250.04,
+          "end": 250.38
+        },
+        {
+          "text": "every",
+          "start": 250.38,
+          "end": 250.7
+        }
+      ]
+    },
+    {
+      "text": "caption before you publish, because automatic",
+      "start": 250.7,
+      "end": 253.42,
+      "words": [
+        {
+          "text": "caption",
+          "start": 250.7,
+          "end": 251.14
+        },
+        {
+          "text": "before",
+          "start": 251.14,
+          "end": 251.54
+        },
+        {
+          "text": "you",
+          "start": 251.54,
+          "end": 251.86
+        },
+        {
+          "text": "publish,",
+          "start": 251.86,
+          "end": 252.26
+        },
+        {
+          "text": "because",
+          "start": 252.72,
+          "end": 253
+        },
+        {
+          "text": "automatic",
+          "start": 253,
+          "end": 253.42
+        }
+      ]
+    },
+    {
+      "text": "text can still make mistakes.",
+      "start": 253.42,
+      "end": 255.42,
+      "words": [
+        {
+          "text": "text",
+          "start": 253.42,
+          "end": 254.04
+        },
+        {
+          "text": "can",
+          "start": 254.04,
+          "end": 254.34
+        },
+        {
+          "text": "still",
+          "start": 254.34,
+          "end": 254.64
+        },
+        {
+          "text": "make",
+          "start": 254.64,
+          "end": 254.94
+        },
+        {
+          "text": "mistakes.",
+          "start": 254.94,
+          "end": 255.42
+        }
+      ]
+    },
+    {
+      "text": "That is the end of this",
+      "start": 256.02,
+      "end": 257.04,
+      "words": [
+        {
+          "text": "That",
+          "start": 256.02,
+          "end": 256.2
+        },
+        {
+          "text": "is",
+          "start": 256.2,
+          "end": 256.34
+        },
+        {
+          "text": "the",
+          "start": 256.34,
+          "end": 256.5
+        },
+        {
+          "text": "end",
+          "start": 256.5,
+          "end": 256.74
+        },
+        {
+          "text": "of",
+          "start": 256.74,
+          "end": 256.88
+        },
+        {
+          "text": "this",
+          "start": 256.88,
+          "end": 257.04
+        }
+      ]
+    },
+    {
+      "text": "section. So let us move on",
+      "start": 257.04,
+      "end": 258.92,
+      "words": [
+        {
+          "text": "section.",
+          "start": 257.04,
+          "end": 257.5
+        },
+        {
+          "text": "So",
+          "start": 257.88,
+          "end": 258.1
+        },
+        {
+          "text": "let",
+          "start": 258.1,
+          "end": 258.28
+        },
+        {
+          "text": "us",
+          "start": 258.28,
+          "end": 258.48
+        },
+        {
+          "text": "move",
+          "start": 258.48,
+          "end": 258.7
+        },
+        {
+          "text": "on",
+          "start": 258.7,
+          "end": 258.92
+        }
+      ]
+    },
+    {
+      "text": "to the next idea.",
+      "start": 258.92,
+      "end": 259.94,
+      "words": [
+        {
+          "text": "to",
+          "start": 258.92,
+          "end": 259.08
+        },
+        {
+          "text": "the",
+          "start": 259.08,
+          "end": 259.2
+        },
+        {
+          "text": "next",
+          "start": 259.2,
+          "end": 259.46
+        },
+        {
+          "text": "idea.",
+          "start": 259.46,
+          "end": 259.94
+        }
+      ]
+    },
+    {
+      "text": "Welcome back to the studio,",
+      "start": 260.36,
+      "end": 261.84,
+      "words": [
+        {
+          "text": "Welcome",
+          "start": 260.36,
+          "end": 260.66
+        },
+        {
+          "text": "back",
+          "start": 260.66,
+          "end": 261
+        },
+        {
+          "text": "to",
+          "start": 261,
+          "end": 261.2
+        },
+        {
+          "text": "the",
+          "start": 261.2,
+          "end": 261.34
+        },
+        {
+          "text": "studio,",
+          "start": 261.34,
+          "end": 261.84
+        }
+      ]
+    },
+    {
+      "text": "and thanks for joining this longer",
+      "start": 262.24,
+      "end": 263.88,
+      "words": [
+        {
+          "text": "and",
+          "start": 262.24,
+          "end": 262.38
+        },
+        {
+          "text": "thanks",
+          "start": 262.38,
+          "end": 262.68
+        },
+        {
+          "text": "for",
+          "start": 262.68,
+          "end": 262.9
+        },
+        {
+          "text": "joining",
+          "start": 262.9,
+          "end": 263.28
+        },
+        {
+          "text": "this",
+          "start": 263.28,
+          "end": 263.56
+        },
+        {
+          "text": "longer",
+          "start": 263.56,
+          "end": 263.88
+        }
+      ]
+    },
+    {
+      "text": "recording. Today we are testing how",
+      "start": 263.88,
+      "end": 266.34,
+      "words": [
+        {
+          "text": "recording.",
+          "start": 263.88,
+          "end": 264.48
+        },
+        {
+          "text": "Today",
+          "start": 264.98,
+          "end": 265.18
+        },
+        {
+          "text": "we",
+          "start": 265.18,
+          "end": 265.44
+        },
+        {
+          "text": "are",
+          "start": 265.44,
+          "end": 265.6
+        },
+        {
+          "text": "testing",
+          "start": 265.6,
+          "end": 266.02
+        },
+        {
+          "text": "how",
+          "start": 266.02,
+          "end": 266.34
+        }
+      ]
+    },
+    {
+      "text": "captions hold up across a full",
+      "start": 266.34,
+      "end": 268.24,
+      "words": [
+        {
+          "text": "captions",
+          "start": 266.34,
+          "end": 266.74
+        },
+        {
+          "text": "hold",
+          "start": 266.74,
+          "end": 267.18
+        },
+        {
+          "text": "up",
+          "start": 267.18,
+          "end": 267.42
+        },
+        {
+          "text": "across",
+          "start": 267.42,
+          "end": 267.74
+        },
+        {
+          "text": "a",
+          "start": 267.74,
+          "end": 268.04
+        },
+        {
+          "text": "full",
+          "start": 268.04,
+          "end": 268.24
+        }
+      ]
+    },
+    {
+      "text": "5 minute video.",
+      "start": 268.24,
+      "end": 269.36,
+      "words": [
+        {
+          "text": "5",
+          "start": 268.24,
+          "end": 268.56
+        },
+        {
+          "text": "minute",
+          "start": 268.56,
+          "end": 268.86
+        },
+        {
+          "text": "video.",
+          "start": 268.86,
+          "end": 269.36
+        }
+      ]
+    },
+    {
+      "text": "Each sentence is a little different,",
+      "start": 269.76,
+      "end": 271.44,
+      "words": [
+        {
+          "text": "Each",
+          "start": 269.76,
+          "end": 269.94
+        },
+        {
+          "text": "sentence",
+          "start": 269.94,
+          "end": 270.3
+        },
+        {
+          "text": "is",
+          "start": 270.3,
+          "end": 270.64
+        },
+        {
+          "text": "a",
+          "start": 270.64,
+          "end": 270.78
+        },
+        {
+          "text": "little",
+          "start": 270.78,
+          "end": 270.98
+        },
+        {
+          "text": "different,",
+          "start": 270.98,
+          "end": 271.44
+        }
+      ]
+    },
+    {
+      "text": "so merged windows can be checked",
+      "start": 271.82,
+      "end": 273.62,
+      "words": [
+        {
+          "text": "so",
+          "start": 271.82,
+          "end": 272.06
+        },
+        {
+          "text": "merged",
+          "start": 272.06,
+          "end": 272.4
+        },
+        {
+          "text": "windows",
+          "start": 272.4,
+          "end": 272.82
+        },
+        {
+          "text": "can",
+          "start": 272.82,
+          "end": 273.14
+        },
+        {
+          "text": "be",
+          "start": 273.14,
+          "end": 273.3
+        },
+        {
+          "text": "checked",
+          "start": 273.3,
+          "end": 273.62
+        }
+      ]
+    },
+    {
+      "text": "for dropped or repeated words.",
+      "start": 273.62,
+      "end": 275.36,
+      "words": [
+        {
+          "text": "for",
+          "start": 273.62,
+          "end": 273.84
+        },
+        {
+          "text": "dropped",
+          "start": 273.84,
+          "end": 274.18
+        },
+        {
+          "text": "or",
+          "start": 274.18,
+          "end": 274.36
+        },
+        {
+          "text": "repeated",
+          "start": 274.36,
+          "end": 274.8
+        },
+        {
+          "text": "words.",
+          "start": 274.8,
+          "end": 275.36
+        }
+      ]
+    },
+    {
+      "text": "Creators often record tutorials,",
+      "start": 275.72,
+      "end": 277.5,
+      "words": [
+        {
+          "text": "Creators",
+          "start": 275.72,
+          "end": 276.24
+        },
+        {
+          "text": "often",
+          "start": 276.24,
+          "end": 276.62
+        },
+        {
+          "text": "record",
+          "start": 276.62,
+          "end": 276.94
+        },
+        {
+          "text": "tutorials,",
+          "start": 276.94,
+          "end": 277.5
+        }
+      ]
+    },
+    {
+      "text": "vlogs, and product reviews that run",
+      "start": 278.22,
+      "end": 280.56,
+      "words": [
+        {
+          "text": "vlogs,",
+          "start": 278.22,
+          "end": 278.58
+        },
+        {
+          "text": "and",
+          "start": 279.02,
+          "end": 279.2
+        },
+        {
+          "text": "product",
+          "start": 279.2,
+          "end": 279.56
+        },
+        {
+          "text": "reviews",
+          "start": 279.56,
+          "end": 279.98
+        },
+        {
+          "text": "that",
+          "start": 279.98,
+          "end": 280.32
+        },
+        {
+          "text": "run",
+          "start": 280.32,
+          "end": 280.56
+        }
+      ]
+    },
+    {
+      "text": "well past one minute.",
+      "start": 280.56,
+      "end": 281.76,
+      "words": [
+        {
+          "text": "well",
+          "start": 280.56,
+          "end": 280.8
+        },
+        {
+          "text": "past",
+          "start": 280.8,
+          "end": 281.12
+        },
+        {
+          "text": "one",
+          "start": 281.12,
+          "end": 281.44
+        },
+        {
+          "text": "minute.",
+          "start": 281.44,
+          "end": 281.76
+        }
+      ]
+    },
+    {
+      "text": "Good captions make those videos easier",
+      "start": 282.14,
+      "end": 284.36,
+      "words": [
+        {
+          "text": "Good",
+          "start": 282.14,
+          "end": 282.3
+        },
+        {
+          "text": "captions",
+          "start": 282.3,
+          "end": 282.72
+        },
+        {
+          "text": "make",
+          "start": 282.72,
+          "end": 283.14
+        },
+        {
+          "text": "those",
+          "start": 283.14,
+          "end": 283.38
+        },
+        {
+          "text": "videos",
+          "start": 283.38,
+          "end": 283.8
+        },
+        {
+          "text": "easier",
+          "start": 283.8,
+          "end": 284.36
+        }
+      ]
+    },
+    {
+      "text": "to follow with the sound off.",
+      "start": 284.36,
+      "end": 286.06,
+      "words": [
+        {
+          "text": "to",
+          "start": 284.36,
+          "end": 284.62
+        },
+        {
+          "text": "follow",
+          "start": 284.62,
+          "end": 284.98
+        },
+        {
+          "text": "with",
+          "start": 284.98,
+          "end": 285.24
+        },
+        {
+          "text": "the",
+          "start": 285.24,
+          "end": 285.42
+        },
+        {
+          "text": "sound",
+          "start": 285.42,
+          "end": 285.7
+        },
+        {
+          "text": "off.",
+          "start": 285.7,
+          "end": 286.06
+        }
+      ]
+    },
+    {
+      "text": "They also help viewers who speak",
+      "start": 286.4,
+      "end": 288.18,
+      "words": [
+        {
+          "text": "They",
+          "start": 286.4,
+          "end": 286.54
+        },
+        {
+          "text": "also",
+          "start": 286.54,
+          "end": 286.86
+        },
+        {
+          "text": "help",
+          "start": 286.86,
+          "end": 287.22
+        },
+        {
+          "text": "viewers",
+          "start": 287.22,
+          "end": 287.6
+        },
+        {
+          "text": "who",
+          "start": 287.6,
+          "end": 287.88
+        },
+        {
+          "text": "speak",
+          "start": 287.88,
+          "end": 288.18
+        }
+      ]
+    },
+    {
+      "text": "a second language or watch in",
+      "start": 288.18,
+      "end": 289.96,
+      "words": [
+        {
+          "text": "a",
+          "start": 288.18,
+          "end": 288.4
+        },
+        {
+          "text": "second",
+          "start": 288.4,
+          "end": 288.72
+        },
+        {
+          "text": "language",
+          "start": 288.72,
+          "end": 289.2
+        },
+        {
+          "text": "or",
+          "start": 289.2,
+          "end": 289.48
+        },
+        {
+          "text": "watch",
+          "start": 289.48,
+          "end": 289.82
+        },
+        {
+          "text": "in",
+          "start": 289.82,
+          "end": 289.96
+        }
+      ]
+    },
+    {
+      "text": "a noisy place.",
+      "start": 289.96,
+      "end": 290.82,
+      "words": [
+        {
+          "text": "a",
+          "start": 289.96,
+          "end": 290.06
+        },
+        {
+          "text": "noisy",
+          "start": 290.06,
+          "end": 290.36
+        },
+        {
+          "text": "place.",
+          "start": 290.36,
+          "end": 290.82
+        }
+      ]
+    }
+  ],
+  "orderedBoundedWords": true,
+  "wordsPerLine": [
+    5, 6, 6, 6, 3, 6, 6, 5, 4, 6, 4, 6, 6, 6, 6, 3, 5, 6, 4, 6, 6, 3, 6, 5, 6, 4, 5, 6, 6, 5, 6, 6, 4, 5, 6,
+    6, 6, 3, 6, 6, 5, 4, 6, 4, 6, 6, 6, 6, 3, 5, 6, 4, 6, 6, 3, 6, 5, 6, 4, 5, 6, 6, 5, 6, 6, 4, 5, 6, 6, 6,
+    3, 6, 6, 5, 4, 6, 4, 6, 6, 6, 6, 3, 5, 6, 4, 6, 6, 3, 6, 5, 6, 4, 5, 6, 6, 5, 6, 6, 4, 5, 6, 6, 6, 3, 6,
+    6, 5, 5, 6, 3, 6, 6, 6, 6, 3, 5, 6, 4, 6, 6, 3, 6, 5, 6, 4, 5, 6, 6, 5, 6, 6, 4, 5, 6, 6, 6, 3, 6, 6, 5,
+    4, 6, 4, 6, 6, 6, 6, 3
+  ]
+}

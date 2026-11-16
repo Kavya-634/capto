@@ -1,0 +1,596 @@
+{
+  "results": [
+    {
+      "name": "creator",
+      "language": "hinglish",
+      "speechReference": "आज हम video editing सीखेंगे। पहले clip upload करो और captions save करो।",
+      "hinglishReference": "aaj hum video editing seekhenge. pehle clip upload karo aur captions save karo.",
+      "duration": 6.702125,
+      "video": "e2e/fixtures/hinglish/creator.mp4",
+      "source": "Synthetic code-switching speech: macOS Lekha (hi) + Rishi (en-IN); 50 ms between segments. Not natural-speaker benchmark.",
+      "tier": "accurate",
+      "elapsedSeconds": 125.465,
+      "error": null,
+      "recognizedHindi": "आज हम विडियो एडेटिंग सीखेंघे. पहले क्लिप अप्लोड करो और क्यापशन्स सेव करू.",
+      "hinglish": "aaj hum video edeting seekhenghe. pehle clip aplod karo aur kyaapshans save karoo.",
+      "comparison": {
+        "edits": [
+          {
+            "expected": "editing",
+            "actual": "edeting"
+          },
+          {
+            "expected": "seekhenge",
+            "actual": "seekhenghe"
+          },
+          {
+            "expected": "upload",
+            "actual": "aplod"
+          },
+          {
+            "expected": "captions",
+            "actual": "kyaapshans"
+          },
+          {
+            "expected": "karo",
+            "actual": "karoo"
+          }
+        ],
+        "wordErrorRate": 0.38461538461538464,
+        "referenceWords": 13,
+        "recognizedWords": 13
+      },
+      "exactWordTimestampsPreserved": true,
+      "captionCount": 3,
+      "captions": [
+        {
+          "text": "aaj hum video edeting seekhenghe.",
+          "start": 0,
+          "end": 2.52,
+          "words": [
+            {
+              "text": "aaj",
+              "start": 0,
+              "end": 0.22
+            },
+            {
+              "text": "hum",
+              "start": 0.22,
+              "end": 0.52
+            },
+            {
+              "text": "video",
+              "start": 0.52,
+              "end": 1.12
+            },
+            {
+              "text": "edeting",
+              "start": 1.12,
+              "end": 1.68
+            },
+            {
+              "text": "seekhenghe.",
+              "start": 1.68,
+              "end": 2.52
+            }
+          ]
+        },
+        {
+          "text": "pehle clip aplod karo aur",
+          "start": 2.66,
+          "end": 4.94,
+          "words": [
+            {
+              "text": "pehle",
+              "start": 2.66,
+              "end": 3.18
+            },
+            {
+              "text": "clip",
+              "start": 3.18,
+              "end": 3.54
+            },
+            {
+              "text": "aplod",
+              "start": 3.54,
+              "end": 4.12
+            },
+            {
+              "text": "karo",
+              "start": 4.12,
+              "end": 4.54
+            },
+            {
+              "text": "aur",
+              "start": 4.54,
+              "end": 4.94
+            }
+          ]
+        },
+        {
+          "text": "kyaapshans save karoo.",
+          "start": 4.94,
+          "end": 6.58,
+          "words": [
+            {
+              "text": "kyaapshans",
+              "start": 4.94,
+              "end": 5.7
+            },
+            {
+              "text": "save",
+              "start": 5.7,
+              "end": 6.18
+            },
+            {
+              "text": "karoo.",
+              "start": 6.18,
+              "end": 6.58
+            }
+          ]
+        }
+      ],
+      "originalCaptions": [
+        {
+          "text": "आज हम विडियो एडेटिंग सीखेंघे.",
+          "start": 0,
+          "end": 2.52,
+          "words": [
+            {
+              "text": "आज",
+              "start": 0,
+              "end": 0.22
+            },
+            {
+              "text": "हम",
+              "start": 0.22,
+              "end": 0.52
+            },
+            {
+              "text": "विडियो",
+              "start": 0.52,
+              "end": 1.12
+            },
+            {
+              "text": "एडेटिंग",
+              "start": 1.12,
+              "end": 1.68
+            },
+            {
+              "text": "सीखेंघे.",
+              "start": 1.68,
+              "end": 2.52
+            }
+          ]
+        },
+        {
+          "text": "पहले क्लिप अप्लोड करो और",
+          "start": 2.66,
+          "end": 4.94,
+          "words": [
+            {
+              "text": "पहले",
+              "start": 2.66,
+              "end": 3.18
+            },
+            {
+              "text": "क्लिप",
+              "start": 3.18,
+              "end": 3.54
+            },
+            {
+              "text": "अप्लोड",
+              "start": 3.54,
+              "end": 4.12
+            },
+            {
+              "text": "करो",
+              "start": 4.12,
+              "end": 4.54
+            },
+            {
+              "text": "और",
+              "start": 4.54,
+              "end": 4.94
+            }
+          ]
+        },
+        {
+          "text": "क्यापशन्स सेव करू.",
+          "start": 4.94,
+          "end": 6.58,
+          "words": [
+            {
+              "text": "क्यापशन्स",
+              "start": 4.94,
+              "end": 5.7
+            },
+            {
+              "text": "सेव",
+              "start": 5.7,
+              "end": 6.18
+            },
+            {
+              "text": "करू.",
+              "start": 6.18,
+              "end": 6.58
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "office",
+      "language": "hinglish",
+      "speechReference": "कल हमारी team meeting है। project update भेजो और deadline ध्यान में रखो।",
+      "hinglishReference": "kal hamari team meeting hai. project update bhejo aur deadline dhyan mein rakho.",
+      "duration": 6.1621875,
+      "video": "e2e/fixtures/hinglish/office.mp4",
+      "source": "Synthetic code-switching speech: macOS Lekha (hi) + Rishi (en-IN); 50 ms between segments. Not natural-speaker benchmark.",
+      "tier": "accurate",
+      "elapsedSeconds": 172.134,
+      "error": null,
+      "recognizedHindi": "कल हमारी team meeting है project update भेजो और deadline ध्यान में रखो",
+      "hinglish": "kal hamari team meeting hai project update bhejo aur deadline dhyan mein rakho",
+      "comparison": {
+        "edits": [],
+        "wordErrorRate": 0,
+        "referenceWords": 13,
+        "recognizedWords": 13
+      },
+      "exactWordTimestampsPreserved": true,
+      "captionCount": 3,
+      "captions": [
+        {
+          "text": "kal hamari team meeting hai project",
+          "start": 0,
+          "end": 2.36,
+          "words": [
+            {
+              "text": "kal",
+              "start": 0,
+              "end": 0.14
+            },
+            {
+              "text": "hamari",
+              "start": 0.14,
+              "end": 0.68
+            },
+            {
+              "text": "team",
+              "start": 0.68,
+              "end": 1
+            },
+            {
+              "text": "meeting",
+              "start": 1,
+              "end": 1.38
+            },
+            {
+              "text": "hai",
+              "start": 1.38,
+              "end": 1.86
+            },
+            {
+              "text": "project",
+              "start": 1.86,
+              "end": 2.36
+            }
+          ]
+        },
+        {
+          "text": "update bhejo aur deadline",
+          "start": 2.36,
+          "end": 4.6,
+          "words": [
+            {
+              "text": "update",
+              "start": 2.36,
+              "end": 2.84
+            },
+            {
+              "text": "bhejo",
+              "start": 2.84,
+              "end": 3.7
+            },
+            {
+              "text": "aur",
+              "start": 3.7,
+              "end": 4.12
+            },
+            {
+              "text": "deadline",
+              "start": 4.12,
+              "end": 4.6
+            }
+          ]
+        },
+        {
+          "text": "dhyan mein rakho",
+          "start": 4.6,
+          "end": 6.02,
+          "words": [
+            {
+              "text": "dhyan",
+              "start": 4.6,
+              "end": 5.5
+            },
+            {
+              "text": "mein",
+              "start": 5.5,
+              "end": 5.66
+            },
+            {
+              "text": "rakho",
+              "start": 5.66,
+              "end": 6.02
+            }
+          ]
+        }
+      ],
+      "originalCaptions": [
+        {
+          "text": "कल हमारी team meeting है project",
+          "start": 0,
+          "end": 2.36,
+          "words": [
+            {
+              "text": "कल",
+              "start": 0,
+              "end": 0.14
+            },
+            {
+              "text": "हमारी",
+              "start": 0.14,
+              "end": 0.68
+            },
+            {
+              "text": "team",
+              "start": 0.68,
+              "end": 1
+            },
+            {
+              "text": "meeting",
+              "start": 1,
+              "end": 1.38
+            },
+            {
+              "text": "है",
+              "start": 1.38,
+              "end": 1.86
+            },
+            {
+              "text": "project",
+              "start": 1.86,
+              "end": 2.36
+            }
+          ]
+        },
+        {
+          "text": "update भेजो और deadline",
+          "start": 2.36,
+          "end": 4.6,
+          "words": [
+            {
+              "text": "update",
+              "start": 2.36,
+              "end": 2.84
+            },
+            {
+              "text": "भेजो",
+              "start": 2.84,
+              "end": 3.7
+            },
+            {
+              "text": "और",
+              "start": 3.7,
+              "end": 4.12
+            },
+            {
+              "text": "deadline",
+              "start": 4.12,
+              "end": 4.6
+            }
+          ]
+        },
+        {
+          "text": "ध्यान में रखो",
+          "start": 4.6,
+          "end": 6.02,
+          "words": [
+            {
+              "text": "ध्यान",
+              "start": 4.6,
+              "end": 5.5
+            },
+            {
+              "text": "में",
+              "start": 5.5,
+              "end": 5.66
+            },
+            {
+              "text": "रखो",
+              "start": 5.66,
+              "end": 6.02
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "weekend",
+      "language": "hinglish",
+      "speechReference": "दोस्तों weekend पर coffee और lunch के बाद Instagram reel बनाएंगे।",
+      "hinglishReference": "doston weekend par coffee aur lunch ke baad Instagram reel banayenge.",
+      "duration": 6.1649375,
+      "video": "e2e/fixtures/hinglish/weekend.mp4",
+      "source": "Synthetic code-switching speech: macOS Lekha (hi) + Rishi (en-IN); 50 ms between segments. Not natural-speaker benchmark.",
+      "tier": "accurate",
+      "elapsedSeconds": 94.563,
+      "error": null,
+      "recognizedHindi": "दोस्तों, वीकेंड पर कॉफी और लांच के बाद इन्स्टाग्राम रील बनाएंगे.",
+      "hinglish": "doston, weekend par coffee aur laanch ke baad instaagraam reel banayenge.",
+      "comparison": {
+        "edits": [
+          {
+            "expected": "lunch",
+            "actual": "laanch"
+          },
+          {
+            "expected": "instagram",
+            "actual": "instaagraam"
+          }
+        ],
+        "wordErrorRate": 0.18181818181818182,
+        "referenceWords": 11,
+        "recognizedWords": 11
+      },
+      "exactWordTimestampsPreserved": true,
+      "captionCount": 2,
+      "captions": [
+        {
+          "text": "doston, weekend par coffee aur laanch",
+          "start": 0,
+          "end": 3.22,
+          "words": [
+            {
+              "text": "doston,",
+              "start": 0,
+              "end": 0.56
+            },
+            {
+              "text": "weekend",
+              "start": 0.66,
+              "end": 1.26
+            },
+            {
+              "text": "par",
+              "start": 1.26,
+              "end": 1.56
+            },
+            {
+              "text": "coffee",
+              "start": 1.56,
+              "end": 2.16
+            },
+            {
+              "text": "aur",
+              "start": 2.16,
+              "end": 2.52
+            },
+            {
+              "text": "laanch",
+              "start": 2.52,
+              "end": 3.22
+            }
+          ]
+        },
+        {
+          "text": "ke baad instaagraam reel banayenge.",
+          "start": 3.22,
+          "end": 6.06,
+          "words": [
+            {
+              "text": "ke",
+              "start": 3.22,
+              "end": 3.56
+            },
+            {
+              "text": "baad",
+              "start": 3.56,
+              "end": 3.82
+            },
+            {
+              "text": "instaagraam",
+              "start": 3.82,
+              "end": 4.82
+            },
+            {
+              "text": "reel",
+              "start": 4.82,
+              "end": 5.26
+            },
+            {
+              "text": "banayenge.",
+              "start": 5.26,
+              "end": 6.06
+            }
+          ]
+        }
+      ],
+      "originalCaptions": [
+        {
+          "text": "दोस्तों, वीकेंड पर कॉफी और लांच",
+          "start": 0,
+          "end": 3.22,
+          "words": [
+            {
+              "text": "दोस्तों,",
+              "start": 0,
+              "end": 0.56
+            },
+            {
+              "text": "वीकेंड",
+              "start": 0.66,
+              "end": 1.26
+            },
+            {
+              "text": "पर",
+              "start": 1.26,
+              "end": 1.56
+            },
+            {
+              "text": "कॉफी",
+              "start": 1.56,
+              "end": 2.16
+            },
+            {
+              "text": "और",
+              "start": 2.16,
+              "end": 2.52
+            },
+            {
+              "text": "लांच",
+              "start": 2.52,
+              "end": 3.22
+            }
+          ]
+        },
+        {
+          "text": "के बाद इन्स्टाग्राम रील बनाएंगे.",
+          "start": 3.22,
+          "end": 6.06,
+          "words": [
+            {
+              "text": "के",
+              "start": 3.22,
+              "end": 3.56
+            },
+            {
+              "text": "बाद",
+              "start": 3.56,
+              "end": 3.82
+            },
+            {
+              "text": "इन्स्टाग्राम",
+              "start": 3.82,
+              "end": 4.82
+            },
+            {
+              "text": "रील",
+              "start": 4.82,
+              "end": 5.26
+            },
+            {
+              "text": "बनाएंगे.",
+              "start": 5.26,
+              "end": 6.06
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "outgoingBodies": []
+}

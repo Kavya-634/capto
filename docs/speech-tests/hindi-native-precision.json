@@ -1,0 +1,166 @@
+{
+  "language": "hindi",
+  "reportName": "hindi-native",
+  "reference": "कुछ अणुओं में अस्थिर केंद्रक होता है, जिसका मतलब यह है कि उनमें थोड़े या बिना किसी झटके से टूटने की प्रवृत्ति होती है,",
+  "normalizedReference": "कुछ अणुओं में अस्थिर केंद्रक होता है जिसका मतलब यह है कि उनमें थोड़े या बिना किसी झटके से टूटने की प्रवृत्ति होती है",
+  "duration": 9.12,
+  "video": "e2e/fixtures/speech/hindi-native.mp4",
+  "source": "Google FLEURS Hindi test split; first matching audio archive member",
+  "originalFile": "10011266027513218401.wav",
+  "datasetId": "1766",
+  "license": "CC BY 4.0",
+  "attribution": "FLEURS — Google; Conneau et al. 2022",
+  "url": "https://huggingface.co/datasets/google/fleurs",
+  "modification": "Original audio muxed to AAC with a still-image video for browser upload testing.",
+  "error": null,
+  "elapsedSeconds": 370.775,
+  "text": "कुچ आड़ूमे आज्दर केंदरक होता है, जिसका मतलब यहां की उन्मे थोडे या बिना किसी जटके से तुटनें की प्रवत्ती होती है.",
+  "wordError": {
+    "edits": 13,
+    "referenceWords": 24,
+    "recognizedWords": 22,
+    "rate": 0.5416666666666666
+  },
+  "captions": [
+    {
+      "text": "कुچ आड़ूमे आज्दर केंदरक होता है,",
+      "start": 0,
+      "end": 3.2,
+      "words": [
+        {
+          "text": "कुچ",
+          "start": 0,
+          "end": 0.94
+        },
+        {
+          "text": "आड़ूमे",
+          "start": 0.94,
+          "end": 1.6
+        },
+        {
+          "text": "आज्दर",
+          "start": 1.6,
+          "end": 2.28
+        },
+        {
+          "text": "केंदरक",
+          "start": 2.28,
+          "end": 2.78
+        },
+        {
+          "text": "होता",
+          "start": 2.78,
+          "end": 3.06
+        },
+        {
+          "text": "है,",
+          "start": 3.06,
+          "end": 3.2
+        }
+      ]
+    },
+    {
+      "text": "जिसका मतलब यहां की उन्मे थोडे",
+      "start": 3.3,
+      "end": 5.3,
+      "words": [
+        {
+          "text": "जिसका",
+          "start": 3.3,
+          "end": 3.6
+        },
+        {
+          "text": "मतलब",
+          "start": 3.6,
+          "end": 4.02
+        },
+        {
+          "text": "यहां",
+          "start": 4.02,
+          "end": 4.36
+        },
+        {
+          "text": "की",
+          "start": 4.36,
+          "end": 4.5
+        },
+        {
+          "text": "उन्मे",
+          "start": 4.5,
+          "end": 4.86
+        },
+        {
+          "text": "थोडे",
+          "start": 4.86,
+          "end": 5.3
+        }
+      ]
+    },
+    {
+      "text": "या बिना किसी जटके से तुटनें",
+      "start": 5.3,
+      "end": 7.14,
+      "words": [
+        {
+          "text": "या",
+          "start": 5.3,
+          "end": 5.56
+        },
+        {
+          "text": "बिना",
+          "start": 5.56,
+          "end": 5.84
+        },
+        {
+          "text": "किसी",
+          "start": 5.84,
+          "end": 6.1
+        },
+        {
+          "text": "जटके",
+          "start": 6.1,
+          "end": 6.52
+        },
+        {
+          "text": "से",
+          "start": 6.52,
+          "end": 6.68
+        },
+        {
+          "text": "तुटनें",
+          "start": 6.68,
+          "end": 7.14
+        }
+      ]
+    },
+    {
+      "text": "की प्रवत्ती होती है.",
+      "start": 7.14,
+      "end": 8.28,
+      "words": [
+        {
+          "text": "की",
+          "start": 7.14,
+          "end": 7.22
+        },
+        {
+          "text": "प्रवत्ती",
+          "start": 7.22,
+          "end": 7.72
+        },
+        {
+          "text": "होती",
+          "start": 7.72,
+          "end": 8.06
+        },
+        {
+          "text": "है.",
+          "start": 8.06,
+          "end": 8.28
+        }
+      ]
+    }
+  ],
+  "orderedBoundedWords": true,
+  "wordsPerLine": [6, 6, 6, 4]
+}

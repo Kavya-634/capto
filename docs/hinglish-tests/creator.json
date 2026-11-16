@@ -1,0 +1,196 @@
+{
+  "name": "creator",
+  "language": "hinglish",
+  "speechReference": "आज हम video editing सीखेंगे। पहले clip upload करो और captions save करो।",
+  "hinglishReference": "aaj hum video editing seekhenge. pehle clip upload karo aur captions save karo.",
+  "duration": 6.702125,
+  "video": "e2e/fixtures/hinglish/creator.mp4",
+  "source": "Synthetic code-switching speech: macOS Lekha (hi) + Rishi (en-IN); 50 ms between segments. Not natural-speaker benchmark.",
+  "elapsedSeconds": 60.969,
+  "error": null,
+  "recognizedHindi": "आज हम विडीो एदिटिं सीखेंगे पहले क्लिप अपलोड करो और क्याप्षन्सेव करू",
+  "hinglish": "aaj hum videe editin seekhenge pehle clip upload karo aur kyaapshansev karoo",
+  "comparison": {
+    "edits": [
+      {
+        "expected": "video",
+        "actual": "videe"
+      },
+      {
+        "expected": "editing",
+        "actual": "editin"
+      },
+      {
+        "expected": "captions",
+        "actual": "(missing)"
+      },
+      {
+        "expected": "save",
+        "actual": "kyaapshansev"
+      },
+      {
+        "expected": "karo",
+        "actual": "karoo"
+      }
+    ],
+    "wordErrorRate": 0.38461538461538464,
+    "referenceWords": 13,
+    "recognizedWords": 12
+  },
+  "exactWordTimestampsPreserved": true,
+  "captionCount": 2,
+  "captions": [
+    {
+      "text": "aaj hum videe editin seekhenge pehle",
+      "start": 0,
+      "end": 3.22,
+      "words": [
+        {
+          "text": "aaj",
+          "start": 0,
+          "end": 0.24
+        },
+        {
+          "text": "hum",
+          "start": 0.24,
+          "end": 0.58
+        },
+        {
+          "text": "videe",
+          "start": 0.58,
+          "end": 1.12
+        },
+        {
+          "text": "editin",
+          "start": 1.12,
+          "end": 1.62
+        },
+        {
+          "text": "seekhenge",
+          "start": 1.62,
+          "end": 2.5
+        },
+        {
+          "text": "pehle",
+          "start": 2.5,
+          "end": 3.22
+        }
+      ]
+    },
+    {
+      "text": "clip upload karo aur kyaapshansev karoo",
+      "start": 3.22,
+      "end": 6.6,
+      "words": [
+        {
+          "text": "clip",
+          "start": 3.22,
+          "end": 3.56
+        },
+        {
+          "text": "upload",
+          "start": 3.56,
+          "end": 4.14
+        },
+        {
+          "text": "karo",
+          "start": 4.14,
+          "end": 4.54
+        },
+        {
+          "text": "aur",
+          "start": 4.54,
+          "end": 4.98
+        },
+        {
+          "text": "kyaapshansev",
+          "start": 4.98,
+          "end": 6.2
+        },
+        {
+          "text": "karoo",
+          "start": 6.2,
+          "end": 6.6
+        }
+      ]
+    }
+  ],
+  "originalCaptions": [
+    {
+      "text": "आज हम विडीो एदिटिं सीखेंगे पहले",
+      "start": 0,
+      "end": 3.22,
+      "words": [
+        {
+          "text": "आज",
+          "start": 0,
+          "end": 0.24
+        },
+        {
+          "text": "हम",
+          "start": 0.24,
+          "end": 0.58
+        },
+        {
+          "text": "विडीो",
+          "start": 0.58,
+          "end": 1.12
+        },
+        {
+          "text": "एदिटिं",
+          "start": 1.12,
+          "end": 1.62
+        },
+        {
+          "text": "सीखेंगे",
+          "start": 1.62,
+          "end": 2.5
+        },
+        {
+          "text": "पहले",
+          "start": 2.5,
+          "end": 3.22
+        }
+      ]
+    },
+    {
+      "text": "क्लिप अपलोड करो और क्याप्षन्सेव करू",
+      "start": 3.22,
+      "end": 6.6,
+      "words": [
+        {
+          "text": "क्लिप",
+          "start": 3.22,
+          "end": 3.56
+        },
+        {
+          "text": "अपलोड",
+          "start": 3.56,
+          "end": 4.14
+        },
+        {
+          "text": "करो",
+          "start": 4.14,
+          "end": 4.54
+        },
+        {
+          "text": "और",
+          "start": 4.54,
+          "end": 4.98
+        },
+        {
+          "text": "क्याप्षन्सेव",
+          "start": 4.98,
+          "end": 6.2
+        },
+        {
+          "text": "करू",
+          "start": 6.2,
+          "end": 6.6
+        }
+      ]
+    }
+  ],
+  "englishTranslation": "Today we learn to be dido Adro Avit Upload clip and what do you want to do?",
+  "translationCached": true
+}

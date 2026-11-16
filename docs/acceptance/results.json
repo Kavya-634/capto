@@ -1,0 +1,111 @@
+{
+  "results": [
+    {
+      "id": "english-portrait",
+      "video": "public/demos/english.mp4",
+      "language": "english",
+      "expectScript": "/^[\\x00-\\x7F\\s.,'’-]+$/u",
+      "reference": "Hello everyone. Today we are making short videos with clear captions. Every word tells a story.",
+      "transcript": "Hello everyone. Today we are making short videos with clear captions. Every word tells a story.",
+      "wer": {
+        "edits": 0,
+        "words": 16,
+        "rate": 0
+      },
+      "asrSeconds": 70.5,
+      "exportSeconds": 1.3,
+      "plan": "Output 320×568 · 12.00 fps · 6s Video AVC in MP4 · 1.5 Mbps Audio Copied unchanged (aac) Captions 3 lines · current style and sync",
+      "source": {
+        "duration": 6.35,
+        "bitrateKbps": 142,
+        "vcodec": "h264",
+        "width": 320,
+        "height": 568,
+        "acodec": "aac"
+      },
+      "output": {
+        "duration": 6.34,
+        "bitrateKbps": 468,
+        "vcodec": "h264",
+        "width": 320,
+        "height": 568,
+        "acodec": "aac",
+        "bytes": 371165
+      },
+      "audioIdentical": true
+    },
+    {
+      "id": "hindi-portrait",
+      "video": "public/demos/hindi.mp4",
+      "language": "hindi",
+      "expectScript": "/[\\u0900-\\u097f]/u",
+      "reference": "नमस्ते दोस्तों। आज हम छोटे वीडियो बनाना सीखेंगे। साफ आवाज़ में बोलिए और अपनी कहानी दुनिया तक पहुँचाइए।",
+      "transcript": "नमस्ते दोस्टों, आज हम छोटे वीदियो बनाना सीखेंगे. साफ आ वाज में बोलिए और अपनी कहानी दुनिया तक पहूं चाहिजे.",
+      "wer": {
+        "edits": 6,
+        "words": 18,
+        "rate": 0.333
+      },
+      "asrSeconds": 82.5,
+      "exportSeconds": 0.8,
+      "plan": "Output 320×568 · 12.00 fps · 8s Video AVC in MP4 · 1.5 Mbps Audio Copied unchanged (aac) Captions 4 lines · current style and sync",
+      "source": {
+        "duration": 8.33,
+        "bitrateKbps": 126,
+        "vcodec": "h264",
+        "width": 320,
+        "height": 568,
+        "acodec": "aac"
+      },
+      "output": {
+        "duration": 8.33,
+        "bitrateKbps": 442,
+        "vcodec": "h264",
+        "width": 320,
+        "height": 568,
+        "acodec": "aac",
+        "bytes": 461021
+      },
+      "audioIdentical": true
+    },
+    {
+      "id": "hinglish-landscape",
+      "video": "e2e/fixtures/export/landscape-1080p.mp4",
+      "language": "hinglish",
+      "expectScript": "/^[\\x00-\\x7F\\s.,'’-]+$/u",
+      "reference": "kal hamari team meeting hai project update bhejo aur deadline dhyan mein rakho",
+      "transcript": "kal hamari team meeting hai project update bhejo aur deadline dhyan mein rakho",
+      "wer": {
+        "edits": 0,
+        "words": 13,
+        "rate": 0
+      },
+      "asrSeconds": 81.6,
+      "exportSeconds": 1.4,
+      "plan": "Output 1920×1080 · 30.00 fps · 6s Video AVC in MP4 · 6.7 Mbps Audio Copied unchanged (aac) Captions 3 lines · current style and sync",
+      "source": {
+        "duration": 6.16,
+        "bitrateKbps": 6103,
+        "vcodec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "acodec": "aac"
+      },
+      "output": {
+        "duration": 6.16,
+        "bitrateKbps": 6656,
+        "vcodec": "h264",
+        "width": 1920,
+        "height": 1080,
+        "acodec": "aac",
+        "bytes": 5125810
+      },
+      "audioIdentical": true
+    },
+    {
+      "id": "mobile-390",
+      "ok": true
+    }
+  ],
+  "pageErrors": []
+}
