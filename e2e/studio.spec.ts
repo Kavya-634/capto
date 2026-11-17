@@ -242,10 +242,24 @@ test('recognition quality tier is selectable, persisted, confirmed, and forwarde
   await demo(page);
   await panel(page, 'Captions');
   const quality = page.getByLabel('Recognition quality');
+  // English defaults to Fast; Hindi/Hinglish default to Accurate because the small model
+  // measurably mishears Hindi. Until the user pins a tier, it follows the language.
   await expect(quality).toHaveValue('fast');
   await expect(page.locator('.model-note')).toContainText('250 MB');
+  await page.getByLabel('Spoken language').selectOption('hindi');
+  await expect(quality).toHaveValue('accurate');
+  await expect(page.locator('.speech-footnote')).toContainText(/spelled by ear/);
+  await page.getByLabel('Spoken language').selectOption('hinglish');
+  await expect(quality).toHaveValue('accurate');
+  await expect(page.locator('.speech-footnote')).toContainText(/English phrases spoken mid-sentence/);
+  await page.getByLabel('Spoken language').selectOption('english');
+  await expect(quality).toHaveValue('fast');
+  // Pinning a tier stops it following the language.
   await quality.selectOption('accurate');
   await expect(page.locator('.model-note')).toContainText('1.1 GB');
+  await page.getByLabel('Spoken language').selectOption('hindi');
+  await page.getByLabel('Spoken language').selectOption('english');
+  await expect(quality).toHaveValue('accurate');
   // The accurate tier asks for confirmation (auto-accepted by the beforeEach dialog handler).
   await generate(page);
   const requests = await page.evaluate(

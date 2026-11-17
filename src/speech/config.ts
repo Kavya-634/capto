@@ -38,6 +38,14 @@ export const MODELS: Record<ModelTier, ModelSpec> = {
   },
 };
 export const DEFAULT_TIER: ModelTier = 'fast';
+/**
+ * Measured on this hardware: whisper-small misheard Hindi aspirates (छ→ट्छ, ख→क) on a clean
+ * clip (33% WER); large-v3-turbo got the same clip right (11%). English is 0% on either.
+ * So Hindi/Hinglish default to Accurate and English to Fast.
+ */
+export function recommendedTier(language: SpeechLanguage): ModelTier {
+  return language === 'english' ? 'fast' : 'accurate';
+}
 // Kept for callers that only need the default model.
 export const MODEL_ID = MODELS[DEFAULT_TIER].id;
 export const MODEL_REVISION = MODELS[DEFAULT_TIER].revision;

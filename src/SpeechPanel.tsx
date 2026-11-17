@@ -209,9 +209,13 @@ export default function SpeechPanel({
           <p className="speech-footnote">
             Whisper · ~{modelMB} MB first download · {MAX_TRANSCRIPTION_LABEL} max
             <br />
-            {language !== 'english'
-              ? 'Hindi draft quality varies; our tests needed substantial corrections. Review every caption.'
-              : 'Automatic text and word timing need a human review.'}
+            {language === 'english'
+              ? 'Automatic text and word timing need a human review.'
+              : tier === 'fast'
+                ? 'Fast mishears Hindi aspirates (छ, ख, ध…) — in our tests 1 in 3 words. Choose Accurate for Hindi.'
+                : language === 'hinglish'
+                  ? 'English phrases spoken mid-sentence may be dropped: the model is told the audio is Hindi. Add them by hand.'
+                  : 'Names and English loanwords are spelled by ear (स्टूडियो → स्तूदियो). Review every line.'}
           </p>
         )}
       </div>

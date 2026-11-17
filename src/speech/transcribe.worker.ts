@@ -40,8 +40,10 @@ const send = (message: WorkerReply) => self.postMessage(message);
 self.onmessage = async (event: MessageEvent<WorkerRequest>) => {
   if (busy) return;
   busy = true;
-  const { id, audio, language, duration, tier = 'fast' } = event.data;
+  const { id, audio, language, duration, tier = 'fast', experiment } = event.data;
   const recognitionLanguage = language === 'hinglish' ? 'hindi' : language;
+  const chunkSeconds = experiment?.chunkSeconds ?? CHUNK_SECONDS;
+  const strideSeconds = experiment?.strideSeconds ?? STRIDE_SECONDS;
   const spec = MODELS[tier] ?? MODELS.fast;
   const started = performance.now();
   try {
@@ -93,9 +95,9 @@ self.onmessage = async (event: MessageEvent<WorkerRequest>) => {
 
     // The pipeline processes overlapping windows sequentially, and the streamer is finalized once
     // per window. Count finalized windows to report real progress rather than a guess.
-    const jump = CHUNK_SECONDS - 2 * STRIDE_SECONDS;
+    const jump = chunkSeconds - 2 * strideSeconds;
     const totalWindows =
-      audioSeconds <= CHUNK_SECONDS ? 1 : Math.ceil((audioSeconds - CHUNK_SECONDS) / jump) + 1;
+      audioSeconds <= chunkSeconds ? 1 : Math.ceil((audioSeconds - chunkSeconds) / jump) + 1;
     let windowsDone = 0;
     let tokens = 0;
     let lastReport = 0;
@@ -128,11 +130,12 @@ self.onmessage = async (event: MessageEvent<WorkerRequest>) => {
     });
 
     const output = await transcriber(audio, {
-      language: recognitionLanguage,
+      // autoLanguage lets Whisper pick the language per window (its only code-switching lever).
+      ...(experiment?.autoLanguage ? {} : { language: recognitionLanguage }),
       task: 'transcribe',
       return_timestamps: 'word',
-      chunk_length_s: CHUNK_SECONDS,
-      stride_length_s: STRIDE_SECONDS,
+      chunk_length_s: chunkSeconds,
+      stride_length_s: strideSeconds,
       do_sample: false,
       // Transformers.js does not implement true multi-beam search (its generate loop never
       // spawns beams), so num_beams>1 would not improve output. Greedy for both tiers.

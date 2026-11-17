@@ -1,0 +1,43 @@
+{
+  "clip": "e2e/fixtures/debug/fast.mp4",
+  "tier": "fast",
+  "seconds": 34.6,
+  "model": {
+    "id": "Xenova/whisper-small",
+    "onnxFilesFetchedThisRun": [],
+    "note": "served from browser cache (no .onnx fetched)"
+  },
+  "audioHandedToModel": {
+    "language": "hinglish",
+    "tier": "fast",
+    "duration": 6.202,
+    "samples": 99230,
+    "impliedSampleRate": 16000,
+    "dtype": "Float32Array",
+    "rms": "0.1330",
+    "peak": "0.836"
+  },
+  "decode": {
+    "forcedLanguageToken": "<|hi|>",
+    "task": "transcribe",
+    "windowSeconds": 20,
+    "strideSeconds": 3,
+    "modelMaxWindow": 30,
+    "greedy": true,
+    "no_repeat_ngram_size": 3,
+    "repetition_penalty": 1.05
+  },
+  "reference": "यार अभी वीडियो शूट करके आया हूं bro the lighting was crazy बस एडिट करके आज रात को अपलोड कर दूंगा",
+  "rawHindiFromModel": "यार अभी विड्यो शूट करके आया हूं ब्रो दे लाइतिंग वास एदिक कर के और राद को अलोड कर दूनगा",
+  "hindiShownInUI": "यार अभी विड्यो शूट करके आया हूं ब्रो दे लाइतिंग वास एदिक कर के और राद को अलोड कर दूनगा",
+  "hinglishShownInUI": "yaar abhi vidyo shoot karke aayaa hoon bro de laaiting vaas edik kar ke aur raad ko alod kar doongaa",
+  "hindiWER": {
+    "edits": 13,
+    "referenceWords": 21,
+    "rate": 0.619
+  },
+  "warnings": [
+    "Hindi is a draft: our test clips needed substantial corrections. Review every word, matra, name, and word highlight before sharing."
+  ],
+  "error": null
+}

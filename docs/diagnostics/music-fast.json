@@ -1,0 +1,43 @@
+{
+  "clip": "e2e/fixtures/debug/music.mp4",
+  "tier": "fast",
+  "seconds": 40.4,
+  "model": {
+    "id": "Xenova/whisper-small",
+    "onnxFilesFetchedThisRun": [],
+    "note": "served from browser cache (no .onnx fetched)"
+  },
+  "audioHandedToModel": {
+    "language": "hinglish",
+    "tier": "fast",
+    "duration": 6.553,
+    "samples": 104838,
+    "impliedSampleRate": 15998,
+    "dtype": "Float32Array",
+    "rms": "0.0799",
+    "peak": "0.521"
+  },
+  "decode": {
+    "forcedLanguageToken": "<|hi|>",
+    "task": "transcribe",
+    "windowSeconds": 20,
+    "strideSeconds": 3,
+    "modelMaxWindow": 30,
+    "greedy": true,
+    "no_repeat_ngram_size": 3,
+    "repetition_penalty": 1.05
+  },
+  "reference": "ये जो तुम पीछे देख रहे हो यह हमारा नया स्टूडियो है आज हम आपको सब कुछ दिखाएंगे",
+  "rawHindiFromModel": "ये जो तुम पीट्चे देक रहे हो, यह हमारा नया स्तूडियो है. आज फम आंको सब कुछ दिका अगे.",
+  "hindiShownInUI": "ये जो तुम पीट्चे देक रहे हो, यह हमारा नया स्तूडियो है. आज फम आंको सब कुछ दिका अगे.",
+  "hinglishShownInUI": "ye jo tum peetche dek rahe ho, yeh hamara naya stoodiyo hai. aaj pham aanko sab kuch dikaa age.",
+  "hindiWER": {
+    "edits": 7,
+    "referenceWords": 18,
+    "rate": 0.389
+  },
+  "warnings": [
+    "Hindi is a draft: our test clips needed substantial corrections. Review every word, matra, name, and word highlight before sharing."
+  ],
+  "error": null
+}

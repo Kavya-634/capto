@@ -30,8 +30,9 @@ English and code-switched Hinglish on clear synthetic speech were perfect; **Hin
 ### Known limitations
 
 - **Not real-time.** Accurate tier runs ~8–25× slower than real time here; a one-minute clip can take ten minutes. Fast tier is ~1× but materially worse on Hindi. WebGPU is not used (not exposed in the test browser).
-- **Hindi accuracy** is the weakest point. Review every line, especially names, matras and English loanwords. Repetition loops are detected and refused rather than shown.
-- **Hinglish is romanisation, not understanding.** It cannot fix words the recogniser misheard.
+- **Hindi accuracy depends on the tier.** Fast (whisper-small) mishears Hindi aspirates — छ→ट्छ, ख→क — at roughly one word in three on clean speech; Accurate (large-v3-turbo) got the same sentences right. Hindi and Hinglish therefore default to Accurate. Even there, names and English loanwords are spelled by ear (स्टूडियो → स्तूदियो). Review every line. Repetition loops are detected and refused rather than shown.
+- **Hinglish is romanisation, not understanding.** It converts whatever Devanagari the recogniser produced; it cannot fix a misheard word. If the Hinglish looks wrong, switch to the हिन्दी view — if the Hindi is wrong too, the model misheard; if the Hindi is right, it's a spelling-rule gap in the romaniser (please report the word).
+- **English phrases inside Hindi speech are often dropped.** The recogniser is told the audio is Hindi (`<|hi|>`); a whole English clause like "bro the lighting was crazy" can vanish. Letting Whisper auto-detect the language per window was tested and is worse — it labelled the whole mixed clip as English and the Hindi check refused it. No Whisper size fixes intra-sentence code-switching in the browser; add such phrases by hand.
 - **Video export re-encodes the picture.** Burning text into pixels makes this unavoidable; bitrate is matched (1.1× source), audio is untouched. Chrome/Edge only (WebCodecs). Firefox/Safari get subtitle exports.
 - **Browser memory** bounds everything: 5-minute clip cap, 250 MB upload cap, export built in memory.
 - Not tested: 4K, HEVC/VP9/AV1 sources, rotated-metadata phone footage, native iOS Safari.
@@ -179,6 +180,27 @@ The accuracy problem on Hindi/Hinglish is the small model, not post-processing. 
 Where the small model dropped entire phrases (`कल हमारी team meeting है` vanished), the Accurate tier recovered them verbatim; it also produced `team meeting`, `project update`, `deadline` as English words instead of Devanagari approximations, and the remaining Hinglish errors are now mostly spelling-level (`editing → edeting`, `upload → aplod`, `lunch → laanch`). Native-speaker Hindi is still far from publishable at 41.7%, so review remains mandatory. These are five short synthetic/benchmark clips on one machine, not a general accuracy guarantee. Cold download of the Accurate model took ~95 s on this connection; first-use cost is real.
 
 The elapsed times above include fixed per-run overhead and were measured on an 8 GB Apple M1 (8 cores) through the cross-origin-isolated preview server, so the worker used 4 WASM threads. The Accurate model is roughly 8–25× real time here; expect a one-minute clip to take ten-plus minutes on similar hardware. Without the isolation headers it falls back to a single thread and will be slower still. It is not real-time in a browser today.
+
+### Pipeline audit (listening vs. conversion)
+
+A user reported "Ye jo tum piche dekh rahe ho" rendering as "do doom peech dekhaayon". `scripts/diagnose-asr.mjs` instruments the real worker request and reply so each link can be checked, and writes the raw Devanagari **before** romanisation. Verified facts, read from the runtime rather than assumed:
+
+- **Model:** Fast = `Xenova/whisper-small` (249 MB q8); Accurate = `onnx-community/whisper-large-v3-turbo_timestamped` (1.09 GB q8). Both multilingual; no `.en`, tiny or base model is used anywhere.
+- **Prompt:** `language: 'hindi'` → `whisper_language_to_code` → `hi` → `<|hi|>` then `<|transcribe|>`. Hinglish is mapped to `hindi` before this point. No `translate` path exists.
+- **Audio:** the request carried a `Float32Array` of 32,391 samples for a 2.025 s clip (= 16 kHz), mono, RMS 0.11. Windows are 20 s with 3 s overlap each side (Whisper's native maximum is 30 s; a 30 s / 5 s A/B produced byte-identical output on the music clip, so the shorter window costs nothing and was kept for its lower loop risk).
+
+Raw Devanagari for that sentence, Accurate tier, with the model cached:
+
+| Clip                           | Reference                                 | Fast raw Hindi                  | **Accurate raw Hindi**                       |
+| ------------------------------ | ----------------------------------------- | ------------------------------- | -------------------------------------------- |
+| Clean voice, 7 words           | ये जो तुम पीछे देख रहे हो                      | ये जो तुम **पीट्छे देक** रहे हो (2/7) | ये जो तुम पीछे देख रहे हो (**0/7**)               |
+| Clean voice, 18 words          | …नया स्टूडियो है आज हम आपको…                 | 6/18 (33%)                      | **2/18 (11%)** — स्टूडियो→स्तूदियो, आपको→आको     |
+| Same + music bed               | (same)                                    | 7/18 (39%)                      | **2/18 (11%)** — identical to clean          |
+| Fast casual Hinglish, 21 words | …आया हूं **bro the lighting was crazy** बस… | 13/21 (62%)                     | 11/21 (52%) — the English clause was dropped |
+
+**Conclusion: the listening was wrong, not the conversion.** The romaniser transliterated exactly what whisper-small heard; the aspirate confusions (छ→ट्छ, ख→क) are the small model's, and large-v3-turbo does not make them. That is why Hindi/Hinglish now default to Accurate. The music bed cost Accurate nothing. The remaining Hinglish failure is the embedded English clause, which the forced `<|hi|>` token suppresses; auto-detecting the language instead labelled the whole clip English and was rejected by the Devanagari check — strictly worse. Raw reports: [docs/diagnostics](docs/diagnostics/).
+
+**Server-side option, if browser speed is unacceptable.** The same `onnx-community/whisper-large-v3-turbo` weights run on a modest GPU server at roughly real-time, versus 8–25× real-time in WASM here. The trade-off is that **your audio would leave your device** — the only thing Capto currently guarantees never happens. If that's acceptable for your use, the shape is: a small Node/Python service exposing `POST /api/asr` that accepts 16 kHz mono PCM, runs the same model with the same `<|hi|>`/`transcribe` prompt and word timestamps, and returns the identical `{words, intervals}` JSON the worker emits today — so the editor is unchanged and privacy becomes a per-request choice ("process on device" vs "process on server"), stated at the moment you click Generate. This is not built; it is a proposal.
 
 ### Repetition loops
 

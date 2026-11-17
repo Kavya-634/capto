@@ -1,0 +1,43 @@
+{
+  "clip": "e2e/fixtures/debug/clean.mp4",
+  "tier": "accurate",
+  "seconds": 138.1,
+  "model": {
+    "id": "onnx-community/whisper-large-v3-turbo_timestamped",
+    "onnxFilesFetchedThisRun": [],
+    "note": "served from browser cache (no .onnx fetched)"
+  },
+  "audioHandedToModel": {
+    "language": "hinglish",
+    "tier": "accurate",
+    "duration": 6.553,
+    "samples": 104838,
+    "impliedSampleRate": 15998,
+    "dtype": "Float32Array",
+    "rms": "0.1197",
+    "peak": "0.781"
+  },
+  "decode": {
+    "forcedLanguageToken": "<|hi|>",
+    "task": "transcribe",
+    "windowSeconds": 20,
+    "strideSeconds": 3,
+    "modelMaxWindow": 30,
+    "greedy": true,
+    "no_repeat_ngram_size": 3,
+    "repetition_penalty": 1.05
+  },
+  "reference": "ये जो तुम पीछे देख रहे हो यह हमारा नया स्टूडियो है आज हम आपको सब कुछ दिखाएंगे",
+  "rawHindiFromModel": "ये जो तुम पीछे देख रहे हो, यह हमारा नया स्तूदियो है. आज हम आको सब कुछ दिखाएंगे.",
+  "hindiShownInUI": "ये जो तुम पीछे देख रहे हो, यह हमारा नया स्तूदियो है. आज हम आको सब कुछ दिखाएंगे.",
+  "hinglishShownInUI": "ye jo tum peechhe dekh rahe ho, yeh hamara naya stoodiyo hai. aaj hum aako sab kuch dikhaaenge.",
+  "hindiWER": {
+    "edits": 2,
+    "referenceWords": 18,
+    "rate": 0.111
+  },
+  "warnings": [
+    "Hindi is a draft: our test clips needed substantial corrections. Review every word, matra, name, and word highlight before sharing."
+  ],
+  "error": null
+}

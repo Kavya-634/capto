@@ -42,7 +42,7 @@ import {
 import { useTranslation } from './language/useTranslation';
 import { useImprove } from './language/useImprove';
 import { useTranscription } from './speech/useTranscription';
-import { DEFAULT_TIER, MODELS, type ModelTier, type SpeechLanguage } from './speech/config';
+import { MODELS, recommendedTier, type ModelTier, type SpeechLanguage } from './speech/config';
 import {
   captionError,
   editCaption,
@@ -86,11 +86,25 @@ export default function Editor({
   const [tier, setTier] = useState<ModelTier>(() => {
     try {
       const saved = localStorage.getItem('capto-model-tier');
-      return saved === 'accurate' || saved === 'fast' ? saved : DEFAULT_TIER;
+      // A saved choice wins; otherwise pick per language (Accurate for Hindi/Hinglish).
+      return saved === 'accurate' || saved === 'fast' ? saved : recommendedTier(language);
     } catch {
-      return DEFAULT_TIER;
+      return recommendedTier(language);
     }
   });
+  // If the user hasn't pinned a tier, follow the language: switching to Hindi should not
+  // silently keep the small model that we know mishears it.
+  const tierPinned = useRef(false);
+  useEffect(() => {
+    try {
+      tierPinned.current = localStorage.getItem('capto-model-tier') !== null;
+    } catch {
+      tierPinned.current = false;
+    }
+  }, []);
+  useEffect(() => {
+    if (!tierPinned.current) setTier(recommendedTier(language));
+  }, [language]);
   const [requestedView, setOutputView] = useState<CaptionView>(language);
   // An undo/structural edit may invalidate English text. Never display raw Hindi under an
   // English label while waiting for a fresh text-only translation.
@@ -372,6 +386,7 @@ export default function Editor({
             tier={tier}
             onTier={(next) => {
               setTier(next);
+              tierPinned.current = true;
               try {
                 localStorage.setItem('capto-model-tier', next);
               } catch {

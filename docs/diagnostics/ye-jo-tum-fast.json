@@ -1,0 +1,43 @@
+{
+  "clip": "e2e/fixtures/debug/ye-jo-tum.mp4",
+  "tier": "fast",
+  "seconds": 32.1,
+  "model": {
+    "id": "Xenova/whisper-small",
+    "onnxFilesFetchedThisRun": [],
+    "note": "served from browser cache (no .onnx fetched)"
+  },
+  "audioHandedToModel": {
+    "language": "hinglish",
+    "tier": "fast",
+    "duration": 2.025,
+    "samples": 32391,
+    "impliedSampleRate": 15996,
+    "dtype": "Float32Array",
+    "rms": "0.1133",
+    "peak": "0.616"
+  },
+  "decode": {
+    "forcedLanguageToken": "<|hi|>",
+    "task": "transcribe",
+    "windowSeconds": 20,
+    "strideSeconds": 3,
+    "modelMaxWindow": 30,
+    "greedy": true,
+    "no_repeat_ngram_size": 3,
+    "repetition_penalty": 1.05
+  },
+  "reference": "ये जो तुम पीछे देख रहे हो",
+  "rawHindiFromModel": "ये जो तुम पीट्छे देक रहे हो",
+  "hindiShownInUI": "ये जो तुम पीट्छे देक रहे हो",
+  "hinglishShownInUI": "ye jo tum peetchhe dek rahe ho",
+  "hindiWER": {
+    "edits": 2,
+    "referenceWords": 7,
+    "rate": 0.286
+  },
+  "warnings": [
+    "Hindi is a draft: our test clips needed substantial corrections. Review every word, matra, name, and word highlight before sharing."
+  ],
+  "error": null
+}

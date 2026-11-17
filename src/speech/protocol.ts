@@ -8,6 +8,8 @@ export type WorkerRequest = {
   language: SpeechLanguage;
   duration: number;
   tier: ModelTier;
+  /** Diagnostics only (scripts/diagnose-asr.mjs). Never set by the UI. */
+  experiment?: { chunkSeconds?: number; strideSeconds?: number; autoLanguage?: boolean };
 };
 export type WorkerReply =
   | {
