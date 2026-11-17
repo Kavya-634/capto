@@ -35,16 +35,7 @@
   margin: 13px 0 6px;
   font-size: 10px;
 }
-.speech-panel > select {
-  width: 100%;
-  background: var(--surface);
-  color: var(--text);
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  font-size: 11px;
-  height: 35px;
-  padding: 0 8px;
-}
+/* Selects use the shared .select-wrap from styles.css so they match the style panel exactly. */
 .generate-button {
   width: 100%;
   font-size: 11px;
@@ -285,10 +276,6 @@
   }
   .speech-panel .field-label {
     font-size: 12px;
-  }
-  .speech-panel > select {
-    height: 43px;
-    font-size: 13px;
   }
   .generate-button {
     font-size: 13px;

@@ -117,31 +117,37 @@ export default function SpeechPanel({
         <label className="field-label" htmlFor="speech-language">
           Spoken language
         </label>
-        <select
-          id="speech-language"
-          value={language}
-          disabled={busy || locked}
-          onChange={(e) => onLanguage(e.target.value as SpeechLanguage)}
-        >
-          <option value="english">English → English</option>
-          <option value="hindi">Hindi → हिन्दी</option>
-          <option value="hinglish">Hinglish → Hindi in English letters</option>
-        </select>
+        <div className="select-wrap">
+          <select
+            id="speech-language"
+            value={language}
+            disabled={busy || locked}
+            onChange={(e) => onLanguage(e.target.value as SpeechLanguage)}
+          >
+            <option value="english">English → English</option>
+            <option value="hindi">Hindi → हिन्दी</option>
+            <option value="hinglish">Hinglish → Hindi in English letters</option>
+          </select>
+          <ChevronDown size={13} />
+        </div>
         <label className="field-label" htmlFor="speech-model">
           Recognition quality
         </label>
-        <select
-          id="speech-model"
-          value={tier}
-          disabled={busy || locked}
-          onChange={(e) => onTier(e.target.value as ModelTier)}
-        >
-          {(Object.keys(MODELS) as ModelTier[]).map((t) => (
-            <option key={t} value={t}>
-              {MODELS[t].label}
-            </option>
-          ))}
-        </select>
+        <div className="select-wrap">
+          <select
+            id="speech-model"
+            value={tier}
+            disabled={busy || locked}
+            onChange={(e) => onTier(e.target.value as ModelTier)}
+          >
+            {(Object.keys(MODELS) as ModelTier[]).map((t) => (
+              <option key={t} value={t}>
+                {MODELS[t].label}
+              </option>
+            ))}
+          </select>
+          <ChevronDown size={13} />
+        </div>
         <p className="model-note">{spec.note}</p>
         {lowMemory && !busy && (
           <p className="speech-warning" role="note">
